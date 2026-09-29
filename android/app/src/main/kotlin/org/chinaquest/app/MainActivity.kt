@@ -21,6 +21,7 @@ class MainActivity : Activity() {
     private lateinit var store: QuestStore
     private lateinit var gate: ParentGate
     private lateinit var speech: OfflineChineseSpeech
+    private lateinit var creative: CreativeStore
     private var audioMessage: TextView? = null
     private lateinit var body: LinearLayout
     private var selected: String? = null
@@ -28,6 +29,15 @@ class MainActivity : Activity() {
     private var parentAuthorized = false
     private var relock = false
     private var pendingSnapshot:String? = null
+    private var creativeCharacter:String? = null
+    private var creativeReturnPage="workshop"
+    private var paintPickerIndex=0
+    private var paintColor=Color.rgb(207,89,62)
+    private var paintTool=ColoringTool.FILL
+    private data class PendingArtwork(val childId:String,val characterId:String,val json:String)
+    private var pendingArtwork:PendingArtwork?=null
+    private val palette=listOf("红" to Color.rgb(207,89,62),"黄" to Color.rgb(228,186,69),"蓝" to Color.rgb(80,146,198),
+        "绿" to Color.rgb(105,163,120),"紫" to Color.rgb(146,115,181),"黑" to Color.rgb(48,48,48))
     private fun today() = LocalDate.now()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,17 +47,39 @@ class MainActivity : Activity() {
         speech=OfflineChineseSpeech(this, onState={}, onMessage={ message -> runOnUiThread {
             audioMessage?.apply { text=message;visibility=View.VISIBLE }
         } })
+        val cards=store.cards()
+        creative=CreativeStore(applicationContext,store.children().map { it.id }.toSet(),cards.map { it.id }.toSet(),
+            cards.mapNotNull { SceneCatalog.forCharacter(it.id)?.id }.toSet())
         selected=savedInstanceState?.getString("child")
+        creativeCharacter=savedInstanceState?.getString("creative-character")?.takeIf { id -> cards.any { it.id==id } }
+        creativeReturnPage=savedInstanceState?.getString("creative-return") ?: "workshop"
+        paintPickerIndex=(savedInstanceState?.getInt("paint-picker") ?: 0).coerceIn(0,(cards.size-1)/12)
+        paintColor=(savedInstanceState?.getInt("paint-color") ?: palette[0].second).takeIf { color -> palette.any { it.second==color } } ?: palette[0].second
+        paintTool=if(savedInstanceState?.getString("paint-tool")=="BRUSH") ColoringTool.BRUSH else ColoringTool.FILL
+        savedInstanceState?.getString("unsaved-artwork")?.let { json ->
+            if(selected!=null && creativeCharacter!=null && json.toByteArray(Charsets.UTF_8).size<=CreativeStore.MAX_ART_BYTES)
+                pendingArtwork=PendingArtwork(selected!!,creativeCharacter!!,json)
+        }
         if(!gate.isConfigured) setup() else when(savedInstanceState?.getString("page")) {
             "lesson" -> if(selected!=null) lesson() else picker()
             "today" -> if(selected!=null) todayPage() else picker()
+            "workshop" -> if(selected!=null) workshop() else picker()
+            "paint-picker" -> if(selected!=null) paintPicker() else picker()
+            "painting" -> if(selected!=null && creativeCharacter!=null) painting() else picker()
+            "scene" -> if(selected!=null && creativeCharacter!=null) scenePage() else picker()
             else -> picker()
         }
     }
-    override fun onSaveInstanceState(outState:Bundle) { outState.putString("child",selected);outState.putString("page",page);super.onSaveInstanceState(outState) }
+    override fun onSaveInstanceState(outState:Bundle) {
+        outState.putString("child",selected);outState.putString("page",page)
+        outState.putString("creative-character",creativeCharacter);outState.putString("creative-return",creativeReturnPage)
+        outState.putInt("paint-picker",paintPickerIndex);outState.putInt("paint-color",paintColor);outState.putString("paint-tool",paintTool.name)
+        pendingArtwork?.let { outState.putString("unsaved-artwork",it.json) }
+        super.onSaveInstanceState(outState)
+    }
     override fun onPause() { speech.stop();if(parentAuthorized) { parentAuthorized=false;relock=true };super.onPause() }
     override fun onResume() { super.onResume();if(relock) { relock=false;parentLogin() } }
-    override fun onDestroy() { speech.close();store.close();super.onDestroy() }
+    override fun onDestroy() { speech.close();creative.close();store.close();super.onDestroy() }
     @Deprecated("Platform Activity result for offline document export")
     override fun onActivityResult(requestCode:Int,resultCode:Int,data:Intent?) {
         super.onActivityResult(requestCode,resultCode,data)
@@ -63,7 +95,14 @@ class MainActivity : Activity() {
         }
     }
     @Deprecated("Static local navigation")
-    override fun onBackPressed() { if(!gate.isConfigured) setup() else if(page=="lesson") todayPage() else picker() }
+    override fun onBackPressed() {
+        if(!gate.isConfigured) setup() else when(page) {
+            "painting","scene" -> creativeBack()
+            "paint-picker" -> workshop()
+            "workshop","lesson" -> todayPage()
+            else -> picker()
+        }
+    }
 
     private fun frame(title:String,kicker:String="我的中国远征 · Misión China",parent:Boolean=false) {
         speech.stop();audioMessage=null
@@ -96,6 +135,18 @@ class MainActivity : Activity() {
     }
     private fun rule() { body.addView(View(this).apply { setBackgroundColor(Color.BLACK) },LinearLayout.LayoutParams(-1,dp(2)).apply { topMargin=dp(14);bottomMargin=dp(14) }) }
     private fun dp(n:Int)=(n*resources.displayMetrics.density).toInt()
+
+    private fun actionRow(items:List<Triple<String,String,()->Unit>>):List<Button> {
+        val row=LinearLayout(this).apply { orientation=LinearLayout.HORIZONTAL;layoutTransition=null }
+        val buttons=items.map { (text,tag,action) ->
+            button(text,tag,action=action).also { view ->
+                body.removeView(view)
+                row.addView(view,LinearLayout.LayoutParams(0,-2,1f).apply { setMargins(dp(3),dp(6),dp(3),dp(2)) })
+            }
+        }
+        body.addView(row,LinearLayout.LayoutParams(-1,-2))
+        return buttons
+    }
 
     private fun listen(text:String, tag:String, caption:String="听这个字 / Escuchar") {
         button(caption,tag) { audioMessage?.visibility=View.GONE;speech.speak(text) }
@@ -168,6 +219,7 @@ class MainActivity : Activity() {
         }
         val known=store.knownCharacterIds(id).size
         if(known>0) label("已按你的基础跳过 $known 个认识的字。之后会少量抽查。",17)
+        button("创作小工坊 · 涂色与情景 / Crear","workshop") { workshop() }
         button("这些字太容易？请家长调整起点","adjust-start") { parentLogin(id) }
         rule();button("切换孩子 / Cambiar","switch-child") { picker() }
         label("进度自动保存在这台设备。已准备 ${store.plannedDays(id,today())} 天本地计划。",16)
@@ -200,6 +252,9 @@ class MainActivity : Activity() {
                     c.sentence?.let { label(it,20) }
                 }
                 wordExamples(c)
+                val creativeActions=mutableListOf(Triple("涂这个字","paint-this") { openPainting(c.id,"lesson") })
+                if(SceneCatalog.forCharacter(c.id)!=null) creativeActions.add(Triple("玩一段情景","scene-this") { openScene(c.id,"lesson") })
+                actionRow(creativeActions)
                 label("① 听一听，再自己读两遍。\n② 选一个词，说说它在哪里会用到。\n③ 在纸上练写，再盖住屏幕写一次。",20)
                 label("Lee con tu familia. Mira, traza y escribe en papel.",17)
                 if(store.child(id).ageGroup=="AGE_UNDER_6") label("小探索家可以请家长帮忙，先描一遍也很好。",17)
@@ -259,6 +314,163 @@ class MainActivity : Activity() {
         if(outcome!=ReviewOutcome.CORRECT) label("已记入待复习，不会清除以前的努力。",18)
         button("继续 / Continuar","continue",true) { lesson() }
     }
+
+    private fun workshop() {
+        val id=selected ?: return picker();page="workshop"
+        frame("创作小工坊","${store.child(id).name} · 学习 · 创造 · 探索")
+        label("挑一个玩一会儿，再去纸上或生活里试试。\nElige una actividad y crea a tu ritmo.",19)
+        button("给汉字涂颜色 / Colorear","choose-coloring",true) { paintPicker() }
+        label("手指或笔都可以。已有 ${creative.artworkCount(id)} 幅本机作品。",17)
+        rule();label("点一下，情景变一变",24,bold=true)
+        listOf("口" to "吃","开" to "关","水" to "喝").forEach { (left,right) ->
+            val pair=listOf(left,right).map { glyph ->
+                val card=store.cards().first { it.character==glyph }
+                Triple(SceneCatalog.forCharacter(card.id)!!.title,"scene-${card.id}") { openScene(card.id,"workshop") }
+            }
+            actionRow(pair)
+        }
+        label("画面等你点才会变化。涂色和情景不计分，也不用每个字都做。",17)
+        label("这是根据小朋友的建议做的试用版本。可以喜欢，也可以说不喜欢。",17)
+        button("回到今天 / Volver","workshop-back") { todayPage() }
+    }
+    private fun paintPicker() {
+        val id=selected ?: return picker();page="paint-picker"
+        val all=store.cards();val part=all.drop(paintPickerIndex*12).take(12)
+        frame("选一个字来涂","${store.child(id).name} · 第 ${paintPickerIndex+1} / ${(all.size+11)/12} 页")
+        for(row in part.chunked(3)) actionRow(row.map { card ->
+            Triple(card.character,"paint-${card.id}") { openPainting(card.id,"paint-picker") }
+        }).forEach { it.textSize=34f;it.minHeight=dp(72) }
+        if((paintPickerIndex+1)*12<all.size) button("下一页","paint-next") { paintPickerIndex++;paintPicker() }
+        if(paintPickerIndex>0) button("上一页","paint-prev") { paintPickerIndex--;paintPicker() }
+        label("同一个字会接着上次的作品。每个孩子分别保存。",17)
+        button("返回工坊","paint-picker-back") { workshop() }
+    }
+    private fun openPainting(characterId:String,returnTo:String) {
+        creativeCharacter=characterId;creativeReturnPage=returnTo;painting()
+    }
+    private fun creativeBack() {
+        if(page=="painting" && !savePendingArtwork()) {
+            body.findViewWithTag<TextView>("artwork-status")?.text="作品还没存好，先留在这里。请家长检查剩余空间，再点返回重试。"
+            return
+        }
+        when(creativeReturnPage) {
+            "lesson" -> lesson()
+            "today" -> todayPage()
+            "paint-picker" -> paintPicker()
+            else -> workshop()
+        }
+    }
+    private fun savePendingArtwork():Boolean {
+        val pending=pendingArtwork ?: return true
+        return try {
+            creative.saveArtwork(pending.childId,pending.characterId,pending.json)
+            pendingArtwork=null;true
+        } catch(_:Exception) { false }
+    }
+    private fun painting() {
+        val id=selected ?: return picker();val characterId=creativeCharacter ?: return workshop()
+        val card=store.card(characterId);page="painting"
+        frame("给「${card.character}」涂颜色","${store.child(id).name} · 我的作品 / Mi dibujo")
+        val drawing=ColoringCanvasView(this).apply {
+            character=card.character;selectedColor=paintColor;tool=paintTool;tag="coloring-canvas"
+            loadArtwork(pendingArtwork?.takeIf { it.childId==id && it.characterId==characterId }?.json ?: creative.artwork(id,characterId))
+        }
+        var tools:List<Button> = emptyList()
+        fun updateTools() { tools.forEachIndexed { index, button -> button.text=(if((index==0)==(paintTool==ColoringTool.FILL)) "✓ " else "")+if(index==0) "点按填色" else "画笔涂色" } }
+        tools=actionRow(listOf(
+            Triple("点按填色","tool-fill") { paintTool=ColoringTool.FILL;drawing.tool=paintTool;updateTools() },
+            Triple("画笔涂色","tool-brush") { paintTool=ColoringTool.BRUSH;drawing.tool=paintTool;updateTools() }
+        ));updateTools()
+        val swatches=mutableListOf<Button>()
+        fun updatePalette() {
+            swatches.forEachIndexed { index, view ->
+                val (name,color)=palette[index]
+                view.text=(if(color==paintColor) "✓ " else "")+name
+                view.setTextColor(if(index==5) Color.WHITE else Color.BLACK)
+                view.background=GradientDrawable().apply { setColor(color);setStroke(dp(if(color==paintColor) 4 else 1),Color.BLACK);cornerRadius=dp(4).toFloat() }
+                view.contentDescription="$name，${if(color==paintColor) "已选颜色" else "选择颜色"}"
+            }
+        }
+        for(chunk in palette.indices.chunked(3)) swatches.addAll(actionRow(chunk.map { index ->
+            Triple(palette[index].first,"color-$index") { paintColor=palette[index].second;drawing.selectedColor=paintColor;updatePalette() }
+        }));updatePalette()
+        body.addView(drawing,LinearLayout.LayoutParams(-1,dp(310)))
+        val status=label("先选颜色，再点字的笔画填色，或换画笔慢慢涂。",17).apply { tag="artwork-status" }
+        if(pendingArtwork!=null) status.text="作品还没存好，请家长检查设备空间。画面暂时保留在这里。"
+        drawing.onStatusMessage={ status.text=it }
+        drawing.onArtworkChanged={ json ->
+            pendingArtwork=PendingArtwork(id,characterId,json)
+            status.text=if(savePendingArtwork()) "作品已保存在这台设备。/ Guardado." else "暂时没存好，请先留在这里，找家长帮忙。"
+        }
+        actionRow(listOf(
+            Triple("撤回一笔","art-undo") { if(!drawing.undo()) status.text="还没有需要撤回的笔画。" },
+            Triple("重新涂","art-clear") { if(drawing.clear()) status.text="已清空画面。可以用「撤回一笔」找回来。" },
+            Triple("听这个字","art-listen") { speech.speak(card.character) }
+        ))
+        audioMessage=status
+        label("字的黑色轮廓会保留。这是涂色，不是写字评分；还可以去纸上画。",16)
+        button("我画好了 / Listo","art-done",true) { creativeBack() }
+        creativeFeedback("coloring")
+        button("返回，不必画完","art-back") { creativeBack() }
+    }
+    private fun openScene(characterId:String,returnTo:String) {
+        creativeCharacter=characterId;creativeReturnPage=returnTo;scenePage()
+    }
+    private fun scenePage() {
+        val id=selected ?: return picker();val characterId=creativeCharacter ?: return workshop()
+        val definition=SceneCatalog.forCharacter(characterId) ?: return workshop();page="scene"
+        var state=runCatching {
+            val stored=SceneState(definition.id,creative.sceneStep(id,definition.id));SceneCatalog.stage(stored);stored
+        }.getOrElse { SceneCatalog.initial(definition.id) }
+        frame(definition.title,"${store.child(id).name} · 我来参与 / Participar")
+        val prompt=label("",22,bold=true).apply { tag="scene-prompt" }
+        val picture=CharacterSceneView(this).apply { tag="scene-canvas" }
+        body.addView(picture,LinearLayout.LayoutParams(-1,dp(310)))
+        val status=label("",18).apply { tag="scene-status" }
+        lateinit var update:()->Unit
+        fun saveState(next:SceneState) {
+            try { creative.saveSceneStep(id,definition.id,next.step);state=next;update() }
+            catch(_:Exception) { status.text="暂时没存好，请家长帮忙检查。" }
+        }
+        fun advance() { if(!SceneCatalog.stage(state).complete) saveState(SceneCatalog.advance(state)) }
+        val action=button("下一步","scene-action",true) { advance() }
+        val replay=button("再试一遍 / Otra vez","scene-replay") { saveState(SceneCatalog.replay(state)) }
+        update={
+            val stage=SceneCatalog.stage(state)
+            prompt.text=stage.prompt
+            status.text=if(stage.complete) stage.completionText else "点画面里的物品，或按下面的按钮。"
+            action.text=stage.actionLabel;action.visibility=if(stage.complete) View.GONE else View.VISIBLE
+            replay.visibility=if(stage.complete) View.VISIBLE else View.GONE
+            picture.render(state) { advance() }
+        };update()
+        listen(definition.character,"scene-listen","听「${definition.character}」 / Escuchar")
+        label("这是字的一种生活用法。和家长说说：家里哪里会用到它？",17)
+        button("回去休息，或选另一项","scene-done",true) { creativeBack() }
+        creativeFeedback("scenes")
+    }
+    private fun creativeFeedback(featureId:String) {
+        val id=selected ?: return
+        rule();label("你来做小设计师",21,bold=true)
+        val response=label("喜欢也好，不喜欢也可以告诉我们。",17).apply { tag="creative-feedback" }
+        fun showChoice() {
+            creative.feedback(id).firstOrNull { it.featureId==featureId }?.let {
+                response.text="你的选择：${opinionLabel(it.decision)}。想法可以改变，随时再选。"
+            }
+        }
+        showChoice()
+        actionRow(CreativeFeedback.entries.map { decision ->
+            Triple(opinionLabel(decision),"feedback-${decision.name}") {
+                try { creative.saveFeedback(id,featureId,decision);showChoice() }
+                catch(_:Exception) { response.text="这次想法没存好，可以先直接告诉家长。" }
+            }
+        })
+        label("想法保存在家庭设备上，不会自动改软件，也不会影响奖励。",16)
+    }
+    private fun opinionLabel(value:CreativeFeedback)=when(value) {
+        CreativeFeedback.KEEP -> "喜欢，保留"
+        CreativeFeedback.CHANGE -> "想改一改"
+        CreativeFeedback.NO -> "不喜欢"
+    }
     private fun parentLogin(placementChild:String?=null) {
         page="parent-login";parentAuthorized=false
         frame("家长空间",parent=true);label("请输入家长 PIN / PIN familiar",20)
@@ -282,6 +494,10 @@ class MainActivity : Activity() {
             label("原有基础 ${store.knownCharacterIds(child.id).size} 字 · ${if(child.wordPractice) "字词表达练习已开" else "单字练习"}",18)
             button("${child.name} 已经会哪些字？","placement-${child.id}") { placement(child.id) }
             button("调整 ${child.name}","settings-${child.id}") { childSettings(child.id) }
+            label("本机涂色作品 ${creative.artworkCount(child.id)} 幅",17)
+            creative.feedback(child.id).forEach { opinion ->
+                label("${if(opinion.featureId=="coloring") "涂色" else "互动情景"}试用反馈：${opinionLabel(opinion.decision)}",17)
+            }
         }
         rule();label("内容与能力说明",22,bold=true)
         label("178 个字的字形、拼音、英文基础释义、部首与笔画来自 Unicode Unihan。中文／西语释义和例句仍待人工审核，未审内容不会给孩子展示。",17)

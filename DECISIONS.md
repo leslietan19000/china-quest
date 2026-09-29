@@ -27,3 +27,11 @@
 | D023 | Increase useful challenge without enforcing minutes | Add one word-use task for the younger child and two for the older child, plus better quiz distractors. Parents can turn word tasks off; no countdown, forced screen time or extra completion reward is added. |
 
 Dates in progress records reflect the local Chile timezone where possible; machine UTC can differ by a day.
+
+| ID | Decision | Rationale / consequence |
+|---|---|---|
+| D024 | Optional coloring and tap-stepped scenes follow the children's feedback | The family explicitly asked for color and participation. Keep ordinary learning static; introduce no autoplay, timers or completion reward. |
+| D025 | Native shapes and font outlines instead of video or remote assets | Offline, small APK and deterministic E-Ink changes. Art demonstrates everyday usage, not historical etymology; paper remains the writing surface. |
+| D026 | Separate creative SQLite database with child-scoped keys | Preserve real learning records and PIN without a learning-schema migration. Save bounded vector-like actions, finite scene state and version-specific feedback; no cloud upload/export yet. |
+| D027 | Tap-fill default, brush optional, named six-color palette and undo | Low-refresh devices can use discrete changes; children can also deliberately paint. Hardware color and pen latency still require BOOX observation. |
+| D028 | Child-origin ideas stay on `kid/family/color-scenes` for preview | Parent requested implementation, so build/test proceeds. Preview feedback is Keep/Change/No; no child choice or AI action authorizes production merge. The exact APK is available for a parent-led local trial. |

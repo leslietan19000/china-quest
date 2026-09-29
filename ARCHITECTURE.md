@@ -22,3 +22,13 @@ Content is typed and versioned; characters are one learning object kind. Seasons
 
 ## Views decision
 Use platform Android Views for a small, predictable dependency surface and explicit static page transitions. Compose remains an option. This is an engineering default, not a claim of measured superiority on BOOX; verify latency, font rendering and ghosting on actual hardware before changing the rendering strategy.
+
+## Optional creative prototype (0.3)
+
+`ColoringCanvasView` owns bounded normalized drawing actions, glyph clipping and gesture handling. `CharacterSceneView` draws native shapes; `SceneCatalog` defines finite, deterministic scene states for six existing content IDs. Their only interaction with speech is an explicit user request to the existing bundled player. No new dependencies, remote media or network permissions are needed.
+
+`CreativeStore` uses a separate app-private SQLite database for per-child/per-character artwork, per-child/per-scene state and versioned Keep/Change/No feedback. It never imports or calls the learning evidence, reward or sync APIs. Learning database v2 and PIN preferences are unchanged. Existing sessions can enter a creative page and return to the same cursor.
+
+The root activity orchestrates navigation; artwork is committed after a gesture and scene state before showing the next step. Bounded JSON remains independent of screen pixels, so saved work can be rendered at another size. The prototype introduces no cloud sync or export for creative work. Its extension point is a content ID plus a scene definition, not changes to mastery tables.
+
+If an artwork write fails, the current draft is retained in memory and bounded saved-instance state; Done/Back only leave after a successful user-triggered save. This handles navigation and Activity recreation without silently loading an older drawing. It cannot turn unavailable storage into durable backup or guarantee retention after a force-stop/power loss. No automatic retry loop runs in the background.

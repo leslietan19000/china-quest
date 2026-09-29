@@ -21,3 +21,7 @@ Travel memories are family-private source material. Creator skills grow from sta
 
 ## Explicit MVP exclusions
 Cloud account creation, public publishing, live AI chat, handwriting recognition, AI vision, travel booking, purchases, media editing and child production code access. These cannot delay the first APK.
+
+## Child-requested creative preview
+
+After the first real-use milestone, the family requested color and participatory visual explanations. Optional coloring and finite tap-stepped scenes extend Learn → Create → Reflect while preserving the daily lesson and review model. They do not award mastery/stamps or require every child to finish every scene. No autoplay or animation timers are introduced; brush movement follows deliberate input. Children can choose Keep / Change / No about their prototype. Paper writing and real-world speaking remain central, and each child's local work is separate.

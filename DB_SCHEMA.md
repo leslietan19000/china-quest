@@ -23,6 +23,20 @@ Parent placement excludes selected characters from new-letter allocation without
 
 `ReviewState.history` is not duplicated inside each state snapshot; the append-only events table preserves full history. Snapshots store current schedule and counters. This avoids growing a copied JSON list for every answer. Device dates earlier than previous evidence use the latest evidence date for scheduling and record both the observed session date and effective date; cloud time/zone reconciliation is a Phase 2 gate.
 
+## Local creative prototype database (0.3)
+
+`china-quest-creative.db`, schema v1, is separate from the existing learning database (which remains v2). The APK keeps the original package, PIN preferences and signing key.
+
+| Table | Key / role |
+|---|---|
+| artworks | (child_id,character_id); versioned normalized action JSON and updated_at |
+| scene_progress | (child_id,scene_id); current finite step and updated_at |
+| creative_feedback | (child_id,feature_id,version); KEEP / CHANGE / NO and updated_at |
+
+All repository reads/writes validate the allowed child/content/scene IDs and include child scope. JSON writes are limited to 256 KiB; the canvas further validates format/version/character, 128 actions, 512 points per stroke and 12,000 total points. Invalid/corrupt canvas data is displayed as a blank canvas instead of partial arbitrary marks. Existing stored data is overwritten only by a new deliberate drawing change. Scene data outside its catalog range is displayed at the initial step.
+
+Each artwork has one current local version with a bounded undo history, including clear. This is not a complete portfolio/archive or backup system. Opinions retain distinct app versions; changing a choice updates only that child's current-version opinion. Child KEEP does not grant parent approval. No creative table feeds mastery, daily stamps, sync outbox or the v1 parent-report export; that export remains compatible with the unchanged web dashboard.
+
 ## Future Postgres contracts
 
 Identity: families, parents, children, paired_devices. Parent membership is authoritative server data, never user-editable JWT metadata.

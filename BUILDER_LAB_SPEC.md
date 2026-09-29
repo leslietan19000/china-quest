@@ -19,3 +19,11 @@ Progress from changing a label and choosing a layout to creating a mission, expr
 
 ## Future acceptance
 “I want a dinosaur level” can be stored today as a typed proposal without changing mastery tables. A future isolated prototype, child test and parent-approved version can ship without rebuilding the learning data model.
+
+## First parent-relayed prototype
+
+The family requested coloring and participatory character scenes. Their two ideas are recorded in `kid-lab/proposals/color-and-scenes.json` with no inferred child identity. The preview is developed on `kid/family/color-scenes`, based on 0.2.0. The implementation is adult-supervised engineering; the future permission-restricted, child-operated coding runner/CI is not implemented or claimed by this branch.
+
+Preview 0.3 adds optional Keep / Change / No buttons to the two creative experiences and shows each child's latest version-specific choices in the PIN-protected BOOX parent area. Previous app-version opinions remain stored. Choosing No has no penalty and does not erase art or learning. Feedback is a local prototype opinion, not production approval or public publication.
+
+After a successful build, the proposal records the preview version, artifact SHA-256 and test evidence. Status TESTING means ready for the family to try, not that children have accepted it. Installing the provided same-package preview is the parent's deliberate local test; there is no automatic deployment. Production merge approval remains false until the parent accepts the exact reviewed build. Full voice capture, AI Mini Spec generation, isolated execution, preview CI and promotion remain future work.

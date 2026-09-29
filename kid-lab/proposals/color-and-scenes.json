@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "source": "PARENT_RELAYED_CHILD_IDEAS",
+  "branch": "kid/family/color-scenes",
+  "status": "TESTING",
+  "parent_requested_local_implementation": true,
+  "production_merge_approved": false,
+  "proposals": [
+    {
+      "id": "family-coloring-001",
+      "child_id": null,
+      "title": "给汉字涂颜色",
+      "original_input": "小朋友提出来说要这个能够用颜色的，让他们能够涂。",
+      "input_type": "PARENT_RELAYED_TEXT",
+      "summary": "用手指或笔给汉字涂色，保存自己的作品。",
+      "feature_category": "CREATIVE_LEARNING",
+      "difficulty": "SMALL_PROTOTYPE"
+    },
+    {
+      "id": "family-scenes-001",
+      "child_id": null,
+      "title": "让汉字变成可以参与的小情景",
+      "original_input": "口，就能有个嘴巴出来，有个人吃东西啊之类的。开或者关，也是有人啊或者动画能够表达出来，然后让他能够参与进去的这种互动。",
+      "input_type": "PARENT_RELAYED_TEXT",
+      "summary": "用孩子点按才变化的分步图画，演示吃东西、开关门和喝水。",
+      "feature_category": "INTERACTIVE_LEARNING",
+      "difficulty": "SMALL_PROTOTYPE"
+    }
+  ],
+  "attribution_note": "The parent did not identify which profile proposed each idea. Do not assign a child's identity by guessing.",
+  "acceptance": [
+    "Color and undo a character; reopen it with the correct child's work preserved.",
+    "Tap meaningful targets to change each scene; nothing advances on its own.",
+    "Choose Keep, Change or No without rewards or production authority.",
+    "Preserve existing PIN, lessons, mastery and stamps."
+  ],
+  "preview": {
+    "version": "0.3.0-preview",
+    "artifact": "artifacts/ChinaQuest-0.3.0-preview.apk",
+    "sha256": "b6aecec6409f8472fd3cd5066f77ba93ac632f555b0974666b307180b2f192a0",
+    "automated_tests_passed": 75,
+    "qa_document": "docs/QA_V3.md",
+    "family_tryout_pending": true
+  }
+}

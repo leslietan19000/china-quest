@@ -9,3 +9,5 @@ Only the parent may change learning settings, approve wishes/rewards, change sea
 Cloud release requires verified family/child isolation, parent-owned accounts, device pairing/revocation, private storage, backup/deletion policy and an explicit decision about children's data. Do not upload real child information during development. Money and hidden budgets remain outside child payloads and UI.
 
 No indefinite retention of raw voice/media by default. Future media processing is optional and consented per family. Publication is PRIVATE → FAMILY_SHARED → PARENT_REVIEW → APPROVED_FOR_PUBLICATION, with no child permission to publish.
+
+The 0.3 creative preview stores only local drawing actions, scene steps and per-version feedback. It records no camera or microphone data and sends nothing to AI or a server. Children can freely choose Keep / Change / No; those choices neither affect rewards nor approve a software release. The original parent requests are recorded without guessing which child proposed each idea. This supervised engineering branch is not yet a child-operated secure code-execution sandbox.
