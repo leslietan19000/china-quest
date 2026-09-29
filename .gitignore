@@ -20,3 +20,4 @@ artifacts/*
 backend/.temp/
 backend/.branches/
 tools/__pycache__/
+*.tsbuildinfo

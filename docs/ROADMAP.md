@@ -6,8 +6,8 @@ Each phase ends with build, relevant tests, fixes and PROGRESS.md update. Future
 |---|---|---|
 | 0 Repository/docs | Isolated repository, product boundaries, security and data contracts | Done |
 | 1 Local Android | Installable APK, both child flows, persistence, parent daily visibility, tests | Software passed; BOOX hardware acceptance pending |
-| 2 Backend/sync | RLS/isolation, event idempotency, pairing, authenticated push/pull and offline recovery | Local schema/contracts in progress; cloud activation gated |
-| 3 Parent web | Parent auth and real family state/controls; local report import can precede remote activation | Next |
+| 2 Backend/sync | RLS/isolation, event idempotency, pairing, authenticated push/pull and offline recovery | Local schema/contracts verified; pairing/transport/cloud activation incomplete |
+| 3 Parent web | Parent auth and real family state/controls; local report import can precede remote activation | Local report dashboard built and browser-tested; live auth/state/controls incomplete |
 | 4 Rewards | Configurable real-life choices and parent approvals, idempotent ledger | Core rules tested; workflow not shipped |
 | 5 Seasons | Narrative missions, preserved lifetime mastery, next journey | Core transitions tested; workflow not shipped |
 | 6 Weekly tests/reports | Parent evidence, 10–15-item test, meaningful family reports | Not started |

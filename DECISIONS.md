@@ -16,5 +16,8 @@
 | D012 | Bounded attempts | At most two materially identical dependency failures; record blocker and require changed conditions before retrying. |
 | D013 | Project-local Java TCP fallback | The Windows execution host rejects AF_UNIX NIO pipes even with network approval. A bounded diagnostic confirmed IPv4/IPv6 TCP works. JDK `PipeImpl.createListener` falls back to TCP when `jdk.net.unixdomain.tmpdir` is unavailable; process-local build setting selects that existing fallback. Independent diagnostic then reported NIO pipe OK. No OS network changes. |
 | D014 | Preserve events, compact schedule snapshots | All evidence is immutable in events/outbox. Do not duplicate the unbounded ReviewState.history list in every SQLite state JSON. |
+| D015 | Parent-exported report before remote activation | A read-only local dashboard provides useful parent visibility without creating real accounts or uploading child data. It displays the record date and cannot modify BOOX settings. The report is not a restorable backup. |
+| D016 | Strict in-memory dashboard import | Versioned exact-field validation, a file-size bound and consistency checks reject misleading reports. Refresh/clear removes the report; no localStorage, sessionStorage, analytics or upload route is used. |
+| D017 | Builder/Creator/Travel remain architectural boundaries | The first installable learner ships before those workflows. Documented models do not grant child deployment authority or count as a functioning sandbox. |
 
 Dates in progress records reflect the local Chile timezone where possible; machine UTC can differ by a day.

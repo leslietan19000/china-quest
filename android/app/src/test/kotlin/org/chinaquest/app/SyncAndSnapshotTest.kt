@@ -8,6 +8,7 @@ import org.robolectric.RuntimeEnvironment
 import org.robolectric.annotation.Config
 import org.chinaquest.core.*
 import java.time.LocalDate
+import java.io.File
 
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk=[28])
@@ -32,6 +33,11 @@ class SyncAndSnapshotTest {
         try {
             store.lesson("child-a",day);store.answer("child-a",day,0,null)
             val snapshot=store.parentSnapshot(day)
+            // Real serialization from the Android repository, using synthetic test children.
+            // The browser acceptance test imports this file across the app/web boundary.
+            File("build/reports/parent-snapshot-acceptance.json").apply {
+                parentFile!!.mkdirs();writeText(snapshot.toString(2),Charsets.UTF_8)
+            }
             assertEquals(1,snapshot.getInt("schema_version"))
             val children=snapshot.getJSONArray("children")
             assertEquals(2,children.length())

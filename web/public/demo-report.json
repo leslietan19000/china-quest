@@ -1,0 +1,58 @@
+{
+  "product": "China Quest",
+  "schema_version": 1,
+  "snapshot_id": "90000000-0000-4000-8000-000000000001",
+  "exported_at": "2026-09-28T22:30:00Z",
+  "day": "2026-09-28",
+  "source": "ANDROID_PARENT_EXPORT",
+  "children": [
+    {
+      "id": "demo-child-1",
+      "display_name": "小河（演示）",
+      "age_group": "AGE_8_10",
+      "daily_target": 3,
+      "review_only": false,
+      "completed_today": true,
+      "completed_steps": 12,
+      "total_steps": 12,
+      "introduced": 18,
+      "reviewing": 12,
+      "mastered": 3,
+      "due_reviews": 4,
+      "daily_stamps": 8,
+      "week": [
+        {"date":"2026-09-22","completed":true,"new_count":2,"cursor":12},
+        {"date":"2026-09-23","completed":false,"new_count":0,"cursor":0},
+        {"date":"2026-09-24","completed":true,"new_count":2,"cursor":12},
+        {"date":"2026-09-25","completed":true,"new_count":1,"cursor":12},
+        {"date":"2026-09-26","completed":false,"new_count":0,"cursor":0},
+        {"date":"2026-09-27","completed":false,"new_count":0,"cursor":0},
+        {"date":"2026-09-28","completed":true,"new_count":3,"cursor":12}
+      ]
+    },
+    {
+      "id": "demo-child-2",
+      "display_name": "小山（演示）",
+      "age_group": "AGE_UNDER_6",
+      "daily_target": 2,
+      "review_only": false,
+      "completed_today": false,
+      "completed_steps": 3,
+      "total_steps": 10,
+      "introduced": 10,
+      "reviewing": 7,
+      "mastered": 1,
+      "due_reviews": 2,
+      "daily_stamps": 5,
+      "week": [
+        {"date":"2026-09-22","completed":false,"new_count":0,"cursor":0},
+        {"date":"2026-09-23","completed":true,"new_count":2,"cursor":10},
+        {"date":"2026-09-24","completed":false,"new_count":0,"cursor":0},
+        {"date":"2026-09-25","completed":false,"new_count":0,"cursor":0},
+        {"date":"2026-09-26","completed":true,"new_count":2,"cursor":10},
+        {"date":"2026-09-27","completed":true,"new_count":1,"cursor":10},
+        {"date":"2026-09-28","completed":false,"new_count":0,"cursor":3}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const path=require('node:path');
+const {chromium}=process.env.QUEST_NODE_MODULES ? require(path.join(process.env.QUEST_NODE_MODULES,'playwright')) : require('playwright');
+const root=path.resolve(__dirname,'..');
+const screenshots=path.join(root,'artifacts','web-qa');
+fs.mkdirSync(screenshots,{recursive:true});
+
+(async()=>{
+  const browser=await chromium.launch({headless:true,executablePath:process.env.QUEST_BROWSER || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe'});
+  const context=await browser.newContext({viewport:{width:1440,height:1040}});
+  const page=await context.newPage();
+  const errors=[];const external=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  await context.route('**/*',route=>{
+    const url=new URL(route.request().url());
+    if(url.hostname==='127.0.0.1' || ['data:','blob:'].includes(url.protocol)) return route.continue();
+    external.push(url.origin);return route.abort();
+  });
+  const checks=[];
+  try {
+    await page.goto('http://127.0.0.1:3210',{waitUntil:'networkidle',timeout:30000});
+    await page.getByRole('button',{name:'查看匿名演示',exact:true}).waitFor();
+    await page.screenshot({path:path.join(screenshots,'01-empty-desktop.png'),fullPage:true});
+    checks.push('initial page has no fabricated family state');
+    await page.getByRole('button',{name:'查看匿名演示',exact:true}).click();
+    await page.getByRole('status').waitFor();
+    assert.match(await page.getByRole('status').innerText(),/演示/);
+    assert.equal(await page.locator('.child-card').count(),2);
+    await page.screenshot({path:path.join(screenshots,'02-demo-desktop.png'),fullPage:true});
+    checks.push('explicit demo shows two independent child cards and a demo banner');
+    await page.getByRole('button',{name:/查看这段旅程/}).first().click();
+    assert.equal(await page.locator('.day-list > div').count(),7);
+    await page.getByRole('button').filter({hasText:'内容说明'}).click();
+    await page.getByRole('heading',{name:'数字背后的学习。'}).waitFor();
+    checks.push('child detail and content guide navigation works');
+    await page.getByRole('button',{name:'清空',exact:true}).click();
+    const fixture=path.join(root,'android/app/build/reports/parent-snapshot-acceptance.json');
+    assert.ok(fs.existsSync(fixture),'Android-generated synthetic snapshot must exist');
+    await page.getByLabel('导入家长导出 JSON 文件').setInputFiles(fixture);
+    await page.getByText('已导入 · 只读',{exact:true}).waitFor();
+    assert.equal(await page.locator('.child-card').count(),2);
+    assert.match(await page.locator('.child-card').first().innerText(),/Child A/);
+    assert.equal(await page.getByRole('status').count(),0);
+    assert.equal(await page.locator('.child-card').first().locator('.metric strong').nth(1).innerText(),'1');
+    assert.equal(await page.locator('.child-card').nth(1).locator('.metric strong').nth(1).innerText(),'0');
+    assert.match(await page.locator('.snapshot-bar').innerText(),/2026-09-28/);
+    await page.screenshot({path:path.join(screenshots,'03-android-import.png'),fullPage:true});
+    checks.push('real Android repository export imports correctly with independent A=1 and B=0 exposure');
+    await page.setViewportSize({width:390,height:844});
+    await page.screenshot({path:path.join(screenshots,'04-mobile.png'),fullPage:true});
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth),true,'mobile horizontal overflow');
+    checks.push('390 px phone layout has no horizontal overflow');
+    await page.getByLabel('导入家长导出 JSON 文件').setInputFiles({name:'invalid.json',mimeType:'application/json',buffer:Buffer.from('{"token":"not-a-report"}')});
+    await page.getByRole('alert').waitFor();
+    assert.equal(await page.locator('.child-card').count(),0);
+    checks.push('malformed file is rejected without retaining misleading previous state');
+    await page.reload({waitUntil:'networkidle'});
+    assert.equal(await page.locator('.child-card').count(),0);
+    assert.equal(await page.evaluate(()=>localStorage.length+sessionStorage.length),0);
+    checks.push('reload clears private report; browser storage remains empty');
+    assert.deepEqual(errors,[],'browser runtime errors');
+    assert.deepEqual(external,[],'unexpected outbound request');
+    checks.push('no browser runtime errors or external requests');
+    fs.writeFileSync(path.join(screenshots,'results.json'),JSON.stringify({passed:checks.length,checks,errors,external},null,2));
+    console.log(JSON.stringify({passed:checks.length,checks},null,2));
+  } finally {await browser.close();}
+})().catch(e=>{console.error(e);process.exitCode=1;});
