@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.zip -text
+*.jar -text
+*.apk -text
+tools/content-cjkradicals-*.txt -text
+content/LICENSE-UNICODE.txt -text
