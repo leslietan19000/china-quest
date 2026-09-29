@@ -1,0 +1,11 @@
+-- Exact CREATE statements from shipped 0.1.1 (commit 9bc43cb), schema version 1.
+CREATE TABLE children (id TEXT PRIMARY KEY, family_id TEXT NOT NULL DEFAULT 'local-family', display_name TEXT NOT NULL, age_group TEXT NOT NULL, avatar TEXT NOT NULL DEFAULT 'explorer', learning_stage TEXT NOT NULL DEFAULT 'STAGE_1_CHARACTER', daily_target INTEGER NOT NULL CHECK(daily_target BETWEEN 0 AND 10), review_only INTEGER NOT NULL DEFAULT 0, preferences TEXT NOT NULL DEFAULT '{}', current_season TEXT NOT NULL DEFAULT 'preparing-china', current_stage INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL);
+CREATE TABLE characters (id TEXT PRIMARY KEY, ordinal INTEGER NOT NULL, data TEXT NOT NULL);
+CREATE TABLE mastery (child_id TEXT NOT NULL REFERENCES children(id), character_id TEXT NOT NULL REFERENCES characters(id), data TEXT NOT NULL, review TEXT NOT NULL, due TEXT NOT NULL, introduced TEXT NOT NULL, PRIMARY KEY(child_id,character_id));
+CREATE INDEX mastery_due ON mastery(child_id,due);
+CREATE TABLE plans (child_id TEXT NOT NULL REFERENCES children(id), day TEXT NOT NULL, new_ids TEXT NOT NULL, PRIMARY KEY(child_id,day));
+CREATE TABLE sessions (child_id TEXT NOT NULL REFERENCES children(id), day TEXT NOT NULL, tasks TEXT NOT NULL, cursor INTEGER NOT NULL DEFAULT 0, completed INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(child_id,day));
+CREATE TABLE events (id TEXT PRIMARY KEY, child_id TEXT NOT NULL REFERENCES children(id), day TEXT NOT NULL, kind TEXT NOT NULL, payload TEXT NOT NULL, created_at TEXT NOT NULL);
+CREATE TABLE outbox (event_id TEXT PRIMARY KEY REFERENCES events(id), payload TEXT NOT NULL, attempts INTEGER NOT NULL DEFAULT 0, acknowledged_at TEXT);
+CREATE TABLE daily_stamps (child_id TEXT NOT NULL REFERENCES children(id), day TEXT NOT NULL, PRIMARY KEY(child_id,day));
+CREATE TABLE child_learning_profiles (child_id TEXT PRIMARY KEY REFERENCES children(id), character_level INTEGER NOT NULL DEFAULT 0, vocabulary_level INTEGER NOT NULL DEFAULT 0, reading_level INTEGER NOT NULL DEFAULT 0, writing_level INTEGER NOT NULL DEFAULT 0, pronunciation_level INTEGER NOT NULL DEFAULT 0, expression_level INTEGER NOT NULL DEFAULT 0, real_world_usage_level INTEGER NOT NULL DEFAULT 0, creator_level INTEGER NOT NULL DEFAULT 0, builder_level INTEGER NOT NULL DEFAULT 0);

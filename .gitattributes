@@ -3,5 +3,7 @@
 *.zip -text
 *.jar -text
 *.apk -text
+*.ogg -text
+tools/content-cedict-mirror.u8 binary
 tools/content-cjkradicals-*.txt -text
 content/LICENSE-UNICODE.txt -text

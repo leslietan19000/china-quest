@@ -46,3 +46,12 @@ test('Android cannot forge PARENT, sibling mapping or settings transport', () =>
   assert.throws(()=>fromAndroidEnvelope({...android,family_id:'forged'},mapping),/Unexpected Android envelope/);
   assert.throws(()=>fromAndroidEnvelope({...android,payload:{...android.payload,approvedReward:true}},mapping),/Unexpected learning evidence/);
 });
+
+test('word-use self-assessment preserves its separate skill without gaining parent authority', () => {
+  const word = {...android,payload:{...android.payload,kind:'WORD',source:'SELF',skill:'WORD'}};
+  const result=fromAndroidEnvelope(word,mapping);
+  assert.equal(result.skill,'WORD');
+  assert.equal(result.kind,'LEARNING_EVIDENCE');
+  assert.throws(()=>fromAndroidEnvelope({...word,payload:{...word.payload,source:'QUIZ'}},mapping),/mismatch/);
+  assert.throws(()=>fromAndroidEnvelope({...word,payload:{...word.payload,source:'PARENT'}},mapping),/PARENT/);
+});

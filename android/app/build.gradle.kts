@@ -7,8 +7,8 @@ android {
         applicationId = "org.chinaquest.app"
         minSdk = 26
         targetSdk = 34
-        versionCode = 2
-        versionName = "0.1.1-pilot"
+        versionCode = 3
+        versionName = "0.2.0-pilot"
         testInstrumentationRunner = "android.test.InstrumentationTestRunner"
     }
     buildTypes { release { isMinifyEnabled = false } }

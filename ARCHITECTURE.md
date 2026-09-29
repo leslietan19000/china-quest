@@ -7,6 +7,8 @@ SQLite is the Phase 1 local source of truth. Every child record is scoped by chi
 
 The seed content is packaged inside the APK. All approved seed facts, mastery, pending review and at least seven dated plans are local. An interrupted session resumes from persisted task steps. Review overflow remains due and is visible rather than silently discarded.
 
+The 0.2 feedback iteration adds three local adapters without changing the cloud gate: parent-screened prior knowledge changes new-content selection; the sourced word companion enriches character lessons; `OfflineChineseSpeech` plays bundled media and only optionally falls back to a non-network Android Chinese voice. App lifecycle/navigation stops playback, a fresh tap replaces the current sound, and there is no autoplay. Schema v2 is additive and preserves the v1 session format. `WORD` self-assessment uses the existing word-use skill and typed sync mapping; it has no parent authority.
+
 ## Sync seam (Phase 2)
 A transactional outbox shares the local transaction with learning changes. The future transport uses a parent-authorized device identity and idempotent server event ingestion. The server binds a device to one family and permitted children; it never trusts payload family IDs. Parent-authored weekly evidence and reward approval have higher authority than child self-report. Append-only events are replayed by versioned reducers; conflicts do not choose a latest score blindly.
 

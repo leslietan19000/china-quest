@@ -3,7 +3,8 @@ package org.chinaquest.app
 import org.json.JSONObject
 import java.time.LocalDate
 
-data class Child(val id: String, val name: String, val ageGroup: String, val target: Int, val reviewOnly: Boolean)
+data class Child(val id: String, val name: String, val ageGroup: String, val target: Int, val reviewOnly: Boolean, val wordPractice: Boolean = true)
+data class TeachingWord(val text: String, val pinyin: String)
 data class CharacterCard(
     val id: String, val character: String, val pinyin: String, val radical: String,
     val strokes: Int, val meaningEn: String, val meaningZh: String?, val meaningEs: String?,

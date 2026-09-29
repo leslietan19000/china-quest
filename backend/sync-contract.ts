@@ -75,6 +75,7 @@ export function fromAndroidEnvelope(raw: unknown, mapping: TrustedLocalChildMapp
   const expected = task === 'LEARN' ? ['SELF','RECOGNITION','EXPOSURE'] :
     task === 'FIND' || task === 'REVIEW' ? ['QUIZ','RECOGNITION',null] :
     task === 'READ' ? ['SELF','PRONUNCIATION',null] :
+    task === 'WORD' ? ['SELF','WORD',null] :
     task === 'WRITE' ? ['SELF','WRITING',null] : null;
   if (expected === null || payload.source !== expected[0] || payload.skill !== expected[1] ||
       (expected[2] === 'EXPOSURE' ? payload.outcome !== 'EXPOSURE' : payload.outcome === 'EXPOSURE')) {

@@ -1,0 +1,3541 @@
+[
+  {
+    "id": "hanzi-4E00",
+    "character": "一",
+    "words": [
+      {
+        "text": "一月",
+        "pinyin": "yī yuè",
+        "pinyin_numbered": "yi1 yue4",
+        "meaning_en": "January",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "一起",
+        "pinyin": "yī qǐ",
+        "pinyin_numbered": "yi1 qi3",
+        "meaning_en": "in the same place",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E8C",
+    "character": "二",
+    "words": [
+      {
+        "text": "二月",
+        "pinyin": "èr yuè",
+        "pinyin_numbered": "er4 yue4",
+        "meaning_en": "February",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "第二",
+        "pinyin": "dì èr",
+        "pinyin_numbered": "di4 er4",
+        "meaning_en": "second",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E09",
+    "character": "三",
+    "words": [
+      {
+        "text": "三月",
+        "pinyin": "sān yuè",
+        "pinyin_numbered": "san1 yue4",
+        "meaning_en": "March",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "三十",
+        "pinyin": "sān shí",
+        "pinyin_numbered": "san1 shi2",
+        "meaning_en": "thirty",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4EBA",
+    "character": "人",
+    "words": [
+      {
+        "text": "大人",
+        "pinyin": "dà ren",
+        "pinyin_numbered": "da4 ren5",
+        "meaning_en": "adult",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "人们",
+        "pinyin": "rén men",
+        "pinyin_numbered": "ren2 men5",
+        "meaning_en": "people",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-53E3",
+    "character": "口",
+    "words": [
+      {
+        "text": "门口",
+        "pinyin": "mén kǒu",
+        "pinyin_numbered": "men2 kou3",
+        "meaning_en": "doorway",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "口水",
+        "pinyin": "kǒu shuǐ",
+        "pinyin_numbered": "kou3 shui3",
+        "meaning_en": "saliva",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-56DB",
+    "character": "四",
+    "words": [
+      {
+        "text": "四月",
+        "pinyin": "sì yuè",
+        "pinyin_numbered": "si4 yue4",
+        "meaning_en": "April",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "四季",
+        "pinyin": "sì jì",
+        "pinyin_numbered": "si4 ji4",
+        "meaning_en": "four seasons, namely: spring 春[chun1], summer 夏[xia4], autumn 秋[qiu1] and winter 冬[dong1]",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E94",
+    "character": "五",
+    "words": [
+      {
+        "text": "五月",
+        "pinyin": "wǔ yuè",
+        "pinyin_numbered": "wu3 yue4",
+        "meaning_en": "May",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "五十",
+        "pinyin": "wǔ shí",
+        "pinyin_numbered": "wu3 shi2",
+        "meaning_en": "fifty",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-516D",
+    "character": "六",
+    "words": [
+      {
+        "text": "六月",
+        "pinyin": "liù yuè",
+        "pinyin_numbered": "liu4 yue4",
+        "meaning_en": "June",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "星期六",
+        "pinyin": "xīng qī liù",
+        "pinyin_numbered": "xing1 qi1 liu4",
+        "meaning_en": "Saturday",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E03",
+    "character": "七",
+    "words": [
+      {
+        "text": "七月",
+        "pinyin": "qī yuè",
+        "pinyin_numbered": "qi1 yue4",
+        "meaning_en": "July",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "七夕",
+        "pinyin": "qī xī",
+        "pinyin_numbered": "qi1 xi1",
+        "meaning_en": "double seven festival, evening of seventh of lunar seventh month",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-516B",
+    "character": "八",
+    "words": [
+      {
+        "text": "八月",
+        "pinyin": "bā yuè",
+        "pinyin_numbered": "ba1 yue4",
+        "meaning_en": "August",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "八十",
+        "pinyin": "bā shí",
+        "pinyin_numbered": "ba1 shi2",
+        "meaning_en": "eighty",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E5D",
+    "character": "九",
+    "words": [
+      {
+        "text": "九月",
+        "pinyin": "jiǔ yuè",
+        "pinyin_numbered": "jiu3 yue4",
+        "meaning_en": "September",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "九十",
+        "pinyin": "jiǔ shí",
+        "pinyin_numbered": "jiu3 shi2",
+        "meaning_en": "ninety",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5341",
+    "character": "十",
+    "words": [
+      {
+        "text": "十月",
+        "pinyin": "shí yuè",
+        "pinyin_numbered": "shi2 yue4",
+        "meaning_en": "October",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "十分",
+        "pinyin": "shí fēn",
+        "pinyin_numbered": "shi2 fen1",
+        "meaning_en": "very",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-767E",
+    "character": "百",
+    "words": [
+      {
+        "text": "百年",
+        "pinyin": "bǎi nián",
+        "pinyin_numbered": "bai3 nian2",
+        "meaning_en": "hundred years",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "百万",
+        "pinyin": "bǎi wàn",
+        "pinyin_numbered": "bai3 wan4",
+        "meaning_en": "million",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5343",
+    "character": "千",
+    "words": [
+      {
+        "text": "千米",
+        "pinyin": "qiān mǐ",
+        "pinyin_numbered": "qian1 mi3",
+        "meaning_en": "kilometer",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "千万",
+        "pinyin": "qiān wàn",
+        "pinyin_numbered": "qian1 wan4",
+        "meaning_en": "ten million",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6211",
+    "character": "我",
+    "words": [
+      {
+        "text": "我们",
+        "pinyin": "wǒ men",
+        "pinyin_numbered": "wo3 men5",
+        "meaning_en": "we",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "自我介绍",
+        "pinyin": "zì wǒ jiè shào",
+        "pinyin_numbered": "zi4 wo3 jie4 shao4",
+        "meaning_en": "self-introduction",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4F60",
+    "character": "你",
+    "words": [
+      {
+        "text": "你好",
+        "pinyin": "nǐ hǎo",
+        "pinyin_numbered": "ni3 hao3",
+        "meaning_en": "hello",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "你们",
+        "pinyin": "nǐ men",
+        "pinyin_numbered": "ni3 men5",
+        "meaning_en": "you (plural)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4ED6",
+    "character": "他",
+    "words": [
+      {
+        "text": "他们",
+        "pinyin": "tā men",
+        "pinyin_numbered": "ta1 men5",
+        "meaning_en": "they",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "其他",
+        "pinyin": "qí tā",
+        "pinyin_numbered": "qi2 ta1",
+        "meaning_en": "other",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5979",
+    "character": "她",
+    "words": [
+      {
+        "text": "她们",
+        "pinyin": "tā men",
+        "pinyin_numbered": "ta1 men5",
+        "meaning_en": "they",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4EEC",
+    "character": "们",
+    "words": [
+      {
+        "text": "我们",
+        "pinyin": "wǒ men",
+        "pinyin_numbered": "wo3 men5",
+        "meaning_en": "we",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "你们",
+        "pinyin": "nǐ men",
+        "pinyin_numbered": "ni3 men5",
+        "meaning_en": "you (plural)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7537",
+    "character": "男",
+    "words": [
+      {
+        "text": "男孩",
+        "pinyin": "nán hái",
+        "pinyin_numbered": "nan2 hai2",
+        "meaning_en": "boy",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "男人",
+        "pinyin": "nán rén",
+        "pinyin_numbered": "nan2 ren2",
+        "meaning_en": "a man",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5973",
+    "character": "女",
+    "words": [
+      {
+        "text": "女孩",
+        "pinyin": "nǚ hái",
+        "pinyin_numbered": "nu:3 hai2",
+        "meaning_en": "girl",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "女人",
+        "pinyin": "nǚ rén",
+        "pinyin_numbered": "nu:3 ren2",
+        "meaning_en": "woman",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7236",
+    "character": "父",
+    "words": [
+      {
+        "text": "父母",
+        "pinyin": "fù mǔ",
+        "pinyin_numbered": "fu4 mu3",
+        "meaning_en": "father and mother",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "父亲",
+        "pinyin": "fù qīn",
+        "pinyin_numbered": "fu4 qin1",
+        "meaning_en": "father",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6BCD",
+    "character": "母",
+    "words": [
+      {
+        "text": "母亲",
+        "pinyin": "mǔ qīn",
+        "pinyin_numbered": "mu3 qin1",
+        "meaning_en": "mother",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "父母",
+        "pinyin": "fù mǔ",
+        "pinyin_numbered": "fu4 mu3",
+        "meaning_en": "father and mother",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5BB6",
+    "character": "家",
+    "words": [
+      {
+        "text": "家人",
+        "pinyin": "jiā rén",
+        "pinyin_numbered": "jia1 ren2",
+        "meaning_en": "household",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "大家",
+        "pinyin": "dà jiā",
+        "pinyin_numbered": "da4 jia1",
+        "meaning_en": "everyone",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7237",
+    "character": "爷",
+    "words": [
+      {
+        "text": "爷爷",
+        "pinyin": "yé ye",
+        "pinyin_numbered": "ye2 ye5",
+        "meaning_en": "(coll.) father's father",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "老爷爷",
+        "pinyin": "lǎo yé ye",
+        "pinyin_numbered": "lao3 ye2 ye5",
+        "meaning_en": "(coll.) father's father's father",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5976",
+    "character": "奶",
+    "words": [
+      {
+        "text": "奶奶",
+        "pinyin": "nǎi nai",
+        "pinyin_numbered": "nai3 nai5",
+        "meaning_en": "(informal) grandma (paternal grandmother)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "牛奶",
+        "pinyin": "niú nǎi",
+        "pinyin_numbered": "niu2 nai3",
+        "meaning_en": "cow's milk",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-54E5",
+    "character": "哥",
+    "words": [
+      {
+        "text": "哥哥",
+        "pinyin": "gē ge",
+        "pinyin_numbered": "ge1 ge5",
+        "meaning_en": "older brother",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "大哥",
+        "pinyin": "dà gē",
+        "pinyin_numbered": "da4 ge1",
+        "meaning_en": "eldest brother",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-59D0",
+    "character": "姐",
+    "words": [
+      {
+        "text": "姐姐",
+        "pinyin": "jiě jie",
+        "pinyin_numbered": "jie3 jie5",
+        "meaning_en": "older sister",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "大姐",
+        "pinyin": "dà jiě",
+        "pinyin_numbered": "da4 jie3",
+        "meaning_en": "big sister",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5F1F",
+    "character": "弟",
+    "words": [
+      {
+        "text": "弟弟",
+        "pinyin": "dì di",
+        "pinyin_numbered": "di4 di5",
+        "meaning_en": "younger brother",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "兄弟",
+        "pinyin": "xiōng dì",
+        "pinyin_numbered": "xiong1 di4",
+        "meaning_en": "brothers",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-59B9",
+    "character": "妹",
+    "words": [
+      {
+        "text": "妹妹",
+        "pinyin": "mèi mei",
+        "pinyin_numbered": "mei4 mei5",
+        "meaning_en": "younger sister",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "姐妹",
+        "pinyin": "jiě mèi",
+        "pinyin_numbered": "jie3 mei4",
+        "meaning_en": "sisters",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-670B",
+    "character": "朋",
+    "words": [
+      {
+        "text": "朋友",
+        "pinyin": "péng you",
+        "pinyin_numbered": "peng2 you5",
+        "meaning_en": "friend",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-53CB",
+    "character": "友",
+    "words": [
+      {
+        "text": "朋友",
+        "pinyin": "péng you",
+        "pinyin_numbered": "peng2 you5",
+        "meaning_en": "friend",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "友好",
+        "pinyin": "yǒu hǎo",
+        "pinyin_numbered": "you3 hao3",
+        "meaning_en": "friendly",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-540D",
+    "character": "名",
+    "words": [
+      {
+        "text": "名字",
+        "pinyin": "míng zi",
+        "pinyin_numbered": "ming2 zi5",
+        "meaning_en": "name (of a person or thing)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "有名",
+        "pinyin": "yǒu míng",
+        "pinyin_numbered": "you3 ming2",
+        "meaning_en": "famous",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5B57",
+    "character": "字",
+    "words": [
+      {
+        "text": "名字",
+        "pinyin": "míng zi",
+        "pinyin_numbered": "ming2 zi5",
+        "meaning_en": "name (of a person or thing)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "汉字",
+        "pinyin": "hàn zì",
+        "pinyin_numbered": "han4 zi4",
+        "meaning_en": "Chinese character",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-597D",
+    "character": "好",
+    "words": [
+      {
+        "text": "你好",
+        "pinyin": "nǐ hǎo",
+        "pinyin_numbered": "ni3 hao3",
+        "meaning_en": "hello",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "好吃",
+        "pinyin": "hǎo chī",
+        "pinyin_numbered": "hao3 chi1",
+        "meaning_en": "tasty",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-65E5",
+    "character": "日",
+    "words": [
+      {
+        "text": "日子",
+        "pinyin": "rì zi",
+        "pinyin_numbered": "ri4 zi5",
+        "meaning_en": "day",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "生日",
+        "pinyin": "shēng rì",
+        "pinyin_numbered": "sheng1 ri4",
+        "meaning_en": "birthday",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6708",
+    "character": "月",
+    "words": [
+      {
+        "text": "月亮",
+        "pinyin": "yuè liang",
+        "pinyin_numbered": "yue4 liang5",
+        "meaning_en": "the moon",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "月饼",
+        "pinyin": "yuè bǐng",
+        "pinyin_numbered": "yue4 bing3",
+        "meaning_en": "mooncake (esp. for the Mid-Autumn Festival)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6C34",
+    "character": "水",
+    "words": [
+      {
+        "text": "水果",
+        "pinyin": "shuǐ guǒ",
+        "pinyin_numbered": "shui3 guo3",
+        "meaning_en": "fruit",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "开水",
+        "pinyin": "kāi shuǐ",
+        "pinyin_numbered": "kai1 shui3",
+        "meaning_en": "boiled water",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-706B",
+    "character": "火",
+    "words": [
+      {
+        "text": "火车",
+        "pinyin": "huǒ chē",
+        "pinyin_numbered": "huo3 che1",
+        "meaning_en": "train",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "火山",
+        "pinyin": "huǒ shān",
+        "pinyin_numbered": "huo3 shan1",
+        "meaning_en": "volcano",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5C71",
+    "character": "山",
+    "words": [
+      {
+        "text": "高山",
+        "pinyin": "gāo shān",
+        "pinyin_numbered": "gao1 shan1",
+        "meaning_en": "high mountain",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "火山",
+        "pinyin": "huǒ shān",
+        "pinyin_numbered": "huo3 shan1",
+        "meaning_en": "volcano",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6728",
+    "character": "木",
+    "words": [
+      {
+        "text": "木材",
+        "pinyin": "mù cái",
+        "pinyin_numbered": "mu4 cai2",
+        "meaning_en": "wood",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "木马",
+        "pinyin": "mù mǎ",
+        "pinyin_numbered": "mu4 ma3",
+        "meaning_en": "wooden horse",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-571F",
+    "character": "土",
+    "words": [
+      {
+        "text": "土地",
+        "pinyin": "tǔ dì",
+        "pinyin_numbered": "tu3 di4",
+        "meaning_en": "land",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "泥土",
+        "pinyin": "ní tǔ",
+        "pinyin_numbered": "ni2 tu3",
+        "meaning_en": "earth",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-77F3",
+    "character": "石",
+    "words": [
+      {
+        "text": "石头",
+        "pinyin": "shí tou",
+        "pinyin_numbered": "shi2 tou5",
+        "meaning_en": "stone",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "石块",
+        "pinyin": "shí kuài",
+        "pinyin_numbered": "shi2 kuai4",
+        "meaning_en": "stone",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7530",
+    "character": "田",
+    "words": [
+      {
+        "text": "田地",
+        "pinyin": "tián dì",
+        "pinyin_numbered": "tian2 di4",
+        "meaning_en": "field",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "稻田",
+        "pinyin": "dào tián",
+        "pinyin_numbered": "dao4 tian2",
+        "meaning_en": "paddy field",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-96E8",
+    "character": "雨",
+    "words": [
+      {
+        "text": "下雨",
+        "pinyin": "xià yǔ",
+        "pinyin_numbered": "xia4 yu3",
+        "meaning_en": "to rain",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "雨伞",
+        "pinyin": "yǔ sǎn",
+        "pinyin_numbered": "yu3 san3",
+        "meaning_en": "umbrella",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-98CE",
+    "character": "风",
+    "words": [
+      {
+        "text": "大风",
+        "pinyin": "dà fēng",
+        "pinyin_numbered": "da4 feng1",
+        "meaning_en": "gale",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "风车",
+        "pinyin": "fēng chē",
+        "pinyin_numbered": "feng1 che1",
+        "meaning_en": "pinwheel",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E91",
+    "character": "云",
+    "words": [
+      {
+        "text": "白云",
+        "pinyin": "bái yún",
+        "pinyin_numbered": "bai2 yun2",
+        "meaning_en": "white cloud",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "云朵",
+        "pinyin": "yún duǒ",
+        "pinyin_numbered": "yun2 duo3",
+        "meaning_en": "a cloud",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5929",
+    "character": "天",
+    "words": [
+      {
+        "text": "今天",
+        "pinyin": "jīn tiān",
+        "pinyin_numbered": "jin1 tian1",
+        "meaning_en": "today",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "明天",
+        "pinyin": "míng tiān",
+        "pinyin_numbered": "ming2 tian1",
+        "meaning_en": "tomorrow",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-661F",
+    "character": "星",
+    "words": [
+      {
+        "text": "星星",
+        "pinyin": "xīng xing",
+        "pinyin_numbered": "xing1 xing5",
+        "meaning_en": "star in the sky",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "星期",
+        "pinyin": "xīng qī",
+        "pinyin_numbered": "xing1 qi1",
+        "meaning_en": "week",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7A7A",
+    "character": "空",
+    "words": [
+      {
+        "text": "天空",
+        "pinyin": "tiān kōng",
+        "pinyin_numbered": "tian1 kong1",
+        "meaning_en": "sky",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "空气",
+        "pinyin": "kōng qì",
+        "pinyin_numbered": "kong1 qi4",
+        "meaning_en": "air",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5927",
+    "character": "大",
+    "words": [
+      {
+        "text": "大小",
+        "pinyin": "dà xiǎo",
+        "pinyin_numbered": "da4 xiao3",
+        "meaning_en": "dimension",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "大家",
+        "pinyin": "dà jiā",
+        "pinyin_numbered": "da4 jia1",
+        "meaning_en": "everyone",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E2D",
+    "character": "中",
+    "words": [
+      {
+        "text": "中国",
+        "pinyin": "zhōng guó",
+        "pinyin_numbered": "zhong1 guo2",
+        "meaning_en": "China",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "中间",
+        "pinyin": "zhōng jiān",
+        "pinyin_numbered": "zhong1 jian1",
+        "meaning_en": "between",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5C0F",
+    "character": "小",
+    "words": [
+      {
+        "text": "小孩",
+        "pinyin": "xiǎo hái",
+        "pinyin_numbered": "xiao3 hai2",
+        "meaning_en": "child",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "小猫",
+        "pinyin": "xiǎo māo",
+        "pinyin_numbered": "xiao3 mao1",
+        "meaning_en": "kitten",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8EAB",
+    "character": "身",
+    "words": [
+      {
+        "text": "身体",
+        "pinyin": "shēn tǐ",
+        "pinyin_numbered": "shen1 ti3",
+        "meaning_en": "the body",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "身高",
+        "pinyin": "shēn gāo",
+        "pinyin_numbered": "shen1 gao1",
+        "meaning_en": "(a person's) height",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-624B",
+    "character": "手",
+    "words": [
+      {
+        "text": "手机",
+        "pinyin": "shǒu jī",
+        "pinyin_numbered": "shou3 ji1",
+        "meaning_en": "cell phone",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "洗手",
+        "pinyin": "xǐ shǒu",
+        "pinyin_numbered": "xi3 shou3",
+        "meaning_en": "to wash one's hands",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-76EE",
+    "character": "目",
+    "words": [
+      {
+        "text": "目光",
+        "pinyin": "mù guāng",
+        "pinyin_numbered": "mu4 guang1",
+        "meaning_en": "sight",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "节目",
+        "pinyin": "jié mù",
+        "pinyin_numbered": "jie2 mu4",
+        "meaning_en": "program",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8033",
+    "character": "耳",
+    "words": [
+      {
+        "text": "耳朵",
+        "pinyin": "ěr duo",
+        "pinyin_numbered": "er3 duo5",
+        "meaning_en": "ear",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "耳机",
+        "pinyin": "ěr jī",
+        "pinyin_numbered": "er3 ji1",
+        "meaning_en": "headphones",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9F3B",
+    "character": "鼻",
+    "words": [
+      {
+        "text": "鼻子",
+        "pinyin": "bí zi",
+        "pinyin_numbered": "bi2 zi5",
+        "meaning_en": "nose",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "鼻孔",
+        "pinyin": "bí kǒng",
+        "pinyin_numbered": "bi2 kong3",
+        "meaning_en": "nostril",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5934",
+    "character": "头",
+    "words": [
+      {
+        "text": "头发",
+        "pinyin": "tóu fa",
+        "pinyin_numbered": "tou2 fa5",
+        "meaning_en": "hair (on the head)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "点头",
+        "pinyin": "diǎn tóu",
+        "pinyin_numbered": "dian3 tou2",
+        "meaning_en": "to nod",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-53D1",
+    "character": "发",
+    "words": [
+      {
+        "text": "头发",
+        "pinyin": "tóu fa",
+        "pinyin_numbered": "tou2 fa5",
+        "meaning_en": "hair (on the head)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "发现",
+        "pinyin": "fā xiàn",
+        "pinyin_numbered": "fa1 xian4",
+        "meaning_en": "to find",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5FC3",
+    "character": "心",
+    "words": [
+      {
+        "text": "开心",
+        "pinyin": "kāi xīn",
+        "pinyin_numbered": "kai1 xin1",
+        "meaning_en": "to feel happy",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "小心",
+        "pinyin": "xiǎo xīn",
+        "pinyin_numbered": "xiao3 xin1",
+        "meaning_en": "to be careful",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8DB3",
+    "character": "足",
+    "words": [
+      {
+        "text": "足球",
+        "pinyin": "zú qiú",
+        "pinyin_numbered": "zu2 qiu2",
+        "meaning_en": "soccer ball",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "足够",
+        "pinyin": "zú gòu",
+        "pinyin_numbered": "zu2 gou4",
+        "meaning_en": "enough",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7259",
+    "character": "牙",
+    "words": [
+      {
+        "text": "牙齿",
+        "pinyin": "yá chǐ",
+        "pinyin_numbered": "ya2 chi3",
+        "meaning_en": "tooth",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "刷牙",
+        "pinyin": "shuā yá",
+        "pinyin_numbered": "shua1 ya2",
+        "meaning_en": "to brush one's teeth",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-732B",
+    "character": "猫",
+    "words": [
+      {
+        "text": "小猫",
+        "pinyin": "xiǎo māo",
+        "pinyin_numbered": "xiao3 mao1",
+        "meaning_en": "kitten",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "猫咪",
+        "pinyin": "māo mī",
+        "pinyin_numbered": "mao1 mi1",
+        "meaning_en": "kitty",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-72D7",
+    "character": "狗",
+    "words": [
+      {
+        "text": "小狗",
+        "pinyin": "xiǎo gǒu",
+        "pinyin_numbered": "xiao3 gou3",
+        "meaning_en": "pup",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "狗熊",
+        "pinyin": "gǒu xióng",
+        "pinyin_numbered": "gou3 xiong2",
+        "meaning_en": "black bear",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9E1F",
+    "character": "鸟",
+    "words": [
+      {
+        "text": "小鸟",
+        "pinyin": "xiǎo niǎo",
+        "pinyin_numbered": "xiao3 niao3",
+        "meaning_en": "small bird",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "飞鸟",
+        "pinyin": "fēi niǎo",
+        "pinyin_numbered": "fei1 niao3",
+        "meaning_en": "bird",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9C7C",
+    "character": "鱼",
+    "words": [
+      {
+        "text": "金鱼",
+        "pinyin": "jīn yú",
+        "pinyin_numbered": "jin1 yu2",
+        "meaning_en": "goldfish",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "鱼肉",
+        "pinyin": "yú ròu",
+        "pinyin_numbered": "yu2 rou4",
+        "meaning_en": "flesh of fish",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9A6C",
+    "character": "马",
+    "words": [
+      {
+        "text": "马路",
+        "pinyin": "mǎ lù",
+        "pinyin_numbered": "ma3 lu4",
+        "meaning_en": "street",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "骑马",
+        "pinyin": "qí mǎ",
+        "pinyin_numbered": "qi2 ma3",
+        "meaning_en": "to ride a horse",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-725B",
+    "character": "牛",
+    "words": [
+      {
+        "text": "牛奶",
+        "pinyin": "niú nǎi",
+        "pinyin_numbered": "niu2 nai3",
+        "meaning_en": "cow's milk",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "牛肉",
+        "pinyin": "niú ròu",
+        "pinyin_numbered": "niu2 rou4",
+        "meaning_en": "beef",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7F8A",
+    "character": "羊",
+    "words": [
+      {
+        "text": "山羊",
+        "pinyin": "shān yáng",
+        "pinyin_numbered": "shan1 yang2",
+        "meaning_en": "goat",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "羊肉",
+        "pinyin": "yáng ròu",
+        "pinyin_numbered": "yang2 rou4",
+        "meaning_en": "mutton",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9E21",
+    "character": "鸡",
+    "words": [
+      {
+        "text": "鸡蛋",
+        "pinyin": "jī dàn",
+        "pinyin_numbered": "ji1 dan4",
+        "meaning_en": "(chicken) egg",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "小鸡",
+        "pinyin": "xiǎo jī",
+        "pinyin_numbered": "xiao3 ji1",
+        "meaning_en": "chick",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9E2D",
+    "character": "鸭",
+    "words": [
+      {
+        "text": "鸭子",
+        "pinyin": "yā zi",
+        "pinyin_numbered": "ya1 zi5",
+        "meaning_en": "duck",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "烤鸭",
+        "pinyin": "kǎo yā",
+        "pinyin_numbered": "kao3 ya1",
+        "meaning_en": "roast duck",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-866B",
+    "character": "虫",
+    "words": [
+      {
+        "text": "虫子",
+        "pinyin": "chóng zi",
+        "pinyin_numbered": "chong2 zi5",
+        "meaning_en": "insect",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "昆虫",
+        "pinyin": "kūn chóng",
+        "pinyin_numbered": "kun1 chong2",
+        "meaning_en": "insect",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5154",
+    "character": "兔",
+    "words": [
+      {
+        "text": "兔子",
+        "pinyin": "tù zi",
+        "pinyin_numbered": "tu4 zi5",
+        "meaning_en": "rabbit",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "兔年",
+        "pinyin": "tù nián",
+        "pinyin_numbered": "tu4 nian2",
+        "meaning_en": "Year of the Rabbit (e.g. 2011)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7C73",
+    "character": "米",
+    "words": [
+      {
+        "text": "米饭",
+        "pinyin": "mǐ fàn",
+        "pinyin_numbered": "mi3 fan4",
+        "meaning_en": "(cooked) rice",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "大米",
+        "pinyin": "dà mǐ",
+        "pinyin_numbered": "da4 mi3",
+        "meaning_en": "(husked) rice",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-996D",
+    "character": "饭",
+    "words": [
+      {
+        "text": "吃饭",
+        "pinyin": "chī fàn",
+        "pinyin_numbered": "chi1 fan4",
+        "meaning_en": "to have a meal",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "米饭",
+        "pinyin": "mǐ fàn",
+        "pinyin_numbered": "mi3 fan4",
+        "meaning_en": "(cooked) rice",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9762",
+    "character": "面",
+    "words": [
+      {
+        "text": "面包",
+        "pinyin": "miàn bāo",
+        "pinyin_numbered": "mian4 bao1",
+        "meaning_en": "bread",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "面条",
+        "pinyin": "miàn tiáo",
+        "pinyin_numbered": "mian4 tiao2",
+        "meaning_en": "noodles",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8336",
+    "character": "茶",
+    "words": [
+      {
+        "text": "喝茶",
+        "pinyin": "hē chá",
+        "pinyin_numbered": "he1 cha2",
+        "meaning_en": "to drink tea",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "茶叶",
+        "pinyin": "chá yè",
+        "pinyin_numbered": "cha2 ye4",
+        "meaning_en": "tea",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-679C",
+    "character": "果",
+    "words": [
+      {
+        "text": "水果",
+        "pinyin": "shuǐ guǒ",
+        "pinyin_numbered": "shui3 guo3",
+        "meaning_en": "fruit",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "苹果",
+        "pinyin": "píng guǒ",
+        "pinyin_numbered": "ping2 guo3",
+        "meaning_en": "apple",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-82F9",
+    "character": "苹",
+    "words": [
+      {
+        "text": "苹果",
+        "pinyin": "píng guǒ",
+        "pinyin_numbered": "ping2 guo3",
+        "meaning_en": "apple",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-83DC",
+    "character": "菜",
+    "words": [
+      {
+        "text": "青菜",
+        "pinyin": "qīng cài",
+        "pinyin_numbered": "qing1 cai4",
+        "meaning_en": "green vegetables",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "白菜",
+        "pinyin": "bái cài",
+        "pinyin_numbered": "bai2 cai4",
+        "meaning_en": "Chinese cabbage",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8089",
+    "character": "肉",
+    "words": [
+      {
+        "text": "牛肉",
+        "pinyin": "niú ròu",
+        "pinyin_numbered": "niu2 rou4",
+        "meaning_en": "beef",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "鸡肉",
+        "pinyin": "jī ròu",
+        "pinyin_numbered": "ji1 rou4",
+        "meaning_en": "chicken meat",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-86CB",
+    "character": "蛋",
+    "words": [
+      {
+        "text": "鸡蛋",
+        "pinyin": "jī dàn",
+        "pinyin_numbered": "ji1 dan4",
+        "meaning_en": "(chicken) egg",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "蛋糕",
+        "pinyin": "dàn gāo",
+        "pinyin_numbered": "dan4 gao1",
+        "meaning_en": "cake",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7CD6",
+    "character": "糖",
+    "words": [
+      {
+        "text": "白糖",
+        "pinyin": "bái táng",
+        "pinyin_numbered": "bai2 tang2",
+        "meaning_en": "(refined) white sugar",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "糖果",
+        "pinyin": "táng guǒ",
+        "pinyin_numbered": "tang2 guo3",
+        "meaning_en": "candy",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5305",
+    "character": "包",
+    "words": [
+      {
+        "text": "书包",
+        "pinyin": "shū bāo",
+        "pinyin_numbered": "shu1 bao1",
+        "meaning_en": "schoolbag",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "面包",
+        "pinyin": "miàn bāo",
+        "pinyin_numbered": "mian4 bao1",
+        "meaning_en": "bread",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5403",
+    "character": "吃",
+    "words": [
+      {
+        "text": "吃饭",
+        "pinyin": "chī fàn",
+        "pinyin_numbered": "chi1 fan4",
+        "meaning_en": "to have a meal",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "好吃",
+        "pinyin": "hǎo chī",
+        "pinyin_numbered": "hao3 chi1",
+        "meaning_en": "tasty",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-559D",
+    "character": "喝",
+    "words": [
+      {
+        "text": "喝茶",
+        "pinyin": "hē chá",
+        "pinyin_numbered": "he1 cha2",
+        "meaning_en": "to drink tea",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "好喝",
+        "pinyin": "hǎo hē",
+        "pinyin_numbered": "hao3 he1",
+        "meaning_en": "tasty (drinks)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5B66",
+    "character": "学",
+    "words": [
+      {
+        "text": "学校",
+        "pinyin": "xué xiào",
+        "pinyin_numbered": "xue2 xiao4",
+        "meaning_en": "school",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "学生",
+        "pinyin": "xué sheng",
+        "pinyin_numbered": "xue2 sheng5",
+        "meaning_en": "student",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6821",
+    "character": "校",
+    "words": [
+      {
+        "text": "学校",
+        "pinyin": "xué xiào",
+        "pinyin_numbered": "xue2 xiao4",
+        "meaning_en": "school",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "校长",
+        "pinyin": "xiào zhǎng",
+        "pinyin_numbered": "xiao4 zhang3",
+        "meaning_en": "headmaster",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-751F",
+    "character": "生",
+    "words": [
+      {
+        "text": "生日",
+        "pinyin": "shēng rì",
+        "pinyin_numbered": "sheng1 ri4",
+        "meaning_en": "birthday",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "学生",
+        "pinyin": "xué sheng",
+        "pinyin_numbered": "xue2 sheng5",
+        "meaning_en": "student",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8001",
+    "character": "老",
+    "words": [
+      {
+        "text": "老师",
+        "pinyin": "lǎo shī",
+        "pinyin_numbered": "lao3 shi1",
+        "meaning_en": "teacher",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "老人",
+        "pinyin": "lǎo rén",
+        "pinyin_numbered": "lao3 ren2",
+        "meaning_en": "old man or woman",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5E08",
+    "character": "师",
+    "words": [
+      {
+        "text": "老师",
+        "pinyin": "lǎo shī",
+        "pinyin_numbered": "lao3 shi1",
+        "meaning_en": "teacher",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "教师",
+        "pinyin": "jiào shī",
+        "pinyin_numbered": "jiao4 shi1",
+        "meaning_en": "teacher",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E66",
+    "character": "书",
+    "words": [
+      {
+        "text": "看书",
+        "pinyin": "kàn shū",
+        "pinyin_numbered": "kan4 shu1",
+        "meaning_en": "to read",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "书包",
+        "pinyin": "shū bāo",
+        "pinyin_numbered": "shu1 bao1",
+        "meaning_en": "schoolbag",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-672C",
+    "character": "本",
+    "words": [
+      {
+        "text": "书本",
+        "pinyin": "shū běn",
+        "pinyin_numbered": "shu1 ben3",
+        "meaning_en": "book",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "本子",
+        "pinyin": "běn zi",
+        "pinyin_numbered": "ben3 zi5",
+        "meaning_en": "notebook",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7B14",
+    "character": "笔",
+    "words": [
+      {
+        "text": "铅笔",
+        "pinyin": "qiān bǐ",
+        "pinyin_numbered": "qian1 bi3",
+        "meaning_en": "(lead) pencil",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "毛笔",
+        "pinyin": "máo bǐ",
+        "pinyin_numbered": "mao2 bi3",
+        "meaning_en": "writing brush",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7EB8",
+    "character": "纸",
+    "words": [
+      {
+        "text": "纸巾",
+        "pinyin": "zhǐ jīn",
+        "pinyin_numbered": "zhi3 jin1",
+        "meaning_en": "paper towel",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "纸张",
+        "pinyin": "zhǐ zhāng",
+        "pinyin_numbered": "zhi3 zhang1",
+        "meaning_en": "paper",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-684C",
+    "character": "桌",
+    "words": [
+      {
+        "text": "桌子",
+        "pinyin": "zhuō zi",
+        "pinyin_numbered": "zhuo1 zi5",
+        "meaning_en": "table",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "书桌",
+        "pinyin": "shū zhuō",
+        "pinyin_numbered": "shu1 zhuo1",
+        "meaning_en": "desk",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6905",
+    "character": "椅",
+    "words": [
+      {
+        "text": "椅子",
+        "pinyin": "yǐ zi",
+        "pinyin_numbered": "yi3 zi5",
+        "meaning_en": "chair",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "轮椅",
+        "pinyin": "lún yǐ",
+        "pinyin_numbered": "lun2 yi3",
+        "meaning_en": "wheelchair",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-95E8",
+    "character": "门",
+    "words": [
+      {
+        "text": "大门",
+        "pinyin": "dà mén",
+        "pinyin_numbered": "da4 men2",
+        "meaning_en": "entrance",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "门口",
+        "pinyin": "mén kǒu",
+        "pinyin_numbered": "men2 kou3",
+        "meaning_en": "doorway",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8BFE",
+    "character": "课",
+    "words": [
+      {
+        "text": "上课",
+        "pinyin": "shàng kè",
+        "pinyin_numbered": "shang4 ke4",
+        "meaning_en": "to go to class",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "课本",
+        "pinyin": "kè běn",
+        "pinyin_numbered": "ke4 ben3",
+        "meaning_en": "textbook",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8BFB",
+    "character": "读",
+    "words": [
+      {
+        "text": "读书",
+        "pinyin": "dú shū",
+        "pinyin_numbered": "du2 shu1",
+        "meaning_en": "to read a book",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "阅读",
+        "pinyin": "yuè dú",
+        "pinyin_numbered": "yue4 du2",
+        "meaning_en": "to read",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5199",
+    "character": "写",
+    "words": [
+      {
+        "text": "写字",
+        "pinyin": "xiě zì",
+        "pinyin_numbered": "xie3 zi4",
+        "meaning_en": "to write characters",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "写作",
+        "pinyin": "xiě zuò",
+        "pinyin_numbered": "xie3 zuo4",
+        "meaning_en": "to write",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8D70",
+    "character": "走",
+    "words": [
+      {
+        "text": "走路",
+        "pinyin": "zǒu lù",
+        "pinyin_numbered": "zou3 lu4",
+        "meaning_en": "to walk",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "走开",
+        "pinyin": "zǒu kāi",
+        "pinyin_numbered": "zou3 kai1",
+        "meaning_en": "to leave",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8DD1",
+    "character": "跑",
+    "words": [
+      {
+        "text": "跑步",
+        "pinyin": "pǎo bù",
+        "pinyin_numbered": "pao3 bu4",
+        "meaning_en": "to run",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "跑道",
+        "pinyin": "pǎo dào",
+        "pinyin_numbered": "pao3 dao4",
+        "meaning_en": "athletic track",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8DF3",
+    "character": "跳",
+    "words": [
+      {
+        "text": "跳舞",
+        "pinyin": "tiào wǔ",
+        "pinyin_numbered": "tiao4 wu3",
+        "meaning_en": "to dance",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "跳高",
+        "pinyin": "tiào gāo",
+        "pinyin_numbered": "tiao4 gao1",
+        "meaning_en": "high jump (athletics)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-770B",
+    "character": "看",
+    "words": [
+      {
+        "text": "看书",
+        "pinyin": "kàn shū",
+        "pinyin_numbered": "kan4 shu1",
+        "meaning_en": "to read",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "看见",
+        "pinyin": "kàn jiàn",
+        "pinyin_numbered": "kan4 jian4",
+        "meaning_en": "to see",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-542C",
+    "character": "听",
+    "words": [
+      {
+        "text": "听见",
+        "pinyin": "tīng jiàn",
+        "pinyin_numbered": "ting1 jian4",
+        "meaning_en": "to hear",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "听话",
+        "pinyin": "tīng huà",
+        "pinyin_numbered": "ting1 hua4",
+        "meaning_en": "to do what one is told",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8BF4",
+    "character": "说",
+    "words": [
+      {
+        "text": "说话",
+        "pinyin": "shuō huà",
+        "pinyin_numbered": "shuo1 hua4",
+        "meaning_en": "to speak",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "听说",
+        "pinyin": "tīng shuō",
+        "pinyin_numbered": "ting1 shuo1",
+        "meaning_en": "to hear (sth said)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7761",
+    "character": "睡",
+    "words": [
+      {
+        "text": "睡觉",
+        "pinyin": "shuì jiào",
+        "pinyin_numbered": "shui4 jiao4",
+        "meaning_en": "to go to bed",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "睡衣",
+        "pinyin": "shuì yī",
+        "pinyin_numbered": "shui4 yi1",
+        "meaning_en": "night clothes",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-73A9",
+    "character": "玩",
+    "words": [
+      {
+        "text": "玩具",
+        "pinyin": "wán jù",
+        "pinyin_numbered": "wan2 ju4",
+        "meaning_en": "plaything",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "好玩",
+        "pinyin": "hǎo wán",
+        "pinyin_numbered": "hao3 wan2",
+        "meaning_en": "amusing",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5750",
+    "character": "坐",
+    "words": [
+      {
+        "text": "坐下",
+        "pinyin": "zuò xia",
+        "pinyin_numbered": "zuo4 xia5",
+        "meaning_en": "to sit down",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "坐车",
+        "pinyin": "zuò chē",
+        "pinyin_numbered": "zuo4 che1",
+        "meaning_en": "to take the car, bus, train etc",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7AD9",
+    "character": "站",
+    "words": [
+      {
+        "text": "车站",
+        "pinyin": "chē zhàn",
+        "pinyin_numbered": "che1 zhan4",
+        "meaning_en": "rail station",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "站起来",
+        "pinyin": "zhàn qǐ lai",
+        "pinyin_numbered": "zhan4 qi3 lai5",
+        "meaning_en": "to stand up",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6765",
+    "character": "来",
+    "words": [
+      {
+        "text": "回来",
+        "pinyin": "huí lai",
+        "pinyin_numbered": "hui2 lai5",
+        "meaning_en": "to return",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "过来",
+        "pinyin": "guò lái",
+        "pinyin_numbered": "guo4 lai2",
+        "meaning_en": "to come over",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-53BB",
+    "character": "去",
+    "words": [
+      {
+        "text": "回去",
+        "pinyin": "huí qu",
+        "pinyin_numbered": "hui2 qu5",
+        "meaning_en": "to return",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "去年",
+        "pinyin": "qù nián",
+        "pinyin_numbered": "qu4 nian2",
+        "meaning_en": "last year",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E0A",
+    "character": "上",
+    "words": [
+      {
+        "text": "上学",
+        "pinyin": "shàng xué",
+        "pinyin_numbered": "shang4 xue2",
+        "meaning_en": "to go to school",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "上面",
+        "pinyin": "shàng miàn",
+        "pinyin_numbered": "shang4 mian4",
+        "meaning_en": "on top of",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E0B",
+    "character": "下",
+    "words": [
+      {
+        "text": "下面",
+        "pinyin": "xià miàn",
+        "pinyin_numbered": "xia4 mian4",
+        "meaning_en": "below",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "下雨",
+        "pinyin": "xià yǔ",
+        "pinyin_numbered": "xia4 yu3",
+        "meaning_en": "to rain",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5F00",
+    "character": "开",
+    "words": [
+      {
+        "text": "开门",
+        "pinyin": "kāi mén",
+        "pinyin_numbered": "kai1 men2",
+        "meaning_en": "to open a door (lit. and fig.)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "开心",
+        "pinyin": "kāi xīn",
+        "pinyin_numbered": "kai1 xin1",
+        "meaning_en": "to feel happy",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5173",
+    "character": "关",
+    "words": [
+      {
+        "text": "关门",
+        "pinyin": "guān mén",
+        "pinyin_numbered": "guan1 men2",
+        "meaning_en": "to close a door",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "关心",
+        "pinyin": "guān xīn",
+        "pinyin_numbered": "guan1 xin1",
+        "meaning_en": "to be concerned about",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6D17",
+    "character": "洗",
+    "words": [
+      {
+        "text": "洗手",
+        "pinyin": "xǐ shǒu",
+        "pinyin_numbered": "xi3 shou3",
+        "meaning_en": "to wash one's hands",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "洗澡",
+        "pinyin": "xǐ zǎo",
+        "pinyin_numbered": "xi3 zao3",
+        "meaning_en": "to bathe",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7A7F",
+    "character": "穿",
+    "words": [
+      {
+        "text": "穿过",
+        "pinyin": "chuān guò",
+        "pinyin_numbered": "chuan1 guo4",
+        "meaning_en": "to pass through",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "穿上",
+        "pinyin": "chuān shang",
+        "pinyin_numbered": "chuan1 shang5",
+        "meaning_en": "to put on (clothes etc)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-57CE",
+    "character": "城",
+    "words": [
+      {
+        "text": "城市",
+        "pinyin": "chéng shì",
+        "pinyin_numbered": "cheng2 shi4",
+        "meaning_en": "city",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "长城",
+        "pinyin": "cháng chéng",
+        "pinyin_numbered": "chang2 cheng2",
+        "meaning_en": "the Great Wall",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5E02",
+    "character": "市",
+    "words": [
+      {
+        "text": "城市",
+        "pinyin": "chéng shì",
+        "pinyin_numbered": "cheng2 shi4",
+        "meaning_en": "city",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "市场",
+        "pinyin": "shì chǎng",
+        "pinyin_numbered": "shi4 chang3",
+        "meaning_en": "marketplace",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-573A",
+    "character": "场",
+    "words": [
+      {
+        "text": "市场",
+        "pinyin": "shì chǎng",
+        "pinyin_numbered": "shi4 chang3",
+        "meaning_en": "marketplace",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "操场",
+        "pinyin": "cāo chǎng",
+        "pinyin_numbered": "cao1 chang3",
+        "meaning_en": "playground",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8DEF",
+    "character": "路",
+    "words": [
+      {
+        "text": "马路",
+        "pinyin": "mǎ lù",
+        "pinyin_numbered": "ma3 lu4",
+        "meaning_en": "street",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "走路",
+        "pinyin": "zǒu lù",
+        "pinyin_numbered": "zou3 lu4",
+        "meaning_en": "to walk",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8F66",
+    "character": "车",
+    "words": [
+      {
+        "text": "汽车",
+        "pinyin": "qì chē",
+        "pinyin_numbered": "qi4 che1",
+        "meaning_en": "car",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "火车",
+        "pinyin": "huǒ chē",
+        "pinyin_numbered": "huo3 che1",
+        "meaning_en": "train",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-516C",
+    "character": "公",
+    "words": [
+      {
+        "text": "公园",
+        "pinyin": "gōng yuán",
+        "pinyin_numbered": "gong1 yuan2",
+        "meaning_en": "park (for public recreation)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "公交车",
+        "pinyin": "gōng jiāo chē",
+        "pinyin_numbered": "gong1 jiao1 che1",
+        "meaning_en": "public transport vehicle",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4EA4",
+    "character": "交",
+    "words": [
+      {
+        "text": "公交车",
+        "pinyin": "gōng jiāo chē",
+        "pinyin_numbered": "gong1 jiao1 che1",
+        "meaning_en": "public transport vehicle",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "交通",
+        "pinyin": "jiāo tōng",
+        "pinyin_numbered": "jiao1 tong1",
+        "meaning_en": "traffic",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5730",
+    "character": "地",
+    "words": [
+      {
+        "text": "地方",
+        "pinyin": "dì fang",
+        "pinyin_numbered": "di4 fang5",
+        "meaning_en": "area",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "地图",
+        "pinyin": "dì tú",
+        "pinyin_numbered": "di4 tu2",
+        "meaning_en": "map",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-94C1",
+    "character": "铁",
+    "words": [
+      {
+        "text": "地铁",
+        "pinyin": "dì tiě",
+        "pinyin_numbered": "di4 tie3",
+        "meaning_en": "subway",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "铁路",
+        "pinyin": "tiě lù",
+        "pinyin_numbered": "tie3 lu4",
+        "meaning_en": "railroad",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5E97",
+    "character": "店",
+    "words": [
+      {
+        "text": "商店",
+        "pinyin": "shāng diàn",
+        "pinyin_numbered": "shang1 dian4",
+        "meaning_en": "store",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "书店",
+        "pinyin": "shū diàn",
+        "pinyin_numbered": "shu1 dian4",
+        "meaning_en": "bookstore",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-94B1",
+    "character": "钱",
+    "words": [
+      {
+        "text": "花钱",
+        "pinyin": "huā qián",
+        "pinyin_numbered": "hua1 qian2",
+        "meaning_en": "to spend money",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "零钱",
+        "pinyin": "líng qián",
+        "pinyin_numbered": "ling2 qian2",
+        "meaning_en": "change (of money)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4E70",
+    "character": "买",
+    "words": [
+      {
+        "text": "买东西",
+        "pinyin": "mǎi dōng xi",
+        "pinyin_numbered": "mai3 dong1 xi5",
+        "meaning_en": "to do one's shopping",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "买卖",
+        "pinyin": "mǎi mài",
+        "pinyin_numbered": "mai3 mai4",
+        "meaning_en": "buying and selling",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5356",
+    "character": "卖",
+    "words": [
+      {
+        "text": "买卖",
+        "pinyin": "mǎi mài",
+        "pinyin_numbered": "mai3 mai4",
+        "meaning_en": "buying and selling",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "卖出",
+        "pinyin": "mài chū",
+        "pinyin_numbered": "mai4 chu1",
+        "meaning_en": "to sell",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4F4F",
+    "character": "住",
+    "words": [
+      {
+        "text": "住房",
+        "pinyin": "zhù fáng",
+        "pinyin_numbered": "zhu4 fang2",
+        "meaning_en": "housing",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "住院",
+        "pinyin": "zhù yuàn",
+        "pinyin_numbered": "zhu4 yuan4",
+        "meaning_en": "to be in hospital",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-533B",
+    "character": "医",
+    "words": [
+      {
+        "text": "医生",
+        "pinyin": "yī shēng",
+        "pinyin_numbered": "yi1 sheng1",
+        "meaning_en": "doctor",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "医院",
+        "pinyin": "yī yuàn",
+        "pinyin_numbered": "yi1 yuan4",
+        "meaning_en": "hospital",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9662",
+    "character": "院",
+    "words": [
+      {
+        "text": "医院",
+        "pinyin": "yī yuàn",
+        "pinyin_numbered": "yi1 yuan4",
+        "meaning_en": "hospital",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "院子",
+        "pinyin": "yuàn zi",
+        "pinyin_numbered": "yuan4 zi5",
+        "meaning_en": "courtyard",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-836F",
+    "character": "药",
+    "words": [
+      {
+        "text": "吃药",
+        "pinyin": "chī yào",
+        "pinyin_numbered": "chi1 yao4",
+        "meaning_en": "to take medicine",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "药店",
+        "pinyin": "yào diàn",
+        "pinyin_numbered": "yao4 dian4",
+        "meaning_en": "pharmacy",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-56ED",
+    "character": "园",
+    "words": [
+      {
+        "text": "公园",
+        "pinyin": "gōng yuán",
+        "pinyin_numbered": "gong1 yuan2",
+        "meaning_en": "park (for public recreation)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "花园",
+        "pinyin": "huā yuán",
+        "pinyin_numbered": "hua1 yuan2",
+        "meaning_en": "garden",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-56FD",
+    "character": "国",
+    "words": [
+      {
+        "text": "中国",
+        "pinyin": "zhōng guó",
+        "pinyin_numbered": "zhong1 guo2",
+        "meaning_en": "China",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "国家",
+        "pinyin": "guó jiā",
+        "pinyin_numbered": "guo2 jia1",
+        "meaning_en": "country",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-667A",
+    "character": "智",
+    "words": [
+      {
+        "text": "智慧",
+        "pinyin": "zhì huì",
+        "pinyin_numbered": "zhi4 hui4",
+        "meaning_en": "wisdom",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "智力",
+        "pinyin": "zhì lì",
+        "pinyin_numbered": "zhi4 li4",
+        "meaning_en": "intelligence",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5229",
+    "character": "利",
+    "words": [
+      {
+        "text": "便利",
+        "pinyin": "biàn lì",
+        "pinyin_numbered": "bian4 li4",
+        "meaning_en": "convenient",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "有利",
+        "pinyin": "yǒu lì",
+        "pinyin_numbered": "you3 li4",
+        "meaning_en": "advantageous; favorable",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-98DE",
+    "character": "飞",
+    "words": [
+      {
+        "text": "飞机",
+        "pinyin": "fēi jī",
+        "pinyin_numbered": "fei1 ji1",
+        "meaning_en": "airplane",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "飞鸟",
+        "pinyin": "fēi niǎo",
+        "pinyin_numbered": "fei1 niao3",
+        "meaning_en": "bird",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-673A",
+    "character": "机",
+    "words": [
+      {
+        "text": "飞机",
+        "pinyin": "fēi jī",
+        "pinyin_numbered": "fei1 ji1",
+        "meaning_en": "airplane",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "手机",
+        "pinyin": "shǒu jī",
+        "pinyin_numbered": "shou3 ji1",
+        "meaning_en": "cell phone",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8239",
+    "character": "船",
+    "words": [
+      {
+        "text": "小船",
+        "pinyin": "xiǎo chuán",
+        "pinyin_numbered": "xiao3 chuan2",
+        "meaning_en": "boat",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "船票",
+        "pinyin": "chuán piào",
+        "pinyin_numbered": "chuan2 piao4",
+        "meaning_en": "ship ticket",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6D77",
+    "character": "海",
+    "words": [
+      {
+        "text": "大海",
+        "pinyin": "dà hǎi",
+        "pinyin_numbered": "da4 hai3",
+        "meaning_en": "sea",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "海水",
+        "pinyin": "hǎi shuǐ",
+        "pinyin_numbered": "hai3 shui3",
+        "meaning_en": "seawater",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7535",
+    "character": "电",
+    "words": [
+      {
+        "text": "电话",
+        "pinyin": "diàn huà",
+        "pinyin_numbered": "dian4 hua4",
+        "meaning_en": "telephone",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "电视",
+        "pinyin": "diàn shì",
+        "pinyin_numbered": "dian4 shi4",
+        "meaning_en": "television",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8BDD",
+    "character": "话",
+    "words": [
+      {
+        "text": "说话",
+        "pinyin": "shuō huà",
+        "pinyin_numbered": "shuo1 hua4",
+        "meaning_en": "to speak",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "电话",
+        "pinyin": "diàn huà",
+        "pinyin_numbered": "dian4 hua4",
+        "meaning_en": "telephone",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8863",
+    "character": "衣",
+    "words": [
+      {
+        "text": "衣服",
+        "pinyin": "yī fu",
+        "pinyin_numbered": "yi1 fu5",
+        "meaning_en": "clothes",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "睡衣",
+        "pinyin": "shuì yī",
+        "pinyin_numbered": "shui4 yi1",
+        "meaning_en": "night clothes",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-670D",
+    "character": "服",
+    "words": [
+      {
+        "text": "衣服",
+        "pinyin": "yī fu",
+        "pinyin_numbered": "yi1 fu5",
+        "meaning_en": "clothes",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "校服",
+        "pinyin": "xiào fú",
+        "pinyin_numbered": "xiao4 fu2",
+        "meaning_en": "school uniform",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6C14",
+    "character": "气",
+    "words": [
+      {
+        "text": "天气",
+        "pinyin": "tiān qì",
+        "pinyin_numbered": "tian1 qi4",
+        "meaning_en": "weather",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "空气",
+        "pinyin": "kōng qì",
+        "pinyin_numbered": "kong1 qi4",
+        "meaning_en": "air",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-65F6",
+    "character": "时",
+    "words": [
+      {
+        "text": "时间",
+        "pinyin": "shí jiān",
+        "pinyin_numbered": "shi2 jian1",
+        "meaning_en": "time",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "小时",
+        "pinyin": "xiǎo shí",
+        "pinyin_numbered": "xiao3 shi2",
+        "meaning_en": "hour",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-95F4",
+    "character": "间",
+    "words": [
+      {
+        "text": "时间",
+        "pinyin": "shí jiān",
+        "pinyin_numbered": "shi2 jian1",
+        "meaning_en": "time",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "中间",
+        "pinyin": "zhōng jiān",
+        "pinyin_numbered": "zhong1 jian1",
+        "meaning_en": "between",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-671F",
+    "character": "期",
+    "words": [
+      {
+        "text": "星期",
+        "pinyin": "xīng qī",
+        "pinyin_numbered": "xing1 qi1",
+        "meaning_en": "week",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "假期",
+        "pinyin": "jià qī",
+        "pinyin_numbered": "jia4 qi1",
+        "meaning_en": "vacation",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4ECA",
+    "character": "今",
+    "words": [
+      {
+        "text": "今天",
+        "pinyin": "jīn tiān",
+        "pinyin_numbered": "jin1 tian1",
+        "meaning_en": "today",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "今年",
+        "pinyin": "jīn nián",
+        "pinyin_numbered": "jin1 nian2",
+        "meaning_en": "this year",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-660E",
+    "character": "明",
+    "words": [
+      {
+        "text": "明天",
+        "pinyin": "míng tiān",
+        "pinyin_numbered": "ming2 tian1",
+        "meaning_en": "tomorrow",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "明白",
+        "pinyin": "míng bai",
+        "pinyin_numbered": "ming2 bai5",
+        "meaning_en": "clear",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-65E9",
+    "character": "早",
+    "words": [
+      {
+        "text": "早上",
+        "pinyin": "zǎo shang",
+        "pinyin_numbered": "zao3 shang5",
+        "meaning_en": "early morning",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "早饭",
+        "pinyin": "zǎo fàn",
+        "pinyin_numbered": "zao3 fan4",
+        "meaning_en": "breakfast",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-665A",
+    "character": "晚",
+    "words": [
+      {
+        "text": "晚上",
+        "pinyin": "wǎn shang",
+        "pinyin_numbered": "wan3 shang5",
+        "meaning_en": "evening",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "晚饭",
+        "pinyin": "wǎn fàn",
+        "pinyin_numbered": "wan3 fan4",
+        "meaning_en": "evening meal",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5DE6",
+    "character": "左",
+    "words": [
+      {
+        "text": "左边",
+        "pinyin": "zuǒ bian",
+        "pinyin_numbered": "zuo3 bian5",
+        "meaning_en": "left",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "左手",
+        "pinyin": "zuǒ shǒu",
+        "pinyin_numbered": "zuo3 shou3",
+        "meaning_en": "left hand",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8FB9",
+    "character": "边",
+    "words": [
+      {
+        "text": "左边",
+        "pinyin": "zuǒ bian",
+        "pinyin_numbered": "zuo3 bian5",
+        "meaning_en": "left",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "右边",
+        "pinyin": "yòu bian",
+        "pinyin_numbered": "you4 bian5",
+        "meaning_en": "right side",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-53F3",
+    "character": "右",
+    "words": [
+      {
+        "text": "右边",
+        "pinyin": "yòu bian",
+        "pinyin_numbered": "you4 bian5",
+        "meaning_en": "right side",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "右手",
+        "pinyin": "yòu shǒu",
+        "pinyin_numbered": "you4 shou3",
+        "meaning_en": "right hand",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-524D",
+    "character": "前",
+    "words": [
+      {
+        "text": "前面",
+        "pinyin": "qián miàn",
+        "pinyin_numbered": "qian2 mian4",
+        "meaning_en": "ahead",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "以前",
+        "pinyin": "yǐ qián",
+        "pinyin_numbered": "yi3 qian2",
+        "meaning_en": "before",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-540E",
+    "character": "后",
+    "words": [
+      {
+        "text": "后面",
+        "pinyin": "hòu miàn",
+        "pinyin_numbered": "hou4 mian4",
+        "meaning_en": "rear",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "以后",
+        "pinyin": "yǐ hòu",
+        "pinyin_numbered": "yi3 hou4",
+        "meaning_en": "after",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-91CC",
+    "character": "里",
+    "words": [
+      {
+        "text": "里面",
+        "pinyin": "lǐ miàn",
+        "pinyin_numbered": "li3 mian4",
+        "meaning_en": "inside",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "公里",
+        "pinyin": "gōng lǐ",
+        "pinyin_numbered": "gong1 li3",
+        "meaning_en": "kilometer",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5916",
+    "character": "外",
+    "words": [
+      {
+        "text": "外面",
+        "pinyin": "wài miàn",
+        "pinyin_numbered": "wai4 mian4",
+        "meaning_en": "outside (also pr. [wai4 mian5] for this sense)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "外国",
+        "pinyin": "wài guó",
+        "pinyin_numbered": "wai4 guo2",
+        "meaning_en": "foreign (country)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7EA2",
+    "character": "红",
+    "words": [
+      {
+        "text": "红色",
+        "pinyin": "hóng sè",
+        "pinyin_numbered": "hong2 se4",
+        "meaning_en": "red (color)",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "红灯",
+        "pinyin": "hóng dēng",
+        "pinyin_numbered": "hong2 deng1",
+        "meaning_en": "red light",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7EFF",
+    "character": "绿",
+    "words": [
+      {
+        "text": "绿色",
+        "pinyin": "lǜ sè",
+        "pinyin_numbered": "lu:4 se4",
+        "meaning_en": "green",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "绿茶",
+        "pinyin": "lǜ chá",
+        "pinyin_numbered": "lu:4 cha2",
+        "meaning_en": "green tea",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9ED1",
+    "character": "黑",
+    "words": [
+      {
+        "text": "黑色",
+        "pinyin": "hēi sè",
+        "pinyin_numbered": "hei1 se4",
+        "meaning_en": "black",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "黑板",
+        "pinyin": "hēi bǎn",
+        "pinyin_numbered": "hei1 ban3",
+        "meaning_en": "blackboard",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-767D",
+    "character": "白",
+    "words": [
+      {
+        "text": "白色",
+        "pinyin": "bái sè",
+        "pinyin_numbered": "bai2 se4",
+        "meaning_en": "white",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "白菜",
+        "pinyin": "bái cài",
+        "pinyin_numbered": "bai2 cai4",
+        "meaning_en": "Chinese cabbage",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-989C",
+    "character": "颜",
+    "words": [
+      {
+        "text": "颜色",
+        "pinyin": "yán sè",
+        "pinyin_numbered": "yan2 se4",
+        "meaning_en": "color",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "颜料",
+        "pinyin": "yán liào",
+        "pinyin_numbered": "yan2 liao4",
+        "meaning_en": "paint",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-8272",
+    "character": "色",
+    "words": [
+      {
+        "text": "颜色",
+        "pinyin": "yán sè",
+        "pinyin_numbered": "yan2 se4",
+        "meaning_en": "color",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "红色",
+        "pinyin": "hóng sè",
+        "pinyin_numbered": "hong2 se4",
+        "meaning_en": "red (color)",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5DE5",
+    "character": "工",
+    "words": [
+      {
+        "text": "工作",
+        "pinyin": "gōng zuò",
+        "pinyin_numbered": "gong1 zuo4",
+        "meaning_en": "to work",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "工人",
+        "pinyin": "gōng rén",
+        "pinyin_numbered": "gong1 ren2",
+        "meaning_en": "worker",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-4F5C",
+    "character": "作",
+    "words": [
+      {
+        "text": "工作",
+        "pinyin": "gōng zuò",
+        "pinyin_numbered": "gong1 zuo4",
+        "meaning_en": "to work",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "作业",
+        "pinyin": "zuò yè",
+        "pinyin_numbered": "zuo4 ye4",
+        "meaning_en": "school assignment",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-5468",
+    "character": "周",
+    "words": [
+      {
+        "text": "周末",
+        "pinyin": "zhōu mò",
+        "pinyin_numbered": "zhou1 mo4",
+        "meaning_en": "weekend",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "周围",
+        "pinyin": "zhōu wéi",
+        "pinyin_numbered": "zhou1 wei2",
+        "meaning_en": "surroundings",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-672B",
+    "character": "末",
+    "words": [
+      {
+        "text": "周末",
+        "pinyin": "zhōu mò",
+        "pinyin_numbered": "zhou1 mo4",
+        "meaning_en": "weekend",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "末尾",
+        "pinyin": "mò wěi",
+        "pinyin_numbered": "mo4 wei3",
+        "meaning_en": "end",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-95EE",
+    "character": "问",
+    "words": [
+      {
+        "text": "问题",
+        "pinyin": "wèn tí",
+        "pinyin_numbered": "wen4 ti2",
+        "meaning_en": "question",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "问好",
+        "pinyin": "wèn hǎo",
+        "pinyin_numbered": "wen4 hao3",
+        "meaning_en": "to say hello to",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-9898",
+    "character": "题",
+    "words": [
+      {
+        "text": "问题",
+        "pinyin": "wèn tí",
+        "pinyin_numbered": "wen4 ti2",
+        "meaning_en": "question",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "题目",
+        "pinyin": "tí mù",
+        "pinyin_numbered": "ti2 mu4",
+        "meaning_en": "subject",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-7B54",
+    "character": "答",
+    "words": [
+      {
+        "text": "答案",
+        "pinyin": "dá àn",
+        "pinyin_numbered": "da2 an4",
+        "meaning_en": "answer",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "回答",
+        "pinyin": "huí dá",
+        "pinyin_numbered": "hui2 da2",
+        "meaning_en": "to reply; to answer",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  },
+  {
+    "id": "hanzi-6848",
+    "character": "案",
+    "words": [
+      {
+        "text": "答案",
+        "pinyin": "dá àn",
+        "pinyin_numbered": "da2 an4",
+        "meaning_en": "answer",
+        "source_status": "SOURCED_VERIFIED"
+      },
+      {
+        "text": "图案",
+        "pinyin": "tú àn",
+        "pinyin_numbered": "tu2 an4",
+        "meaning_en": "design",
+        "source_status": "SOURCED_VERIFIED"
+      }
+    ]
+  }
+]

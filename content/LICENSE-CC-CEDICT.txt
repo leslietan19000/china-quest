@@ -1,0 +1,21 @@
+CC-CEDICT word data attribution and license notice
+
+CC-CEDICT is maintained by MDBG and community contributors.
+Original dictionary: https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+CC-CEDICT project: https://cc-cedict.org/
+License: Creative Commons Attribution-ShareAlike 4.0 International
+License text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+The China Quest words.json asset is derived from CC-CEDICT. A pinned 2022-12-13
+snapshot was obtained from this mirror:
+https://raw.githubusercontent.com/liamsaliba/cc-cedict-stardict/main/data/cedict_ts.u8
+SHA-256: A429F52B5F411B8922A7A772DA3096E10F1A0F167132B7E410618B72A48E0390
+
+Changes: selected 1–2 beginner words per character, selected one English dictionary
+sense per word, normalized pinyin capitalization, converted numeric tones to
+diacritic display form, and organized entries in the China Quest curriculum order.
+
+The derived words.json data is distributed under CC BY-SA 4.0. Keep this notice
+with copies of the asset. The CC-CEDICT source file contains additional data;
+its own header identifies MDBG, the original CEDICT author Paul Andrew
+Denisowski, and the license.

@@ -2,12 +2,14 @@
 
 ## 本地试用版
 
-当前推荐的 APK 在 `artifacts/ChinaQuest-0.1.1-pilot.apk`，包含家长报告导出。这是开发签名的家庭试用包，不用于公开分发。Android 8.0 (API 26) 及以上，目标 BOOX Nova Air C。
+当前推荐的 APK 在 `artifacts/ChinaQuest-0.2.0-pilot.apk`，加入起点筛选、词语与离线听读。这是开发签名的家庭试用包，不用于公开分发。Android 8.0 (API 26) 及以上，目标 BOOX Nova Air C。家长已确认第一版成功安装并供孩子使用；第二版的实机覆盖更新和发音仍待验收。
+
+**已经安装第一版：直接覆盖安装第二版，使用原 PIN。不要先卸载，不要清除应用数据。** 两版签名证书已核对相同，旧版数据库保留测试通过。更新后的设置方法见 [第二版家长说明](V2_PARENT_GUIDE.md)。
 
 1. 将 APK 用 USB 复制到 BOOX 的 Download 文件夹。
 2. 在 BOOX 文件管理器中打开 APK。若设备提示，给当前文件管理器开启“安装未知应用”权限，再点击安装。具体菜单名称随 BOOX 固件不同。
-3. 打开 China Quest。家长设置自己的 6–12 位数字 PIN；没有默认 PIN。
-4. 选择 Child A，准备纸笔并和家长一起完成五字课程。再切换 Child B，确认进度独立。
+3. 打开 China Quest。首次安装时家长设置自己的 6–12 位数字 PIN；没有默认 PIN。覆盖更新继续使用原 PIN。
+4. 先在家长空间分别筛选两个孩子已认识的字，再准备纸笔开始课程。进行中或已完成的旧课程保留，新起点用于尚未开始的课程。
 5. 关闭 Wi-Fi 重做上述学习流程，确认不需要登录和网络。
 6. 在首页进入“家长空间”，输入 PIN，查看当天完成状态。
 
@@ -17,7 +19,7 @@
 
 ```powershell
 .\.toolchain\android-sdk\platform-tools\adb.exe devices
-.\.toolchain\android-sdk\platform-tools\adb.exe install -r .\artifacts\ChinaQuest-0.1.1-pilot.apk
+.\.toolchain\android-sdk\platform-tools\adb.exe install -r .\artifacts\ChinaQuest-0.2.0-pilot.apk
 ```
 
 `-r` 更新同签名安装以保留本地数据；不要通过卸载解决升级问题。请保留 `.toolchain/android-user/debug.keystore`，后续家庭试用更新需要同一签名。PIN 忘记时没有云找回流程，请不要清除应用数据。家长报告只供查看，并不是可恢复的完整备份；正式备份和迁移会在后续阶段实现。
@@ -29,6 +31,9 @@
 - 五字学习、认字选错、朗读自评、纸笔自评、完成印章。
 - 中途退出、休眠、重启、断网后进度恢复。
 - 两孩子完全独立；家长可改目标和暂停新字。
+- 覆盖更新后原 PIN、旧进度、印章还在；家长空间底部显示 `0.2.0-pilot`。
+- 点按大字、词语发声；断网可听；暂停、切换孩子和切到后台立即停止。
+- 家长筛选已有基础后，下一次未开始的课程跳过所选字；词语挑战按年龄为一或两项。
 - 同一天重复打开不重复奖励；没有排行或罚停机制。
 - 实测一次亲子课程时长、触控可靠性和残影。
 

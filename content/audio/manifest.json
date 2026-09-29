@@ -1,0 +1,2352 @@
+{
+  "version": 1,
+  "voice": "Microsoft Huihui Desktop",
+  "codec": "ogg-vorbis-q3-22050hz",
+  "clips": [
+    {
+      "text": "一",
+      "path": "audio/clips/dcb0ee35bcd51ce7a5d235dc.ogg",
+      "sha256": "19d04b44ddcbdbf884323cd9fbce40b7fd2896ba2aeaf2b5c551f86566ea69cf"
+    },
+    {
+      "text": "一月",
+      "path": "audio/clips/29ea12ac385cb62199b37269.ogg",
+      "sha256": "40fe60e3ebc1a2a96d2934d56fa1e0a5fd094bd9d06cc01d8975059f2dc1a4ce"
+    },
+    {
+      "text": "一起",
+      "path": "audio/clips/ea6c8e35194c3817e3eaa497.ogg",
+      "sha256": "ea1679305571c2dbe6cefe7905817fe9877cc77875cc885e49decddfd68f87ad"
+    },
+    {
+      "text": "七",
+      "path": "audio/clips/b834c2645c13cb6cca22a67e.ogg",
+      "sha256": "039904f40ce6c5456e0476a41becaf09b91564d3daa77f605d4fe3303ad993d2"
+    },
+    {
+      "text": "七夕",
+      "path": "audio/clips/8e6d77d4f16c54563f511773.ogg",
+      "sha256": "8606a77db1f8ba7a0db992a251458e30bcd2c1873d6fc3425e2725b8f5fabfdf"
+    },
+    {
+      "text": "七月",
+      "path": "audio/clips/48ddf48310af65bae6d03a4e.ogg",
+      "sha256": "24dc5180ca22dcbdd3b18bcdae0d8842395113c1c5866795febbb8a549626c5b"
+    },
+    {
+      "text": "三",
+      "path": "audio/clips/12a90cca3bcde5b57edc1101.ogg",
+      "sha256": "d829b8961ea728c51a7b292a4c24b86e6b81580566fdb75e65eeef65eec7f2f6"
+    },
+    {
+      "text": "三十",
+      "path": "audio/clips/e8bd995ef9a51164eee62ed4.ogg",
+      "sha256": "25767043577ff97cf401daca057472e2ea86ea9e9c2bcd7e6e554560ad292122"
+    },
+    {
+      "text": "三月",
+      "path": "audio/clips/ac84edcf2237bed21c832d31.ogg",
+      "sha256": "5e193ec9cecc51cd2ea71aefad13a7b40c81fee81545bf4526335a31f8c15484"
+    },
+    {
+      "text": "上",
+      "path": "audio/clips/1f7bb4775e774bd28e288289.ogg",
+      "sha256": "ab5c96087852b5be6d41043a4ef7d39f26fe6cba42cdbd747d819958a607a65c"
+    },
+    {
+      "text": "上学",
+      "path": "audio/clips/7b8b0c30c58a8ff0f16978e8.ogg",
+      "sha256": "d0e4addeb80ff1c28172251359175c0f200e88ec23a05d44b7a411d6035a139e"
+    },
+    {
+      "text": "上课",
+      "path": "audio/clips/94909f5509a23f0e01c035e0.ogg",
+      "sha256": "cb8d841bbf53db0279feef766544abfbec17b71f53a4e1c4d741f7cc39b7c499"
+    },
+    {
+      "text": "上面",
+      "path": "audio/clips/658c0968c3248ee3cdb5af31.ogg",
+      "sha256": "c773792f60cadea3e25ae79fa6cce5ad3ad6cc3b15c6e5ad8228bf67ad1afcee"
+    },
+    {
+      "text": "下",
+      "path": "audio/clips/b4879d9b6340c89be1951987.ogg",
+      "sha256": "337d77522db8d166d1a524722d011cdf870f6dd3b3ff29f0afe7460d2330c338"
+    },
+    {
+      "text": "下雨",
+      "path": "audio/clips/9156519ce60163ff188c9e86.ogg",
+      "sha256": "0990769cad6f1a770138265b392ade151950eda5cb2d72957ca8ff3ce74b55d3"
+    },
+    {
+      "text": "下面",
+      "path": "audio/clips/75527dc549270854f40cbf95.ogg",
+      "sha256": "a4a4e759aaa3fa063d30e10f294a4189b921a658680e223167ea53024a810c83"
+    },
+    {
+      "text": "中",
+      "path": "audio/clips/118a47e800b158ef1bc537be.ogg",
+      "sha256": "8c754b86ffbbda10a982ff718ef4af0bfe3168791b5c2ae18e28a11d8b623151"
+    },
+    {
+      "text": "中国",
+      "path": "audio/clips/9c1c72d0fc9c3d1a0451920d.ogg",
+      "sha256": "6cc98787b6449d9825d3cef70a16297dbcadc54f8866eb1dcd70d14c98a2f5d3"
+    },
+    {
+      "text": "中间",
+      "path": "audio/clips/6c260b34e55ce292be565684.ogg",
+      "sha256": "b5b9f4f5e191bb9c4f6f74381f1fe9d5de65a9854a8d8bc066022764bba3b56e"
+    },
+    {
+      "text": "九",
+      "path": "audio/clips/e89c1fdb3b6897dd65063fe1.ogg",
+      "sha256": "4ffdd2027bcb5c54f47fad1f050b866518034ef3598e4f22c5cbce47cf8a77ce"
+    },
+    {
+      "text": "九十",
+      "path": "audio/clips/9bfd93bac8da3114825396b9.ogg",
+      "sha256": "a0e0ca1429634e19df5e8e3d453f1051a2d6c822b39888a51ee9d37676eb75d1"
+    },
+    {
+      "text": "九月",
+      "path": "audio/clips/c2f709ec97f566738e4dbc8f.ogg",
+      "sha256": "2393c99ed65e18e7816a3cb0f767b46284077ee51c370b82b9a161d6dac59770"
+    },
+    {
+      "text": "书",
+      "path": "audio/clips/6be21f9b4a7f76ad9abd6196.ogg",
+      "sha256": "a1dc316236556a0551065e8afed3cbb6266aa6d32abc5f308adeecc50b55b496"
+    },
+    {
+      "text": "书包",
+      "path": "audio/clips/4a701136b744e232056ef94a.ogg",
+      "sha256": "46ff1e08249a55273671ce634e3ece331c5cabc47371f5833abb39e136b782dc"
+    },
+    {
+      "text": "书店",
+      "path": "audio/clips/7d7331fda13ab5d56a93f785.ogg",
+      "sha256": "4f6900494965eb388d860188e3db50040dd5520a120c58973bec274ac6efce34"
+    },
+    {
+      "text": "书本",
+      "path": "audio/clips/2c73dfbb4998e2503bc0690a.ogg",
+      "sha256": "3ed86ea9c01e9fc01bef1c0638bc0b232c05a1c11c6b7796e66750c4cdc45217"
+    },
+    {
+      "text": "书桌",
+      "path": "audio/clips/8628ec6ee886cda032f543f6.ogg",
+      "sha256": "8b3c1af53eb2a7654f3a44d7641d735c8b5e304876da9b77698c456338814f60"
+    },
+    {
+      "text": "买",
+      "path": "audio/clips/33d071d8da7a175302e133c2.ogg",
+      "sha256": "1cf76e57ce8dd4adafbe2cdc2e3f75297c4c30082022ff4f9892281a881ba2c3"
+    },
+    {
+      "text": "买东西",
+      "path": "audio/clips/fe99fd3ae33fbe2ada48f5d6.ogg",
+      "sha256": "eee6c7cd9092597630fe8bbb096982c8eb17502769864fe79a8d29dba095ad56"
+    },
+    {
+      "text": "买卖",
+      "path": "audio/clips/fc42cfe6c2cefeb877cf2cfc.ogg",
+      "sha256": "f7bd521bd527336474b152c6d3a6b032b2fd18419f961e45aef8958787129eb9"
+    },
+    {
+      "text": "二",
+      "path": "audio/clips/d58e27901460e1891616e360.ogg",
+      "sha256": "615e95f2bd7965d164446654c848a5b5af2c3aca672a5a34a5ecb07dfe0a32c1"
+    },
+    {
+      "text": "二月",
+      "path": "audio/clips/8dd2dceb6cf1a7aff6726fdb.ogg",
+      "sha256": "90d850c4392f7e03165a4aa9a65afb10d8dbc033861b85d55c24dcea798f857f"
+    },
+    {
+      "text": "云",
+      "path": "audio/clips/20cf1c3862e7ee33ad778e38.ogg",
+      "sha256": "1261ca3f25a4483168a77627f8f40579c0ca6eaa3fb5203dc3fd4444c178bcf1"
+    },
+    {
+      "text": "云朵",
+      "path": "audio/clips/38548bb44199bd75811b872c.ogg",
+      "sha256": "cf5f0b5ff837b9719d9e292849fb71091454f3f9fc2175d482bd4bbd70b0d04c"
+    },
+    {
+      "text": "五",
+      "path": "audio/clips/10db8fd587d3e8b6149ed072.ogg",
+      "sha256": "13d9fc1dc0c71883a91de98c2591c37fbae3271c82b0da8a714f89edfbb3f4a3"
+    },
+    {
+      "text": "五十",
+      "path": "audio/clips/87fca3dadfdd43f3dca6bdc1.ogg",
+      "sha256": "b968ead4145c8025b9317ddc94905a000147119aadbae03c0058dd6c9d35568f"
+    },
+    {
+      "text": "五月",
+      "path": "audio/clips/f1d94cdb3b141dd13f99a1b8.ogg",
+      "sha256": "207f368a3db0db453dbef0aaec5f2b00f86e986bbad0dc80c5836058964333dd"
+    },
+    {
+      "text": "交",
+      "path": "audio/clips/3a873c98ed088d0f2e5861a7.ogg",
+      "sha256": "29c45d4b9ec3e08e6ac9c56860341333473090b768e7b99cd4cec8f7110a65a8"
+    },
+    {
+      "text": "交通",
+      "path": "audio/clips/5cd08964aad0b5c1b16a50c9.ogg",
+      "sha256": "0d561ee67b35f0886718bc82814922774a233947ca84e4067a90786c59de0a7c"
+    },
+    {
+      "text": "人",
+      "path": "audio/clips/f3595c6ac07136ff017071ec.ogg",
+      "sha256": "47f3d0003052c131e2fe4a774706825ae734bfed7a32f770ac29f09e75cc736b"
+    },
+    {
+      "text": "人们",
+      "path": "audio/clips/d2e516fd1883aea8f538a83e.ogg",
+      "sha256": "3bee047a9764cfe6072ea090ceb53505795163f09edf3fb01fdbf5bceb84d68b"
+    },
+    {
+      "text": "今",
+      "path": "audio/clips/2d0e4b2743f5a46e32724eb7.ogg",
+      "sha256": "0f7afc5e572b22e813f338962e42587559fe1f9a4a9d26d0be1fafe5cdc98aed"
+    },
+    {
+      "text": "今天",
+      "path": "audio/clips/acb25e58304998673a9e3f75.ogg",
+      "sha256": "a8ab742ab7340847134bc3e8db1e1d0652e9503e42f84c2d4b541442e9d779a3"
+    },
+    {
+      "text": "今年",
+      "path": "audio/clips/798c13a0ab530d40620993d7.ogg",
+      "sha256": "dc257cedaef8f4bf5f92a30bbc5a6ca36821502cdada13a0da57c03e4451c037"
+    },
+    {
+      "text": "他",
+      "path": "audio/clips/189fde31569bc24662a7b883.ogg",
+      "sha256": "fae896199775cbe4d23522d879a701799bfc55930a6159a030ddc7fc0a30bdb3"
+    },
+    {
+      "text": "他们",
+      "path": "audio/clips/55b3df348d03a8f81d6aae0b.ogg",
+      "sha256": "80de051ee95bdd7b2ccfb2b9fa78b77ed1265162437f1ef1a4f27a35fc518743"
+    },
+    {
+      "text": "以前",
+      "path": "audio/clips/1a2c127f4c41cf96f96aa7f4.ogg",
+      "sha256": "860f1969da7f7baa7161a4ab1a09be523bff24db13cf1adbbabcf935f8f74581"
+    },
+    {
+      "text": "以后",
+      "path": "audio/clips/2e83ae209c19160eca8609ba.ogg",
+      "sha256": "db0ebca1ce06081141814956517cdb2a76dda5fa0ec8040cbdf2bf89e9d2fc81"
+    },
+    {
+      "text": "们",
+      "path": "audio/clips/0e25437287fa4f17d1d03789.ogg",
+      "sha256": "74781848362baec4a7256adad1a7ae12b6ae4f1f81215ee8a5d592011f9439e8"
+    },
+    {
+      "text": "住",
+      "path": "audio/clips/cff1f63d2c2e43b2c33529d8.ogg",
+      "sha256": "a29b5a5adccf06ba8c19cc81bb70762d0059a596fc609ce87b85a6786697bd07"
+    },
+    {
+      "text": "住房",
+      "path": "audio/clips/9b8b2dc53771a2385137acf1.ogg",
+      "sha256": "1cdb963fa1a7659a1cf22fd397a8fcb387cee588d2de1de3e845a8f5de412745"
+    },
+    {
+      "text": "住院",
+      "path": "audio/clips/e5987b1d79d76df9fbf20721.ogg",
+      "sha256": "5fdc81ddc505f184ded5b7b4c40c3cf00bff63feae4258a073b467be1bdebac0"
+    },
+    {
+      "text": "作",
+      "path": "audio/clips/c139b34b9a3d562f652af0fe.ogg",
+      "sha256": "dd6e199ee150f715ee08b9b0e1fcdc1153ef684cbcaa6f8cc948a6d1643c769f"
+    },
+    {
+      "text": "作业",
+      "path": "audio/clips/de8599993714afddca8d9e75.ogg",
+      "sha256": "5e3c7007c17c5f55a853a51df2e1e56fe5cad80742a93d066544e1c3693f045d"
+    },
+    {
+      "text": "你",
+      "path": "audio/clips/27e3059cbbd0b10702b5a982.ogg",
+      "sha256": "12072d18033ca331daf76f5f14d5bd4dee7686610de54a595def5c86c01db0f0"
+    },
+    {
+      "text": "你们",
+      "path": "audio/clips/b1333c44a7e6a9c810cc74fa.ogg",
+      "sha256": "a65221a3f46ef67402dcc7f98e060fa2266e4d78b7d9ce171be9b095976d8b7a"
+    },
+    {
+      "text": "你好",
+      "path": "audio/clips/2155939148db90e1d9c95bac.ogg",
+      "sha256": "5709435ab8d336fc5a858c72a28585987548f7af88026b9d9284892558b95b6d"
+    },
+    {
+      "text": "便利",
+      "path": "audio/clips/cd6368a08a6a746cb08d4cad.ogg",
+      "sha256": "a1a18557e53787eae65d938dc6e5733e01b36fdc97812edbf2ffe47dce99de71"
+    },
+    {
+      "text": "假期",
+      "path": "audio/clips/5e98272413ff6970a1b01dd7.ogg",
+      "sha256": "da570b921379d565ed7279ae370bf033d94476cf1ba619d2e18ef7afba933217"
+    },
+    {
+      "text": "兄弟",
+      "path": "audio/clips/448e7a1008514abc0269a824.ogg",
+      "sha256": "cd03f448e786f0a45326a9a732122301deec5fcfe9716a93d2cae0588446fa1d"
+    },
+    {
+      "text": "兔",
+      "path": "audio/clips/2723267b8133fc7b396bb67b.ogg",
+      "sha256": "f4d801a1222eb341cd2766e79dad3a703a3cfb8c6218f810b8ed581b6e81eb22"
+    },
+    {
+      "text": "兔子",
+      "path": "audio/clips/a265dcdd5a4f01d842572673.ogg",
+      "sha256": "3fffcda36b9eae23abfa9e2baded42c85a9584cddd57fa4f78c011d64e647800"
+    },
+    {
+      "text": "兔年",
+      "path": "audio/clips/e1f2fd26d211c4c0fedf7ba9.ogg",
+      "sha256": "727fe46fd3897252edec8ff618655b2fb9529d0672a1855fd63781569bafdb7c"
+    },
+    {
+      "text": "八",
+      "path": "audio/clips/371f16461a4d5259802b2103.ogg",
+      "sha256": "623fdad287e6b38c390747d81a34e325889828835c8428b733c3843ac1361352"
+    },
+    {
+      "text": "八十",
+      "path": "audio/clips/926c97449ea4c769ea6f5c39.ogg",
+      "sha256": "7262d3143bc49383794d71a0c21ed9bb59239c145c9a42d6bd693c9ff040c412"
+    },
+    {
+      "text": "八月",
+      "path": "audio/clips/0314edd0cc2d9e893da2a98d.ogg",
+      "sha256": "e4498c502d1b5e15e8467ae9ab17268398a473f8d845cc5a8083c6e4e650654d"
+    },
+    {
+      "text": "公",
+      "path": "audio/clips/fed0f414b342d9409188b6d2.ogg",
+      "sha256": "22ed4a5bc7ef7dbc80b3b5b96f492bcdf05ec0f2cce99efd0487cdf29733478e"
+    },
+    {
+      "text": "公交车",
+      "path": "audio/clips/f20dc01e9429cc25841a9bf1.ogg",
+      "sha256": "3330edc40a6caa8307aa7896013477ab19c6a63b1db9c37dd8315e68e07330eb"
+    },
+    {
+      "text": "公园",
+      "path": "audio/clips/65a612c1ee3b9e27dcada77c.ogg",
+      "sha256": "8e2c5daefc5f5ef74479791bae47cbf71f526bddc296f17f1e61f2df9ab17a95"
+    },
+    {
+      "text": "公里",
+      "path": "audio/clips/429c9ce9a29f8d87f13f9650.ogg",
+      "sha256": "acc24d24674586217167bab9d83145f50ffcc9143b37330c7a089c9b98bad3cf"
+    },
+    {
+      "text": "六",
+      "path": "audio/clips/142c5081e1a40860aee95802.ogg",
+      "sha256": "76b84cc7179d8e4bc43dbae1d46a7aae8e9c85dd0dffdbb51d6e232d4eed043e"
+    },
+    {
+      "text": "六月",
+      "path": "audio/clips/e9de559e17f0c86d4acd9793.ogg",
+      "sha256": "e4a0e1728215b640e5617664129d9b234261601310dfe1bf9aad932fcd79b548"
+    },
+    {
+      "text": "关",
+      "path": "audio/clips/f4751a86608492f6402f3db4.ogg",
+      "sha256": "df8e83e20cf371367fa70b63e24ec4d6b8456bf5b7012c81edc77a3a0db02965"
+    },
+    {
+      "text": "关心",
+      "path": "audio/clips/4a90f12f3f8203d1b953fbbb.ogg",
+      "sha256": "bb11ff134e6b5c8aef04a762dc90ef6f876fac2f723285c131c21eb23a0ce139"
+    },
+    {
+      "text": "关门",
+      "path": "audio/clips/0284cc79646251e2c7a5ea0b.ogg",
+      "sha256": "70f2e2a1928b9e93b7b0d1703b64eaee0fd994d9e9082d9fa73dec924e323271"
+    },
+    {
+      "text": "其他",
+      "path": "audio/clips/181dbdf87a31915496db91ec.ogg",
+      "sha256": "9d624879774cbaec99412bead3d7f4a41b0ab459f11ab9a77fab52007be1d52c"
+    },
+    {
+      "text": "写",
+      "path": "audio/clips/7b04eeb9f55160904ae1fd3b.ogg",
+      "sha256": "4a9f87416208466628d97b034882860bb3bff607e80e2721f93ba67a7cb4530e"
+    },
+    {
+      "text": "写作",
+      "path": "audio/clips/5766426c12d431d0f0e61de3.ogg",
+      "sha256": "f1e5e6c4def15d2064dc192f0c0c0273655868d65fb21dce28582629aec1960e"
+    },
+    {
+      "text": "写字",
+      "path": "audio/clips/455711be49b26564b4219821.ogg",
+      "sha256": "a8d742fef75d437527f429e5dfd952e4dd93a052aeaa1a41f4d3603abfe66e8c"
+    },
+    {
+      "text": "利",
+      "path": "audio/clips/efd931348378a67f9eb93f68.ogg",
+      "sha256": "6f6b7d9df45b63aa5a3ad6b64d1776d4b426a9f165f116a37da1e79a8372dbda"
+    },
+    {
+      "text": "刷牙",
+      "path": "audio/clips/63208c447a6da3b6f9f3073e.ogg",
+      "sha256": "7d9e6cd49673dee4f5974c44a38378882980a4e23a4f5f6cab6f8287af691543"
+    },
+    {
+      "text": "前",
+      "path": "audio/clips/7d04904557b8608fc041777b.ogg",
+      "sha256": "bab879958e0e92974fa9c3b0f3a05a07bc0e92e152de9f71f0386b4b4ac5ac8b"
+    },
+    {
+      "text": "前面",
+      "path": "audio/clips/3d974343cfe389429bc85bb1.ogg",
+      "sha256": "e75a84c8473d0eba91ee7d254faf7fd49d270ebbed844491f1023bd6bcccbdc9"
+    },
+    {
+      "text": "包",
+      "path": "audio/clips/3b4d7679d71d0b31b2b76de8.ogg",
+      "sha256": "3530e96bfbb6b7320cae1dde8aa95ca14c29e5a65249457ada2387c978e87766"
+    },
+    {
+      "text": "医",
+      "path": "audio/clips/f7387fd4faf2a1b9b0524f40.ogg",
+      "sha256": "17175ca12aed87571a0841bcebfa2052d8513b61917ecd38c386cf5802bcca55"
+    },
+    {
+      "text": "医生",
+      "path": "audio/clips/34932b4069d204aed30ee9d3.ogg",
+      "sha256": "963f43aa5d4c388dd0eae123fee55fa70566930677b5b962526b476610ddbbba"
+    },
+    {
+      "text": "医院",
+      "path": "audio/clips/5336fa6393338bb1817b3c6d.ogg",
+      "sha256": "28eca8376c526ebd0c262ce6cc1cbdda3d4f3caec9e4194a48be61e857e33933"
+    },
+    {
+      "text": "十",
+      "path": "audio/clips/28face3b954a5f02c3f1b5ad.ogg",
+      "sha256": "f8ba9b1366f8127329db4a7ebb750ecdf01c3777eb1eef7b664044c7b1826bec"
+    },
+    {
+      "text": "十分",
+      "path": "audio/clips/f898d11f6c83e2199b7ed323.ogg",
+      "sha256": "6f8f746a9cbb5a6cdae248250969a9879bd41e6c311bb0d790ff749091790f45"
+    },
+    {
+      "text": "十月",
+      "path": "audio/clips/000118c39bf4a33e42b15445.ogg",
+      "sha256": "2fdd7f5faa2bb2bcb82bfbc8cf8075aac4c4479e720fdb17ae72ef57f92b048f"
+    },
+    {
+      "text": "千",
+      "path": "audio/clips/b54f88216cf05ad21777e5c6.ogg",
+      "sha256": "669f96a4f5403b35f078574b866568aa8baff51ffded5b6560aee44af15432c4"
+    },
+    {
+      "text": "千万",
+      "path": "audio/clips/97fa5a5d6c9671ca07a72024.ogg",
+      "sha256": "0f2eb4ce56f3005b52b14c4ca8021c6edf862525f1b5c0a26dbc15cc9bfd5128"
+    },
+    {
+      "text": "千米",
+      "path": "audio/clips/74c0ccab3fc64bad39e682fe.ogg",
+      "sha256": "b60d133e4569c7408c2adfdbfda2f8d2d4b4139da292f020a7bfe229a7314d9a"
+    },
+    {
+      "text": "卖",
+      "path": "audio/clips/6965a261f1da546e53255828.ogg",
+      "sha256": "8d7e1023d75fd9be295d439901fca95ebcd987f1bb31730ecfa862a12d18aee9"
+    },
+    {
+      "text": "卖出",
+      "path": "audio/clips/012806bfdad3e034abbd5ee9.ogg",
+      "sha256": "051f2a7b8439e2e0777f2c3b89cf1338ebb8ebbdfb81af74984ace0397fd4c3f"
+    },
+    {
+      "text": "去",
+      "path": "audio/clips/f2e001174d1a96bbf9824060.ogg",
+      "sha256": "9ee844c8a55f779ac8de2546fb631ce5181cda61472af81363dd8f351989a03d"
+    },
+    {
+      "text": "去年",
+      "path": "audio/clips/6d6988758c48ea082af922eb.ogg",
+      "sha256": "4a6390cd70c923a2ce9e8a122e90e9704b97b665c685c00622a34c38c080f28c"
+    },
+    {
+      "text": "友",
+      "path": "audio/clips/83cbcd821d8b89cb100b36cf.ogg",
+      "sha256": "56812bde064565c0b82dc263d01c1e6e5fbf4a340291e6270ec0ae49a449e2fc"
+    },
+    {
+      "text": "友好",
+      "path": "audio/clips/fcd84f4674577379cb8eae98.ogg",
+      "sha256": "9d9ec834c567a1bf5aa9efc0411d3546f7540f1436a12faf30e0980a6a7a4aa9"
+    },
+    {
+      "text": "发",
+      "path": "audio/clips/89c9f969802c37f89dcafef2.ogg",
+      "sha256": "64603bef1af219c8c2d67586371c99de275bfedd89ce83d94b466905359007d0"
+    },
+    {
+      "text": "发现",
+      "path": "audio/clips/d15257fac713c890a76de2e2.ogg",
+      "sha256": "0e1a0557d1eeb1f9d2dd0a1464619a822f9e51d3b6abd259c4a11828bc015d41"
+    },
+    {
+      "text": "口",
+      "path": "audio/clips/a2604bdf683ad70dee14a930.ogg",
+      "sha256": "a82217c2696f4b0a7050dde7020166476270ceac1b2f37b547989d26626da38b"
+    },
+    {
+      "text": "口水",
+      "path": "audio/clips/8f533b34b89668b11742b5a6.ogg",
+      "sha256": "05c37a907a199d075e110bef5b955b26380d2adb0c648a259607430262c87f5e"
+    },
+    {
+      "text": "右",
+      "path": "audio/clips/303258e17d0a89e444bf1fd5.ogg",
+      "sha256": "40da88a17fcb4c17c932928de478f2675f6648fbfc3e4007a7b0cdeb558ff081"
+    },
+    {
+      "text": "右手",
+      "path": "audio/clips/cd7c9f6d67ed4cb60953bad8.ogg",
+      "sha256": "7386a83fabb258cbde38b9a677e64ff8363c43fc0beac438ac6c87e21df48e76"
+    },
+    {
+      "text": "右边",
+      "path": "audio/clips/b6d9514ddbb3554be655cb90.ogg",
+      "sha256": "e28fc5f59ee92e418a9db1ad65db86d1afcb98af8e0261b1c236aa3c3e37400e"
+    },
+    {
+      "text": "吃",
+      "path": "audio/clips/306e31875ca9ebccc2710f34.ogg",
+      "sha256": "de453b5c53ee4368cae72e3da3a54edf749264f828bd45cf788fc5472ae0651d"
+    },
+    {
+      "text": "吃药",
+      "path": "audio/clips/63731ca08945f08db4ccc78a.ogg",
+      "sha256": "8eeb097984027119645fe7b2119e8979959019c11f5b98811c60383e498e5b12"
+    },
+    {
+      "text": "吃饭",
+      "path": "audio/clips/2652fb758074be66f735fd62.ogg",
+      "sha256": "fb397667f5f8177ba93e5f505ec664fcaf1c6b8e71e2d394f3aae6f05a25e3cd"
+    },
+    {
+      "text": "名",
+      "path": "audio/clips/152f09ec57c8e5cbe90e9e8f.ogg",
+      "sha256": "1dcb1df61d2d07a505601a6c80d53ac57b2538f3dc7ed213d97be98506988b4b"
+    },
+    {
+      "text": "名字",
+      "path": "audio/clips/16e14296630dec8f73472b6f.ogg",
+      "sha256": "506945d99ae007c8f5f6cdb1b4d121804af77ac7728064f6a5b166cbcfa189fa"
+    },
+    {
+      "text": "后",
+      "path": "audio/clips/83ea4c54bbe2316cc3b8bda1.ogg",
+      "sha256": "991d9bc589a2a39940d57e723a4ece96e8170da71d95b159fdc6b824ee5aae90"
+    },
+    {
+      "text": "后面",
+      "path": "audio/clips/7fa37cbe090107ae89ba5d7c.ogg",
+      "sha256": "bbcb87ac66e9a07d503b6852e89e6359c5411eb89c7bc185c443afb93ff9c153"
+    },
+    {
+      "text": "听",
+      "path": "audio/clips/a9d723bf1d994b6e70190131.ogg",
+      "sha256": "0c7c7f3678f8a5e7408f0a3d35f3114ed267046007a7c98713c2cde275e24341"
+    },
+    {
+      "text": "听见",
+      "path": "audio/clips/ea2bef3b668e9e097f908cf9.ogg",
+      "sha256": "4db755fb75432f13b51db1cb4a2156bdaef41d8b68b54eef78f2c8c2a688214f"
+    },
+    {
+      "text": "听话",
+      "path": "audio/clips/1d7ce88aca6281b675fc8fda.ogg",
+      "sha256": "0d186ddf02ad7b255b0f6f086ae89727e181aea0a27ef61360b39080ccb61bbd"
+    },
+    {
+      "text": "听说",
+      "path": "audio/clips/d75eb8de18dabdc9a999a82e.ogg",
+      "sha256": "20372a43b721cdfb9570949316cc7426cf3bdb145b211eb8b357c5462a599bc4"
+    },
+    {
+      "text": "周",
+      "path": "audio/clips/47251509b768517b8b333bf1.ogg",
+      "sha256": "9d81f31bf045591fd0faf16f9d4184f045a3428c637809c8f7a3c90bc5be3e43"
+    },
+    {
+      "text": "周围",
+      "path": "audio/clips/b34b6de82938bce9379ab514.ogg",
+      "sha256": "1282a38f3742f19be1fbe13d55e0b86a9f4d3b2843fdae52dc66e04e40f31882"
+    },
+    {
+      "text": "周末",
+      "path": "audio/clips/8e4fa49f8074172c69c68118.ogg",
+      "sha256": "653b876fe7fd8b7160e847514c03c606ccaeaea7cd76ecc0e083a958a568685f"
+    },
+    {
+      "text": "哥",
+      "path": "audio/clips/cb52d0c3db9a6b59b6e48f48.ogg",
+      "sha256": "8fcd4810bf3f1d416a2d6c579279242e2d42fa29edce17869bf066bda71882ea"
+    },
+    {
+      "text": "哥哥",
+      "path": "audio/clips/ae332648289a7cdc2ea456a9.ogg",
+      "sha256": "9f11966befac08015a24c052ad0f39ac9d751284b5fc62fc9187a4e55f7a3687"
+    },
+    {
+      "text": "商店",
+      "path": "audio/clips/1a0f61daf6895fdc58562f40.ogg",
+      "sha256": "737785972e3831c5faf20bd44a1b5d058b4edc56eb9807e9a0711148b8df1296"
+    },
+    {
+      "text": "喝",
+      "path": "audio/clips/63144ca951e3e228e6001674.ogg",
+      "sha256": "01c330e0f7e7cc196ca9a707626ade7794a957bcb4c0cc7921e392af2d727e62"
+    },
+    {
+      "text": "喝茶",
+      "path": "audio/clips/948a4add03e7b07052b2c6a7.ogg",
+      "sha256": "2bc00b681c710962f0bf1e30d0cff266a899aca58b919086a661b8b693ccefd7"
+    },
+    {
+      "text": "四",
+      "path": "audio/clips/bc19a1fb8181fae4719aeba7.ogg",
+      "sha256": "e1e4bede227c88c17ef36b6337454e8b469269919ebc8c3df527de19899c088f"
+    },
+    {
+      "text": "四季",
+      "path": "audio/clips/3a7f662614128e306a026a7e.ogg",
+      "sha256": "7f12c11032580ffb8bc00f7d0b018032a4d50dada35ea20f83146855cf181b36"
+    },
+    {
+      "text": "四月",
+      "path": "audio/clips/f4f740749cd08b5faa49998e.ogg",
+      "sha256": "241c18cd7f5dd84710303ed95d5874e5ab2d7507d668af94271ea89420329f59"
+    },
+    {
+      "text": "回去",
+      "path": "audio/clips/194503e57394b08ff34aa5b9.ogg",
+      "sha256": "ada3d96c224e56276663d51cb58c4ce0b83c9234dfa97218bfa5ae8e767f568a"
+    },
+    {
+      "text": "回来",
+      "path": "audio/clips/c62c107bee73ed14c7cfc156.ogg",
+      "sha256": "19707461ed598b0df6e01fc53c528d6e310fd984ad6bac5b0fff57a960095dd1"
+    },
+    {
+      "text": "回答",
+      "path": "audio/clips/664e8c2c62084f8048476b87.ogg",
+      "sha256": "c2a2aa6bcaf2c615bca94dbba45bfc70659fbc1e3e908e1f854086a0a038feaa"
+    },
+    {
+      "text": "园",
+      "path": "audio/clips/4cb6f7422cbee17279f26afc.ogg",
+      "sha256": "a5f0268b35300bf7f2eaff3bdf32f083f39daa75c46d5a7d18352d7f08423d6e"
+    },
+    {
+      "text": "国",
+      "path": "audio/clips/fa416491df93fe48c56a9bec.ogg",
+      "sha256": "bd63d712d16b1a5b13a2088b769de167340a18c8a3cd305dd913f67031484e50"
+    },
+    {
+      "text": "国家",
+      "path": "audio/clips/21ffc774b9b615b75ea94441.ogg",
+      "sha256": "3b84eb6ba1a4cfe742e41178b90b2dcee05470788dd48b5f08833668d21ed63b"
+    },
+    {
+      "text": "图案",
+      "path": "audio/clips/62bbf008893b98538dd31e00.ogg",
+      "sha256": "38f8c9871136b8e43061cfcfdde60c94f3f4dfe76ceda3cd3d74507441e33a55"
+    },
+    {
+      "text": "土",
+      "path": "audio/clips/4f65bcd81e9978badf6f9eaa.ogg",
+      "sha256": "2f803f0e4771d00a0457c11873731d2fa3000ef825b9fc4764e347d177ef532c"
+    },
+    {
+      "text": "土地",
+      "path": "audio/clips/ebb5fa0d289c9aca78daeb59.ogg",
+      "sha256": "43b283f50815e06fd05d57a41f87421fa876b63ff2f0cef8b4e537bfdc6cdbf7"
+    },
+    {
+      "text": "地",
+      "path": "audio/clips/906e3fcbcc4ee6962bb6ffa6.ogg",
+      "sha256": "3454af54df1cecf92784c051f38faa0fa38e2d59a78e50069ad56dad214e0550"
+    },
+    {
+      "text": "地图",
+      "path": "audio/clips/4ca5b2a2f6276185c5238028.ogg",
+      "sha256": "368950d54cfd68a1739a617bdae922b101570f17811edc3218e4a34764193534"
+    },
+    {
+      "text": "地方",
+      "path": "audio/clips/ff8ab0894cf1de53655d0145.ogg",
+      "sha256": "76fcf0314190762f390acbfd247e122ea281fc9f166bafe1d63207882b4c9454"
+    },
+    {
+      "text": "地铁",
+      "path": "audio/clips/83edbe494d2508f16762070e.ogg",
+      "sha256": "f211740d2aabc17f5dc0278f2e32cde0803e7a448e976781c6fb232170311353"
+    },
+    {
+      "text": "场",
+      "path": "audio/clips/58fe6d54b38e4953fb2db98c.ogg",
+      "sha256": "c9e8e6cde5363f4f77166ce9a0ad4b22cf54f9c206bcc24b143d541b7593fe47"
+    },
+    {
+      "text": "坐",
+      "path": "audio/clips/63dc94b529e1d64008d8b2cf.ogg",
+      "sha256": "c688a75fc3b00c0480b587050d425772171758cac6ae4ddb24355022c8e55387"
+    },
+    {
+      "text": "坐下",
+      "path": "audio/clips/b75b99112cb5c8dc7387d88f.ogg",
+      "sha256": "8b3181495f9540b691920a9548fa258f4a9ab1a58f3cab712c363c65a0003428"
+    },
+    {
+      "text": "坐车",
+      "path": "audio/clips/094de62dc3624278e040ab32.ogg",
+      "sha256": "7063c69b14a248b40b1e61dde088108023d1fd1e8ce2ff78bc939f3cfff6826b"
+    },
+    {
+      "text": "城",
+      "path": "audio/clips/1be7ef408d452b229ccdb61f.ogg",
+      "sha256": "8e2c17b52f2abec7d4048191480525255fc90bea90dc7ad3e1944782e9948501"
+    },
+    {
+      "text": "城市",
+      "path": "audio/clips/fef459345d18cd8d1459cc05.ogg",
+      "sha256": "8fd90412828b213bc265f1b26f9887a29a194f5352fa6a0ba60a09b4a93ac674"
+    },
+    {
+      "text": "外",
+      "path": "audio/clips/36157f15e35e63e5488d1a53.ogg",
+      "sha256": "61ab919b8b6090c63134aa036d9fa650edc6366acd8d974f8b0748682c031cf2"
+    },
+    {
+      "text": "外国",
+      "path": "audio/clips/1e916e6dfac8cae4047e048b.ogg",
+      "sha256": "c1941808f7a1e01b0d6b8aaaecef602e9368c45fe014b80b0830f9d3e6f5734b"
+    },
+    {
+      "text": "外面",
+      "path": "audio/clips/67b2064d36cc2ff2c2320e99.ogg",
+      "sha256": "e50b519653a43caf89559fde92200e2d7ebba53a4dd42a1b72c6163043aaf001"
+    },
+    {
+      "text": "大",
+      "path": "audio/clips/f057e4efb423a481afa70468.ogg",
+      "sha256": "88b3ec649cf00bf18b5c9744f63c084f894dd9833b4ad8c62de583c45da90584"
+    },
+    {
+      "text": "大人",
+      "path": "audio/clips/31754aac442ee22d6f5ab819.ogg",
+      "sha256": "da915d049677e74e7e6ec5ac13712a4e1d7b1ffd5e6efaa583120ffff47249b7"
+    },
+    {
+      "text": "大哥",
+      "path": "audio/clips/eca6e790dca12e34d4a2f4b3.ogg",
+      "sha256": "36853959951ad6aa4e8d12d826be556ea46e9ae0600af0cb660e3f2e9ffcd7b7"
+    },
+    {
+      "text": "大姐",
+      "path": "audio/clips/05eebb1cb517d3e0a8054a6a.ogg",
+      "sha256": "58e5dc8117511da48f669816e0d963f2aca0aa554da842b60f1d2f0ad3ea5acf"
+    },
+    {
+      "text": "大家",
+      "path": "audio/clips/a8aaead85c3e2d112e5531dc.ogg",
+      "sha256": "2b5bf5fecbfa3438509b86aa4eb75b2b0029503fed543d89e3f90ba600e0ca51"
+    },
+    {
+      "text": "大小",
+      "path": "audio/clips/4abf09a551a23d37a4488dfa.ogg",
+      "sha256": "0cec64d269e94ffafb6fa7a9e7308f3b4e95e7e9a973ace66001e0ac20c7367e"
+    },
+    {
+      "text": "大海",
+      "path": "audio/clips/2add62a678ecffed10a4b407.ogg",
+      "sha256": "cc428f9bcaf0891f3f98fc1cd92bfa2db9704e1dabadf2a02506fa8f808d0237"
+    },
+    {
+      "text": "大米",
+      "path": "audio/clips/26848d15b0792469047d4a66.ogg",
+      "sha256": "de443567a34bbd60541267fae324a32d886ce7256594447f2fffa907c8d0d7e2"
+    },
+    {
+      "text": "大门",
+      "path": "audio/clips/4607f2c5afa87969ffc48519.ogg",
+      "sha256": "469ccc46d8dcaa7cd0fb9ba20686b7764f2383a586c8b176212fa5429c74460f"
+    },
+    {
+      "text": "大风",
+      "path": "audio/clips/04d9bd4f4b15b9e63bc22268.ogg",
+      "sha256": "77de988125d94022d862b680d7e1bf68094120bf3efa466505f64cd282f4ea34"
+    },
+    {
+      "text": "天",
+      "path": "audio/clips/777602a4fb716c3f0e406dbf.ogg",
+      "sha256": "18ad0fe75790868bf14d27202cb914d453c475232b374a6c4ac532878869e7c5"
+    },
+    {
+      "text": "天气",
+      "path": "audio/clips/fb46b69fdc24317c35513726.ogg",
+      "sha256": "ebd1cd32987c9c201f1c42a51337d68528d5292d217c7a083f624262d2fe666e"
+    },
+    {
+      "text": "天空",
+      "path": "audio/clips/653f733aef5b60ecf426612f.ogg",
+      "sha256": "2f2486f7adf017dae5140ee76cf76992ba6c9ad7d21b2e60a334c388b5e8e46f"
+    },
+    {
+      "text": "头",
+      "path": "audio/clips/34c7c2bd51f2f11d5b16b989.ogg",
+      "sha256": "d20231b98862d9207587e821e678e0c3417aa6c0c4e84fcf6c43c4b0c95cbb8d"
+    },
+    {
+      "text": "头发",
+      "path": "audio/clips/ffc615672022001864ff022e.ogg",
+      "sha256": "0fd8aba804c473d0d5709822c8f2b63262739ae6c1ff0d4e755bb94cb83c0754"
+    },
+    {
+      "text": "女",
+      "path": "audio/clips/a741f2d59a9d1e717d37448f.ogg",
+      "sha256": "ce05767bdac37bf9570ea066c60b3e3abaceaaaea721b42de81a525d8fe73b00"
+    },
+    {
+      "text": "女人",
+      "path": "audio/clips/401593cd96101677d3dc8fa2.ogg",
+      "sha256": "f261a578d305c46c7a73892854da72c5a8fec5b551217d42a5fbc943550ff90c"
+    },
+    {
+      "text": "女孩",
+      "path": "audio/clips/118f443ae7fe12e8b6487ff5.ogg",
+      "sha256": "8ea2daa1396befea97efe155d1516c3eab70f06b8e1ce0fd30c07b9808a6be29"
+    },
+    {
+      "text": "奶",
+      "path": "audio/clips/8e3b73d42c90bc03ff994df6.ogg",
+      "sha256": "689f6facb108f9ec845cfb0705a1dbec81cda67bb7dbdf4cd1d144d0cd62cb38"
+    },
+    {
+      "text": "奶奶",
+      "path": "audio/clips/326eed973420be8259b046cb.ogg",
+      "sha256": "12a710740302ddc39ba71c477664c9f848d56c0eb483f55089f37df3b9997782"
+    },
+    {
+      "text": "她",
+      "path": "audio/clips/9bff51918651809779c3f984.ogg",
+      "sha256": "58804ac28a803d2c73c0ec512d9f289ceee8094ffba338db452ce35be291cd95"
+    },
+    {
+      "text": "她们",
+      "path": "audio/clips/9ca167903c1ac8d6fe749943.ogg",
+      "sha256": "dea41185a519cd81dab076c4a8ff1450f52e5952500128a8341086dabd496cec"
+    },
+    {
+      "text": "好",
+      "path": "audio/clips/8b9125d014b4215393a3e02f.ogg",
+      "sha256": "f86aebd34f2c981e74dddb950217d978cede9d52ad70e6acbfaa27d60dce3870"
+    },
+    {
+      "text": "好吃",
+      "path": "audio/clips/34e09c22e60bf3e71e82b45b.ogg",
+      "sha256": "564c5b24013890f5570a9bd661c30991d415ae779e1974f6e86b74669693181c"
+    },
+    {
+      "text": "好喝",
+      "path": "audio/clips/e7f2fca633302ed1720919f3.ogg",
+      "sha256": "1d42de33d6bbf4689a27c5d4e262c630a5dd3dc7f7139adfb44abcba026e5f64"
+    },
+    {
+      "text": "好玩",
+      "path": "audio/clips/e9e94d515aecab5bbc062384.ogg",
+      "sha256": "7ae252c0202d2d9a41ce11eb29ee2bea0a4e1107d34dafc89bb6c582a02cefeb"
+    },
+    {
+      "text": "妹",
+      "path": "audio/clips/bb6fb4797adc1f719361432d.ogg",
+      "sha256": "6032bbbe5b93550cddc1e5b95587864998d86715429b3fd28514b3cc86f477a6"
+    },
+    {
+      "text": "妹妹",
+      "path": "audio/clips/78858cdddd894d2d84b0ef18.ogg",
+      "sha256": "18ba7e33b5daea0da29e68b2ce2c3a717666f424f71f0cedeaf7de9c1a23688d"
+    },
+    {
+      "text": "姐",
+      "path": "audio/clips/e764939b5a6b8a7bae936cf5.ogg",
+      "sha256": "6858b601693ef6c8b9261c3bde0bf9259affdffb6c44e13aade8496302b1cb9d"
+    },
+    {
+      "text": "姐妹",
+      "path": "audio/clips/4dcd90640a401ffa44e1a8da.ogg",
+      "sha256": "877fc4a8c0c3f1ae6d80219fda6223f76f3b7f21498113f1248199b3f4b5f65e"
+    },
+    {
+      "text": "姐姐",
+      "path": "audio/clips/557307afa8ebf0d7a6974299.ogg",
+      "sha256": "2e8cd5c38fd9aa2ffb64116657c87939ebeb0d969391639405ee017063de6a31"
+    },
+    {
+      "text": "字",
+      "path": "audio/clips/cd93c92ba5126498b1cb4309.ogg",
+      "sha256": "3754f08945fddf25891ede196b299a07b393117916da60a5d35173f2e4f73ce4"
+    },
+    {
+      "text": "学",
+      "path": "audio/clips/9f404a85f6a5eec247097440.ogg",
+      "sha256": "3159ec2a4ac733b8d95da5ced7be8a3eaef54338e3e1324a095b73e98f9041ff"
+    },
+    {
+      "text": "学校",
+      "path": "audio/clips/5cc5ebc31cff025600ac7e6f.ogg",
+      "sha256": "2a44da1b0476e9e97a19971dd1b1a4123eaf1b2bf1006894bd074d7456d501d4"
+    },
+    {
+      "text": "学生",
+      "path": "audio/clips/422842816cf1ec09cee59691.ogg",
+      "sha256": "a81528acb45257a66e6adc4e9d19292ee7f3a4304b7b4b8f6c369df822771ac7"
+    },
+    {
+      "text": "家",
+      "path": "audio/clips/a61cf82b004232255895c94e.ogg",
+      "sha256": "deb9d76f66547d34ec27e0b0e2c1973e02e1f566a7199af3c4e86bb1b2914da6"
+    },
+    {
+      "text": "家人",
+      "path": "audio/clips/69e8a13fc2aff94eda77818b.ogg",
+      "sha256": "d3e92b5cbdbd18f4d721471b5c01b051ab96413eb707b41c8dd44974238f825b"
+    },
+    {
+      "text": "小",
+      "path": "audio/clips/62a298e58f2e1f90e90a0164.ogg",
+      "sha256": "c9da1800a999e166d51e147a256fa0f1d27d927105a2b76fccff890566f10d6c"
+    },
+    {
+      "text": "小孩",
+      "path": "audio/clips/19d2e39c49429323e64941bc.ogg",
+      "sha256": "9d3f4560bc3c48eaf2df9973a56a7c149cae03344568fb6995a8328c1bbc6f08"
+    },
+    {
+      "text": "小心",
+      "path": "audio/clips/575973f9fe2f109f6eac46e6.ogg",
+      "sha256": "4c3e4ab522f9e6d0b9e3e7a7a2e426afec6377c33cbeca03dbe1582a751b6e56"
+    },
+    {
+      "text": "小时",
+      "path": "audio/clips/8a6be0017f7567aebfaeb58a.ogg",
+      "sha256": "72a27f1e06bdd0a62cff35ff4928a93681e50474050d1c403aa931574867392b"
+    },
+    {
+      "text": "小狗",
+      "path": "audio/clips/91850d7e25e8513bd05a8205.ogg",
+      "sha256": "2fab9282ca07436ecf6d26f1bde04e3f130bb3292e037ffd9261fa3c8723c8f7"
+    },
+    {
+      "text": "小猫",
+      "path": "audio/clips/24a0365c02d59e6137bec700.ogg",
+      "sha256": "3a1ef8842da0425fbed9ae254f8e4b465855e20520ca7cd74252b1e50ed486ef"
+    },
+    {
+      "text": "小船",
+      "path": "audio/clips/eea436757a9f5430f202db20.ogg",
+      "sha256": "978c9dc66069a7a02685970ad5c5b570952aff9fc90ab4106bf70c8a94332fe3"
+    },
+    {
+      "text": "小鸟",
+      "path": "audio/clips/5f04d3bfe9a642519c490de7.ogg",
+      "sha256": "cae0a3b66d51b11632be271e9db6e0542b7cfb0d95784d81cdc51a830330263f"
+    },
+    {
+      "text": "小鸡",
+      "path": "audio/clips/330dd61743229b871f2371fd.ogg",
+      "sha256": "2c58cf61f0c959b25341ed7d53a91ea818659fcf36830f9f2ba5d8dea65b3fde"
+    },
+    {
+      "text": "山",
+      "path": "audio/clips/84ce90acf32743c584d706ad.ogg",
+      "sha256": "ccb53ea145097e8f17cf150407571d26478d571cde1634ec7c52bbdda566d31b"
+    },
+    {
+      "text": "山羊",
+      "path": "audio/clips/62a74ea356f665663987cc71.ogg",
+      "sha256": "a2af6b9667d8d651a34acedb9758b081722bdb4542037a7fba5110ab232e3be4"
+    },
+    {
+      "text": "工",
+      "path": "audio/clips/97ce6edb198696eebac94b87.ogg",
+      "sha256": "f2927437807013a8c24acd129497f5fffc636b76122716e8a802601e25b773cf"
+    },
+    {
+      "text": "工人",
+      "path": "audio/clips/fde8ab5e3f1adbef25ca7d94.ogg",
+      "sha256": "299259a159c5c3f393d60cecacaaa4e4d95e1395483ea340af9a003b7f4b1870"
+    },
+    {
+      "text": "工作",
+      "path": "audio/clips/b16004269978150ff85dec81.ogg",
+      "sha256": "81e8220a4ad7046e87900285e647b8f2efefcf2f3d146f3f1d7372821110ba0a"
+    },
+    {
+      "text": "左",
+      "path": "audio/clips/d68caeb78a6497aeb7310c77.ogg",
+      "sha256": "2c09b6f9311b7972ea76fc72d7ed9342276d37d57bf7c02f8f1d844f9c960c0a"
+    },
+    {
+      "text": "左手",
+      "path": "audio/clips/40836de21c70a2009e2f049f.ogg",
+      "sha256": "fa20089233c5cf55239ff7816d07e1d423289310844eb1ee7d767843ad6655b3"
+    },
+    {
+      "text": "左边",
+      "path": "audio/clips/f8b0fb23bbadad2654f0159b.ogg",
+      "sha256": "f74e26cc6413036d7c75f0a99c7479490bb63a33c01d1d304b11ff8f464dd3b6"
+    },
+    {
+      "text": "市",
+      "path": "audio/clips/8e41d2308d79206277c84d9d.ogg",
+      "sha256": "d23cec559e6ef3ca3947da07fa4e64cbcd999e588961d243978280a380344c0f"
+    },
+    {
+      "text": "市场",
+      "path": "audio/clips/9f5355973a041ee0e2d3b7e1.ogg",
+      "sha256": "d70cd96a5c8d4c802344d4dd68ff1960609a0e6109ccc512ce3d3ae4bb4f0f10"
+    },
+    {
+      "text": "师",
+      "path": "audio/clips/d8060bd52a45efc4d4f24bd3.ogg",
+      "sha256": "687ed5be63b8b27a4337f044965f9b424b69f3580443f2fbc4f76298f590e711"
+    },
+    {
+      "text": "店",
+      "path": "audio/clips/f0dbfdecf8be0948aa0db30f.ogg",
+      "sha256": "a095ea91f7a2d7b9ff36962aa6f6043ea27a4c38977a00623945e7556f8d2e3c"
+    },
+    {
+      "text": "开",
+      "path": "audio/clips/c95e0043210bfd484254aba5.ogg",
+      "sha256": "27f805bfd2b674f89b61eb1a21da68a7b5e890b8d269b8f9e59412d09f883d5a"
+    },
+    {
+      "text": "开心",
+      "path": "audio/clips/a7ba795ede5bea9c322a4609.ogg",
+      "sha256": "ec5fb3cd088ce1db1a5c4227f4b60f98dc81aaefccd2c3d821d0960b1bf52e9d"
+    },
+    {
+      "text": "开水",
+      "path": "audio/clips/fdc34199be99b7ffddb8cb5d.ogg",
+      "sha256": "bbb41df23a87e8a97359171bc69f3b50fcd2b8f30633b97c405631b265b7c4ce"
+    },
+    {
+      "text": "开门",
+      "path": "audio/clips/a31504402d34d5745933d972.ogg",
+      "sha256": "ee24dc3787d6f13781291f598f5e9a2ec773f29213cd64a64dab5bbda58d9000"
+    },
+    {
+      "text": "弟",
+      "path": "audio/clips/4a48bed0481e2b1a676a4219.ogg",
+      "sha256": "4c3e9f38045c57b3d28d4aacedb00d04c75e9001ee0ef205bcf8b30855e4fdc8"
+    },
+    {
+      "text": "弟弟",
+      "path": "audio/clips/ee00fe1727a35e0e6e12f0a3.ogg",
+      "sha256": "7492bff38427ccfab1b3835924322e98faff9b47b3d9d33865f7a821a59b8d66"
+    },
+    {
+      "text": "心",
+      "path": "audio/clips/f2498d81a10db9450cc7a6a5.ogg",
+      "sha256": "831094eb24779f38ae6b752a178e7f56d802df126a7b3f8956746bd712d41016"
+    },
+    {
+      "text": "我",
+      "path": "audio/clips/f51a53cc2fb7c7f5662ebed1.ogg",
+      "sha256": "26e39566915b6fd3a2802d46ef7fb45e29b5376fce6f9d136ca2fa0438cdb1ca"
+    },
+    {
+      "text": "我们",
+      "path": "audio/clips/14cec0698630eb97f2c7d59a.ogg",
+      "sha256": "97f83d726f6a6f1f23a2efc1904298190e3d73908fdcd0567a364dc336e45d94"
+    },
+    {
+      "text": "手",
+      "path": "audio/clips/8111c823b58f24dad584c430.ogg",
+      "sha256": "0e78bad59b5af28cbdf1a8dcbcbec1fd74fcdf44d09b9fd51088048a4bac79fe"
+    },
+    {
+      "text": "手机",
+      "path": "audio/clips/0a14532dfa0b91fbd9f7b1f2.ogg",
+      "sha256": "1f308a9ff59483860942c51925848e24138793c52aad389ae991ab8a9d458ce7"
+    },
+    {
+      "text": "操场",
+      "path": "audio/clips/c6974b84b9530d1dbe0127f9.ogg",
+      "sha256": "60e6b9aade3d4686897a4a9eb1837b8f8ec398ea9fd7d16e4dace16dc8d7ff5e"
+    },
+    {
+      "text": "教师",
+      "path": "audio/clips/7a28b3e0f56dd5d27d7ba17c.ogg",
+      "sha256": "a112686a0293927764af90314031f6c8ac7656143b22138529b9ef889a0b874a"
+    },
+    {
+      "text": "日",
+      "path": "audio/clips/d8062ab15b159f6bae821f08.ogg",
+      "sha256": "616f888e9d70a93066d704943ffbe2698edf3acbe335cdf9cc9de95e2a79263a"
+    },
+    {
+      "text": "日子",
+      "path": "audio/clips/92e2e71e75e7615e2ab8d21a.ogg",
+      "sha256": "2fc0479fadeb1ebaf97dc3b3d6c6c1db4d6e4aea75bf09b7d918fffedb28064c"
+    },
+    {
+      "text": "早",
+      "path": "audio/clips/e33de1f8d94fee58fbbee6d4.ogg",
+      "sha256": "4610cfddd1d4f7d9575653ea265bdbd389c2d66ed5c2a3b073a3fe7e8188cdc2"
+    },
+    {
+      "text": "早上",
+      "path": "audio/clips/49217cb87d3854903351206a.ogg",
+      "sha256": "5bb8dc2570bd46ce0daec94a36e464cc4cbeae125f64e93766ba355dcc48c1c0"
+    },
+    {
+      "text": "早饭",
+      "path": "audio/clips/fc5ad30e8edec57a01f4a463.ogg",
+      "sha256": "12eadb6a017fb478aeaa57ef2603f45486b6f685476d5f8e586663061f8a7a14"
+    },
+    {
+      "text": "时",
+      "path": "audio/clips/32bdc2b2b8d120748df030da.ogg",
+      "sha256": "74aa7b501ce0ab5a15e715318e84eece45680c282a82fe2a91f06f8215d96bde"
+    },
+    {
+      "text": "时间",
+      "path": "audio/clips/426ff2977248f5372c707650.ogg",
+      "sha256": "d0745869caa063361fd6fee28c56ef873ac4a63f63f02e01ab2a02e9ead5d797"
+    },
+    {
+      "text": "昆虫",
+      "path": "audio/clips/da6e1a2f8768e4361293ecc1.ogg",
+      "sha256": "6317cce199b6a208328d8df37e77b1d8c777be4c2492727f18f32695e3ec39be"
+    },
+    {
+      "text": "明",
+      "path": "audio/clips/4e39a39a488ca3aac3220c26.ogg",
+      "sha256": "f7ce21d695f05a11766a8f7d16bd0aed8d2d38e56215dee6d3f0dc1efd8ef8cf"
+    },
+    {
+      "text": "明天",
+      "path": "audio/clips/a1c3622252b046d1afb8d4d2.ogg",
+      "sha256": "ec830c39a8c593746e1a744289c9a7878fde18dead47aee47f9ca124aa0af924"
+    },
+    {
+      "text": "明白",
+      "path": "audio/clips/3b9d1edc78f8976063b224bd.ogg",
+      "sha256": "1b7880f3cade4fea46a1f5b3438e647694671131cfcf36847f2efcd172cd2b16"
+    },
+    {
+      "text": "星",
+      "path": "audio/clips/05a7a376e06d42816f89cea7.ogg",
+      "sha256": "976af96a1fc368f979631ce3af55a4e51a7aa83c60c6d9df0f12a46c4aed37e0"
+    },
+    {
+      "text": "星星",
+      "path": "audio/clips/0f609e85c401f4f3581b7a22.ogg",
+      "sha256": "871c0e46aa3440de9d7eee2a7381f7112b1f959a1b5fa6e9f8eb8967a53eb4d9"
+    },
+    {
+      "text": "星期",
+      "path": "audio/clips/fda899874d56f654a200be65.ogg",
+      "sha256": "2ec8a0c7b15a19a5d9c5b1a09caf7f087416e790d3c7136b201c5d323bce2923"
+    },
+    {
+      "text": "星期六",
+      "path": "audio/clips/5bbd8d8e7c4fb658ae56f6a1.ogg",
+      "sha256": "7b67265ab64ef41cd6b631ebb432d1aa47a462c4bba0f07918beb341280c13f0"
+    },
+    {
+      "text": "晚",
+      "path": "audio/clips/f85288addc387efbba34475f.ogg",
+      "sha256": "5446651c863fbe0abc6f9f8241a7ee23289eb0a4b6f0b5d5137cbf2716186709"
+    },
+    {
+      "text": "晚上",
+      "path": "audio/clips/1341ee1750a02712317068e5.ogg",
+      "sha256": "d12ca5642efa93bb4d19e28eb42e3554d37e70208c0853062b2553c6920eee7e"
+    },
+    {
+      "text": "晚饭",
+      "path": "audio/clips/b89bff0b31f7e79aa2e81fae.ogg",
+      "sha256": "fd3652e986cc309500eb7155d08e6c56f1c0dc73508030a490aa0c121fe40fa5"
+    },
+    {
+      "text": "智",
+      "path": "audio/clips/f1ef7db5918dc2426107552a.ogg",
+      "sha256": "4d4132513321bf3bc7fe24ea7718ded971f1c7d4433286ee8b016864b0b7491b"
+    },
+    {
+      "text": "智力",
+      "path": "audio/clips/e373d58a8348344f03b26809.ogg",
+      "sha256": "5aba559b50b51076390118617a990790d98483cd11ceeed0486cda84007c469b"
+    },
+    {
+      "text": "智慧",
+      "path": "audio/clips/c795756b60daa62435aaa56c.ogg",
+      "sha256": "665f9a075fc6ae940df76129de6d8086911ab45ce7523da268093f2fb2d0dd4d"
+    },
+    {
+      "text": "月",
+      "path": "audio/clips/a3af23155ab4cd766c99182d.ogg",
+      "sha256": "85683df777d8ff3464ced8a0f8b87ef1ad175ea18f71f675270da06d4a89f710"
+    },
+    {
+      "text": "月亮",
+      "path": "audio/clips/90afd0278f00fbc2166f0276.ogg",
+      "sha256": "0d4c360d37ece9eb8bb5895c35699e5c835a4987de7b5a0ff8fc52975e946356"
+    },
+    {
+      "text": "月饼",
+      "path": "audio/clips/3a8dcf5abc8195cad1cf2318.ogg",
+      "sha256": "bcf245d4c0934d966f3db13a343caf290187e97000491feb270052c532420eec"
+    },
+    {
+      "text": "有利",
+      "path": "audio/clips/9317da0eb8e5a26222ce711d.ogg",
+      "sha256": "ce34e363d25da0f5935db8a6724095e8313d753dab406093fbfc2c3d4ca06496"
+    },
+    {
+      "text": "有名",
+      "path": "audio/clips/08edba7bab6fae6b42130224.ogg",
+      "sha256": "4d2489dc6473dc4f2c5fda451307cccc3cb96cab3bf47ccfb466fb4aa232ed2c"
+    },
+    {
+      "text": "朋",
+      "path": "audio/clips/7e3b0f9bc7214f610d2b414f.ogg",
+      "sha256": "d48504beee0c12a8cc12c9cb8d0f0aa6e6f92755dbe3f3b875e352d0a5f136c2"
+    },
+    {
+      "text": "朋友",
+      "path": "audio/clips/0311f62b29c64c0ea4a7b393.ogg",
+      "sha256": "3b529b7523fa5295cb8829a76d62b28bb4e7286cdee8bf31aee098d7dc5ec3c4"
+    },
+    {
+      "text": "服",
+      "path": "audio/clips/4fc68a80c743d557835b5f58.ogg",
+      "sha256": "a6bba33ed1e8ac9c464f219bfe786a616749dd1a509a799bcd8659ce6d339043"
+    },
+    {
+      "text": "期",
+      "path": "audio/clips/d5a13762afb405da1d1b921b.ogg",
+      "sha256": "2b8a2869aab75f60fbb20c3717d0c47f1a39c4203f07906be7a7b1a3f5e83c54"
+    },
+    {
+      "text": "木",
+      "path": "audio/clips/1802ccaf0d714f534e67df7b.ogg",
+      "sha256": "13e332f61e89e115b64f50d89c0e28834805a49de57861591d1468047863db26"
+    },
+    {
+      "text": "木材",
+      "path": "audio/clips/acb051ce7c762d1b35c8a772.ogg",
+      "sha256": "25eb7dbdf13673160dfc5e1bf0328cf883de35fe206a57dcdbe5020aae463d37"
+    },
+    {
+      "text": "木马",
+      "path": "audio/clips/8a0c3a6ca372edf7947e99a6.ogg",
+      "sha256": "b183703778c3f08d9bd959af69fafbc83fa77206dc2e4cdaf086f3acca04324e"
+    },
+    {
+      "text": "末",
+      "path": "audio/clips/048aff6818e312efed2b1b46.ogg",
+      "sha256": "4bef84fd51990cc8113b492c5c18b86e23fa9ae9ee2051c969392289cad07fca"
+    },
+    {
+      "text": "末尾",
+      "path": "audio/clips/dbcfd23a928daf7360609698.ogg",
+      "sha256": "9ab1d85a4933e1cc3124782f338278028c9027ba60ec92330cbc6ab0889c99fb"
+    },
+    {
+      "text": "本",
+      "path": "audio/clips/d20995f67f4a40b8a506c230.ogg",
+      "sha256": "3d648423435afe1bfddf98836430eeadca819139dda9462d52a3e79e46994580"
+    },
+    {
+      "text": "本子",
+      "path": "audio/clips/380ce693256dbc2f66214f14.ogg",
+      "sha256": "b6f319eb10864cc8891d79d5bd8afcdda275fb0f8ae856225d38dea7162876e6"
+    },
+    {
+      "text": "机",
+      "path": "audio/clips/ce09fa550286dfbb7da5e2fb.ogg",
+      "sha256": "56dddac3fc6c7a8201f5b9987c60ee8e12f836dfc01625199413c44a47e83fd4"
+    },
+    {
+      "text": "来",
+      "path": "audio/clips/38214a07372db7f6a63afdc5.ogg",
+      "sha256": "141df24f56912d4be0c7dfcde694d74f37aa96df23267350c5011406cbe23639"
+    },
+    {
+      "text": "果",
+      "path": "audio/clips/586594611a11e7d898a845ff.ogg",
+      "sha256": "8ff3c79aad0f266c6d2271186108ff7760314703491fb863c1b4047afa62991b"
+    },
+    {
+      "text": "校",
+      "path": "audio/clips/5193b80a1e3090b770cfa2e5.ogg",
+      "sha256": "e2e5cd91ef9e5143b3bc6cb5b9a5026999c4a1df9ab532c7644f6e0199a3b1b1"
+    },
+    {
+      "text": "校服",
+      "path": "audio/clips/7a0c6802d3c6bf011c237f86.ogg",
+      "sha256": "795d04deeca750a8c55e7a39c7ca9031472ec69e68df7f478289fb67aa2bfc54"
+    },
+    {
+      "text": "校长",
+      "path": "audio/clips/9ec16a4b784f24e37b078020.ogg",
+      "sha256": "a5d9dc373952d8ad758402097a73a9a8b64b9992f43b6e9f6801642311597b0d"
+    },
+    {
+      "text": "案",
+      "path": "audio/clips/91cf50a1d8bafa147b9402d2.ogg",
+      "sha256": "b7e0b31578e46f94381baa685d859b87db8bf74afd7cdfd96c5f9edc16af28c9"
+    },
+    {
+      "text": "桌",
+      "path": "audio/clips/84716087fc60469f9d4c013d.ogg",
+      "sha256": "b46b84fb1a7970464f199747fc933c2a9efa47b17b3859452082f0ed4140310a"
+    },
+    {
+      "text": "桌子",
+      "path": "audio/clips/8a337a0eafe711cd012deb91.ogg",
+      "sha256": "422d08cd90181cce375ca0eb6234a26d27a46abe022b6f24a31a79afcf4712b4"
+    },
+    {
+      "text": "椅",
+      "path": "audio/clips/446fb98d02f79635132f1f85.ogg",
+      "sha256": "0b4b8e8031c218741d39303e467f7c4b7da6db749f70e1c2b071be09344a360f"
+    },
+    {
+      "text": "椅子",
+      "path": "audio/clips/2cc8ae5f6f651d4b387099a4.ogg",
+      "sha256": "be569f263ab3247bee8d7deefd730c12cc7d5df08c9d0c28c5dfe150de39c238"
+    },
+    {
+      "text": "母",
+      "path": "audio/clips/ee667018b5b27554ba500c53.ogg",
+      "sha256": "cedb053e203505ca487bbb6332bee217eea8f31e03f2acbc42435def4b86ac03"
+    },
+    {
+      "text": "母亲",
+      "path": "audio/clips/a58375650026fe37c30060aa.ogg",
+      "sha256": "52223f0a174c41fb324d65984cc1bb686852f439004f5e2c659cacdbbf5b9860"
+    },
+    {
+      "text": "毛笔",
+      "path": "audio/clips/c49e18106711f98c8e2582a0.ogg",
+      "sha256": "c6f72e16a0aae8f6ae2ec0373e898abb4f75f3923e93c2700a6c1e502c506968"
+    },
+    {
+      "text": "气",
+      "path": "audio/clips/487aefe38c793b85f4864378.ogg",
+      "sha256": "dd37e4939d076e49ea992c498f180a6ed79c9dc8892a8c6020bfdcb9931eba35"
+    },
+    {
+      "text": "水",
+      "path": "audio/clips/0c90023f7627d857275d9797.ogg",
+      "sha256": "0c4c6250d33d7057d4887293ec745f45ab721a6c49468640407dad43a830ec6b"
+    },
+    {
+      "text": "水果",
+      "path": "audio/clips/0e9604be7efdbc277681157a.ogg",
+      "sha256": "629b6fc8c56ae06c2cc703ef98c3888706ffef080a91568c170c47811e2e8291"
+    },
+    {
+      "text": "汉字",
+      "path": "audio/clips/cdd8fb62ced5689fc2d4454b.ogg",
+      "sha256": "56e5994dac8044cd083a09204692fd13dc0826a1b6f18b8df82c1575c7f27862"
+    },
+    {
+      "text": "汽车",
+      "path": "audio/clips/c15ed755085e2eb40bdc9a6a.ogg",
+      "sha256": "c9f81a65449a1508edcb06080bf399a997c05b8f62d42e65bc5d75c5296fc9ab"
+    },
+    {
+      "text": "泥土",
+      "path": "audio/clips/df3b061efd96446fd0e4795b.ogg",
+      "sha256": "39c8b31a2d564065eab24729894224073b8f04907a710084e42985e18627bd44"
+    },
+    {
+      "text": "洗",
+      "path": "audio/clips/2610ee63bb65d12a853798c9.ogg",
+      "sha256": "879b111af639593fa5479f3ba193d7d32062d37645d2a490c58207678a1f3460"
+    },
+    {
+      "text": "洗手",
+      "path": "audio/clips/5cd2fd950b049b30b53870c7.ogg",
+      "sha256": "be329c25510cbdb397e2a7cd6a9b517171fc09d4666be1f218921eb9bb6baa21"
+    },
+    {
+      "text": "洗澡",
+      "path": "audio/clips/e17987adc00c9028ad6612c6.ogg",
+      "sha256": "ec11a722c2af34afcf32f2129256dd0888ce46b62ea8772223f6336416a1a7fd"
+    },
+    {
+      "text": "海",
+      "path": "audio/clips/b013dafb483c32d09efcb67b.ogg",
+      "sha256": "a16971ac268acfc87dc4cda8b2dd5d686593f23956487cf651ac4ca3f04dec91"
+    },
+    {
+      "text": "海水",
+      "path": "audio/clips/bd9eba90bcd0195251ad77ec.ogg",
+      "sha256": "4a0fcdd3e4a00772c4cfe0d552a929f3736d8f7f4ab98b17595b6f8f3c292f4b"
+    },
+    {
+      "text": "火",
+      "path": "audio/clips/ad7da948dbe63033ce1347f8.ogg",
+      "sha256": "c6276d08164ad954ed1bc01fa586e40e070e7758023e6036ffb0d9df17432b01"
+    },
+    {
+      "text": "火山",
+      "path": "audio/clips/9f8ddbc327b343f972da077f.ogg",
+      "sha256": "c356e2b00175b6bb082c4cba960b7a10a5865444b8376dc4cf5f08a5f602c155"
+    },
+    {
+      "text": "火车",
+      "path": "audio/clips/c48433084f21de31ba8f014f.ogg",
+      "sha256": "4fd8d033efc89a179035d438ef47e8120520c79836fd95faf2cdbd757153a49b"
+    },
+    {
+      "text": "点头",
+      "path": "audio/clips/d07c763371b8ac3f20b4a1c8.ogg",
+      "sha256": "3cee5925a6a4762d66e579ad4f7e5c9917b983070d4c75ab8e97845a45a0ebad"
+    },
+    {
+      "text": "烤鸭",
+      "path": "audio/clips/3d7c6d2baec29b13f424d880.ogg",
+      "sha256": "392a8bcda4e172f4e4f6b8252a79db0a6393564cf0543f01dda93bb6900dcb3b"
+    },
+    {
+      "text": "父",
+      "path": "audio/clips/552335739f5e07ce55e81fb8.ogg",
+      "sha256": "d2c7802d29dd491fafff47765684df3dfce71983ab35ce5bee170a4be7c1290a"
+    },
+    {
+      "text": "父亲",
+      "path": "audio/clips/e62e334ad8c4971deb71a06b.ogg",
+      "sha256": "114f7f723cee04c27c778d5cfe28c5c08d739638289a3f569045463e13ffd7a5"
+    },
+    {
+      "text": "父母",
+      "path": "audio/clips/a3ae622505c15faa70ba6a90.ogg",
+      "sha256": "450ae07e4bf0f8ed14d6a248c3494c15ea28d095aba9b39d158b2ba02f64f6c7"
+    },
+    {
+      "text": "爷",
+      "path": "audio/clips/fd8b599d59dafa7e10b46a3d.ogg",
+      "sha256": "ec26163590fdca1c95c635d2bfe0f88ac4a108f57330628d259a1979c3a02923"
+    },
+    {
+      "text": "爷爷",
+      "path": "audio/clips/fe5218182dda966390f2bc9e.ogg",
+      "sha256": "3d54c6a28cbf4a6cf397112e9f72e34ffd2b5063c69a659a084a7ec34bce93dc"
+    },
+    {
+      "text": "牙",
+      "path": "audio/clips/82b6c9747a7bbbca25b4e32b.ogg",
+      "sha256": "75ad647865c5ce40a6ed29594c71f7ad98411371881f0a8f07cb21c86c39dac8"
+    },
+    {
+      "text": "牙齿",
+      "path": "audio/clips/6f8fc463a3144f61fa9b5f5c.ogg",
+      "sha256": "a916fe560d441fe5ac67ac77a72322cb6e87e44b97239abfcb27066682a927d2"
+    },
+    {
+      "text": "牛",
+      "path": "audio/clips/9779e7a4e1fa2b2b1af6d8df.ogg",
+      "sha256": "aae510cd9ad9e6f6cf9132db4fc14f9fe580fa0d620ab518752dfe6d1c319505"
+    },
+    {
+      "text": "牛奶",
+      "path": "audio/clips/4c75c504bb05cf64aa12532a.ogg",
+      "sha256": "2a5deb0dd7d366711ec48a8e2ce2cc7987a9fc9605f1d5a7c574e818b938da00"
+    },
+    {
+      "text": "牛肉",
+      "path": "audio/clips/fecc447da9a261ba205c2401.ogg",
+      "sha256": "60c02d171996f99bcc4a8c61ca06588070e874eab179bf5d5a9405b35ddd6cea"
+    },
+    {
+      "text": "狗",
+      "path": "audio/clips/a82589db0abed303d963b36f.ogg",
+      "sha256": "69f2310f5b58d0583154f40036f1aaf636e7bc7020882411c3c4b63fbb1965b9"
+    },
+    {
+      "text": "狗熊",
+      "path": "audio/clips/7eaba6d65b3fbf963acbbc11.ogg",
+      "sha256": "d7462dff7d77e131e6c43d6d512071ee78725fa6ebb1189b625e01a5bc2fdb4f"
+    },
+    {
+      "text": "猫",
+      "path": "audio/clips/5b3a05690ada2b6f6aca0f79.ogg",
+      "sha256": "0e8ddd5273edd83db8c13890f5d93914ac13a3f06f58d6ed447749b11245b911"
+    },
+    {
+      "text": "猫咪",
+      "path": "audio/clips/db9aab4ba35279c0ca9f376b.ogg",
+      "sha256": "effc304734c9925293e69fefc1ebed3c15b47cfa55d37724e1192e79e4afaca6"
+    },
+    {
+      "text": "玩",
+      "path": "audio/clips/6afda979980074afcd0b1659.ogg",
+      "sha256": "652784d4f6f89c1a3bf7deaae467d4024e9bde42636d35bc45fffbaba0a522f9"
+    },
+    {
+      "text": "玩具",
+      "path": "audio/clips/6818261c55e518c605c3010f.ogg",
+      "sha256": "cebf4171b12138b56f228015a52767cae46984a77041b224ac069173fa6acb13"
+    },
+    {
+      "text": "生",
+      "path": "audio/clips/4ea62e4cdab8f4a437dad7bc.ogg",
+      "sha256": "ada61631e7f4976d50508a262cbe9a1a07d4a4a8343f782990266feecbd26527"
+    },
+    {
+      "text": "生日",
+      "path": "audio/clips/c6a907aa73179d446e7d0f49.ogg",
+      "sha256": "929ecc3a4621c19d25c49185a4300f2a1a9cbbe603ebbef60c20f624c8663fd4"
+    },
+    {
+      "text": "田",
+      "path": "audio/clips/6d0fc477eaed3968e2c0f888.ogg",
+      "sha256": "b5c1c36afa9b999753ce113203c7b753baef36027865af9c315db2260190b5dd"
+    },
+    {
+      "text": "田地",
+      "path": "audio/clips/388558f7dfa1ca6c467b817f.ogg",
+      "sha256": "5a9d5596c28c8d7a67b853e14d9d0ca18609a30b0cae78f673a8b8a89a63076b"
+    },
+    {
+      "text": "电",
+      "path": "audio/clips/c0b54d79d5764f3b329b5c00.ogg",
+      "sha256": "25015b4133814fafea9efacfb2f02f4d73b2e8000fe07a2763481a301c7546bd"
+    },
+    {
+      "text": "电视",
+      "path": "audio/clips/3b6ffdb7c380ccda15349693.ogg",
+      "sha256": "77ac1fcfbde4f186af24dfad2eb036e6e4c492f034ff728dfa90e695f8a569b2"
+    },
+    {
+      "text": "电话",
+      "path": "audio/clips/109b88466410ec9801561df3.ogg",
+      "sha256": "ded6c3af5a938c10a1cdbd3fedea0d8b577a6787028b25367e847687d2baae80"
+    },
+    {
+      "text": "男",
+      "path": "audio/clips/c28070ff6e39d982b15ce936.ogg",
+      "sha256": "a6e94c96312cc7850676f132e0317a21757321a02642fc32b949e571116f3aff"
+    },
+    {
+      "text": "男人",
+      "path": "audio/clips/9f3d5b8cc781b8e609700800.ogg",
+      "sha256": "52a163154e818bdce2a47ebcecb84f38b6696256f67090b4fe9cb20da9f2af8f"
+    },
+    {
+      "text": "男孩",
+      "path": "audio/clips/5faf9d31fcb2a8fa06a67052.ogg",
+      "sha256": "d339a159c1a24d8eb6a4f2fc58ea4759f21c731bf75fac0a96cd9a6140bc384f"
+    },
+    {
+      "text": "白",
+      "path": "audio/clips/0e69368bfc0106eb1f67f1ed.ogg",
+      "sha256": "907cc335fe00ac00dd7e193ed7365347464389be34b55a901468ac453bb1756f"
+    },
+    {
+      "text": "白云",
+      "path": "audio/clips/0ea763dd125d67adf2e0ecfe.ogg",
+      "sha256": "cad0a51b8e8908323623f57c8919034f1d0f3c4b541e6be1610a4e77d11de3e8"
+    },
+    {
+      "text": "白糖",
+      "path": "audio/clips/52f37ae87c7c1e164138acc0.ogg",
+      "sha256": "1b9bad70aac4a7d609ff61eb801a986e0866a7681ec7f101007b867991f3f96a"
+    },
+    {
+      "text": "白色",
+      "path": "audio/clips/409c45ef11caf023babe91e5.ogg",
+      "sha256": "3d2d1208b802dba7f8403b5eaaca7d8bde7de75483ecbe7f2d6b2d79d808e647"
+    },
+    {
+      "text": "白菜",
+      "path": "audio/clips/0d9a5b945f76e6c775e99f6c.ogg",
+      "sha256": "cc5d7d855f43fecd88aa72283585239e199824649f608c9eccec31fe8c93a368"
+    },
+    {
+      "text": "百",
+      "path": "audio/clips/858fb26a26efb01c0a08b560.ogg",
+      "sha256": "9f1737603e640d424da11726f75314ecd492fec543f36620014c289c45b1d02e"
+    },
+    {
+      "text": "百万",
+      "path": "audio/clips/b5ed95b3e5d9b376b5a2156b.ogg",
+      "sha256": "74d9a0585b14e71decfba3248d4a2cdca37ea1f26d57cca8535b019e55a8e53b"
+    },
+    {
+      "text": "百年",
+      "path": "audio/clips/13d3c04f09666928ee81c6f9.ogg",
+      "sha256": "99890ad104fcc4ff1e87a3be3006f74eff68a86a1fb39ba1c76d1ea9c5c6a9c5"
+    },
+    {
+      "text": "目",
+      "path": "audio/clips/b648b384b31e4a48aa6ec628.ogg",
+      "sha256": "a82deabc45c8ea92fce4976152f79266f38f8e1ea55ff88ec34b8deebb38c011"
+    },
+    {
+      "text": "目光",
+      "path": "audio/clips/60017fdb21f1a4cadcfc06f2.ogg",
+      "sha256": "21cd0616cc18cd88cf14f6ff2236bda15056bfe959515ceda42f395a7dcdda21"
+    },
+    {
+      "text": "看",
+      "path": "audio/clips/8278479ac0f60ba09f9eb060.ogg",
+      "sha256": "35ee5b81470a6e66eee59895a74a3562f436d2432485dcc334a974d4a02de5b1"
+    },
+    {
+      "text": "看书",
+      "path": "audio/clips/0f1d7b304c0e5ad68abbce84.ogg",
+      "sha256": "fbb17a471648533e8cea39e45ba6f7fb0e5cacba6fa70b0e898c5486989a6c53"
+    },
+    {
+      "text": "看见",
+      "path": "audio/clips/3364ed83d8c3271345dc5237.ogg",
+      "sha256": "845f6100bc81fef37a41b8b5b3e3a9065b17509bcbb48a2aa290ef43c7545cab"
+    },
+    {
+      "text": "睡",
+      "path": "audio/clips/321b838293b878de0c128fbf.ogg",
+      "sha256": "dbc2b2e6285fd2eee987870f31e2da98f5e5b3e81b8fdb974e1dca15e79c86a2"
+    },
+    {
+      "text": "睡衣",
+      "path": "audio/clips/1d7fe75a417120bc4adebe91.ogg",
+      "sha256": "0cd855a67418cff9fd4f45170c325d5291a4bda83ac554655484ee7b9ea7ea53"
+    },
+    {
+      "text": "睡觉",
+      "path": "audio/clips/eea6ae64aa657771fe1f8a89.ogg",
+      "sha256": "2d1816b9a8da982b92b08417b0a71a5c907c667e76d46eb01f586e1e24bdfa7c"
+    },
+    {
+      "text": "石",
+      "path": "audio/clips/4ee8c8d6790141182ffce80a.ogg",
+      "sha256": "313c9907d87597c01098d7829a0b21414a78e7c2d73dd33a3571dc4a9dfb2ea6"
+    },
+    {
+      "text": "石块",
+      "path": "audio/clips/36f762deb39b3a7eb286c8eb.ogg",
+      "sha256": "9ebe52152b139387c060ffef11d8c48c0424d4ccbc52b329cec36f693efecd4a"
+    },
+    {
+      "text": "石头",
+      "path": "audio/clips/3d50b110cd9c46bdd13a50d5.ogg",
+      "sha256": "21f76851c17a38420a306b624d6d2b1100ae3ffa17cdea71665fa2e075746493"
+    },
+    {
+      "text": "稻田",
+      "path": "audio/clips/6497c50093ba1f333e556249.ogg",
+      "sha256": "0b22e7df70a397df73e2d44ad1c0226fdbf2693f67ed2d6e4fbec241641bbb9b"
+    },
+    {
+      "text": "空",
+      "path": "audio/clips/407aed755c8b7210875e19f9.ogg",
+      "sha256": "49c3bfbab8a42aa020ea88c5c0fba5c8fe5d51fd60a3bda37d0cc2b100f0d00e"
+    },
+    {
+      "text": "空气",
+      "path": "audio/clips/2fd7fb3e3684ec74632a8c37.ogg",
+      "sha256": "2dcf06621ef207623db9f5c1e19677fac8c252003b74a14cbdf28ebd7b4a1230"
+    },
+    {
+      "text": "穿",
+      "path": "audio/clips/0495ce5afa78cece6c265f78.ogg",
+      "sha256": "8b3e9b9be176d26450f3776a5b944671ee9de331ea32e51fea918b11785032e1"
+    },
+    {
+      "text": "穿上",
+      "path": "audio/clips/7337d61b049ab46f709a4a05.ogg",
+      "sha256": "bc32ffa5b85cd41a3dbb6eebeba48c9bd59291b4f8b50b88a5be3370106e78ea"
+    },
+    {
+      "text": "穿过",
+      "path": "audio/clips/aeabd71490d57c9315c45142.ogg",
+      "sha256": "70b6c0dca328179519c589550522a4fffecd64a6b67275e617421774d85aad26"
+    },
+    {
+      "text": "站",
+      "path": "audio/clips/ab68db6056edfa98640fe3be.ogg",
+      "sha256": "375ba1b1e440dffadc0f87673862015dd2af87d0a3a98d6f697bc567b040191f"
+    },
+    {
+      "text": "站起来",
+      "path": "audio/clips/12ab9655ec495c645c9245bb.ogg",
+      "sha256": "69a734bdd9eafffb119d667da66095d9f8978be103ebfc1522878488a281e87e"
+    },
+    {
+      "text": "笔",
+      "path": "audio/clips/ce44e366a78afc4062cde3ae.ogg",
+      "sha256": "88cbdb64e0c2d2922e230ae326dcbcd50dd03f930895c5d2269bac002961bf2e"
+    },
+    {
+      "text": "第二",
+      "path": "audio/clips/c0fd1794c00803c1aba9b170.ogg",
+      "sha256": "3cc9f988b66ec6752108dc06968f2cc70b5c33f7caa2bf53ae710a430ca77ac8"
+    },
+    {
+      "text": "答",
+      "path": "audio/clips/b82c26b325c1969c09c61a37.ogg",
+      "sha256": "0eb4a95ecaf547c5f276e1416d40c362e1c54a769257443b72b4c8c124cecda8"
+    },
+    {
+      "text": "答案",
+      "path": "audio/clips/d2a82a98467896f208ec6a57.ogg",
+      "sha256": "bb7400b47d4f15b9a1fafb33dd5105a29845e50afada0b3555218267590c87b9"
+    },
+    {
+      "text": "米",
+      "path": "audio/clips/e80342837b21c14475dae470.ogg",
+      "sha256": "e903a6d8575e45b799256a03cb4d715f6c1c1351b2eaccf48e25f7ccc073b511"
+    },
+    {
+      "text": "米饭",
+      "path": "audio/clips/3044415ea8b4154dcbd194cf.ogg",
+      "sha256": "ec09541379e6c07b436d9e032713ad7447de0545fafba3be57c33c1bd1966dfb"
+    },
+    {
+      "text": "糖",
+      "path": "audio/clips/b3a1707ad4fef33e8dc249ca.ogg",
+      "sha256": "e3d2dcf88158107690885adaa162ac447443c30dd30ac7365155a1a68a49a6d2"
+    },
+    {
+      "text": "糖果",
+      "path": "audio/clips/9417ee63c02f1fe348a3d6a0.ogg",
+      "sha256": "d7b1125ce8bdc1f784dbbb50e924e90c4f993527919d748afbc2f9d1d4bab343"
+    },
+    {
+      "text": "红",
+      "path": "audio/clips/d85b16278244f0470a01a817.ogg",
+      "sha256": "ca34c3e4a8a1690bed4dca272d77b511b2c9821260501ab097de1c68fac5f94c"
+    },
+    {
+      "text": "红灯",
+      "path": "audio/clips/91f046974f0b7abf8681bbf8.ogg",
+      "sha256": "ab2ebaf0ec4fbb2e2c62f6e6fa3d93963a27edf0c023b397665c5fd4926cef0a"
+    },
+    {
+      "text": "红色",
+      "path": "audio/clips/76ebf69da9e8839befbcfd45.ogg",
+      "sha256": "44d1cdbd62ff57023dc68a358d4ab32a51d5266f8f0f9c13bece88baa0f42bcf"
+    },
+    {
+      "text": "纸",
+      "path": "audio/clips/1364e630eb5fd8cde3df2d5b.ogg",
+      "sha256": "ed278e086028726538496a36db5bd3ee184185260b97c6c943d026c2167894fe"
+    },
+    {
+      "text": "纸巾",
+      "path": "audio/clips/8617b6fd134cc5641f6822d1.ogg",
+      "sha256": "61d33a596954723ae2f5526ce5cd23ec6cb1cf0f359167a446d887dce7fba861"
+    },
+    {
+      "text": "纸张",
+      "path": "audio/clips/132a5ed5cfb496e0b45c889a.ogg",
+      "sha256": "d8045ae7146811db8da2d44714e506065b6b400c931674120de580e2abbd261c"
+    },
+    {
+      "text": "绿",
+      "path": "audio/clips/d453fdf083d52ba62d5ac913.ogg",
+      "sha256": "8d1d3c1d0f2e61b07ef57fe2fcb1da5be93c2d31486520cba3227b59d791dc33"
+    },
+    {
+      "text": "绿色",
+      "path": "audio/clips/8857be80f698ef58fea31cfe.ogg",
+      "sha256": "ee80e93d5869181563897b8c14ae962a1940f4de19ccb282c45f5cdbd5781331"
+    },
+    {
+      "text": "绿茶",
+      "path": "audio/clips/7ca1ead421f2fb42871f70f0.ogg",
+      "sha256": "ca2d2f870b6e011f5883fddd202dab561e3006713399e14fee43312df0a13af9"
+    },
+    {
+      "text": "羊",
+      "path": "audio/clips/2e36060dde67f987b7e8fc52.ogg",
+      "sha256": "d2e4c77b67abfe8ea1debabfa0192fad07a8c6032617908f4b3dd544bbd366ae"
+    },
+    {
+      "text": "羊肉",
+      "path": "audio/clips/a2aef9bdf1a0758aedc4cb28.ogg",
+      "sha256": "efeebd639d299f18fb2267db8823175a9d261aeb7e4ea4fd1288d1f6fd0a01eb"
+    },
+    {
+      "text": "老",
+      "path": "audio/clips/fd4414bba9c2ed6ef97d2f96.ogg",
+      "sha256": "26b8231a53b23ee4120067907b1e313f18a37934d26131abee20524a5415c3a8"
+    },
+    {
+      "text": "老人",
+      "path": "audio/clips/d934eed45c765a282490d76e.ogg",
+      "sha256": "043fc385c05d3fab4eb68b80f76139d3c5d3eea877d3c9bdcf6c7141713b63b5"
+    },
+    {
+      "text": "老师",
+      "path": "audio/clips/57a17eafaad18d129b73cdaa.ogg",
+      "sha256": "cb6f3a726d90985b13eaeeed82352eb936e869bcd8ed4a7533c245c60c875197"
+    },
+    {
+      "text": "老爷爷",
+      "path": "audio/clips/2104e39ffef62461baf9772e.ogg",
+      "sha256": "960c979106ccb119b724facfa3c898e49716969cc4979083b45a64c15db8f35f"
+    },
+    {
+      "text": "耳",
+      "path": "audio/clips/e79093343b32b7f0127fd010.ogg",
+      "sha256": "d6e3946d3d538a0ac059003d8616e76d87e061c68844fe8a9d366919703eddfe"
+    },
+    {
+      "text": "耳朵",
+      "path": "audio/clips/766e677fd833c12759f4a00d.ogg",
+      "sha256": "79cc0a2bb231efa364f401022f7ab94fad6637958217b9043dc65fac681302d6"
+    },
+    {
+      "text": "耳机",
+      "path": "audio/clips/567cb715c87b9dc897eacaab.ogg",
+      "sha256": "16508978091ab1442d554adeb87a8bb6047e21d04c4e375b50fc0476787d0696"
+    },
+    {
+      "text": "肉",
+      "path": "audio/clips/0f92dc701919c0bb6b6fb06d.ogg",
+      "sha256": "59024c392ad058d4337c32a15f88c4386fc17abdec329b5a6fbbe48c4b330f51"
+    },
+    {
+      "text": "自我介绍",
+      "path": "audio/clips/2cb17a5df6e23652b7b54de4.ogg",
+      "sha256": "0d94f0fac832b012f480b7e780ba53e7f0514c0eac0c69eeab32d6e17ef17826"
+    },
+    {
+      "text": "船",
+      "path": "audio/clips/bda2d454c0fa1c6d45306e6b.ogg",
+      "sha256": "dc3d6c5ffb9b55a917f80ce39013149400d2fc32e8e91cbf8cb6972dff3947aa"
+    },
+    {
+      "text": "船票",
+      "path": "audio/clips/4fa6e4432f85db68a59bff5d.ogg",
+      "sha256": "86741d99338d46b0618d3f0da08e8b9bba8b022c4a62896e5e75dd035dff9626"
+    },
+    {
+      "text": "色",
+      "path": "audio/clips/d7445b4a367494186c077d19.ogg",
+      "sha256": "a1c145b654a17037fc7e28668a6d18fe3f77d3288212677ba33d1e192b59975b"
+    },
+    {
+      "text": "节目",
+      "path": "audio/clips/b932cc77fa66b185dc3cd87d.ogg",
+      "sha256": "089e890224b711938e8e1f68bd34da67e9675083abfc03a0b2589ad3cbd6a8df"
+    },
+    {
+      "text": "花园",
+      "path": "audio/clips/b07ddcccdafa294346c0ef65.ogg",
+      "sha256": "20dfc79f216e20338986a9ff1940121862be47c8ddbf4e4f20b30b91ce35d2e1"
+    },
+    {
+      "text": "花钱",
+      "path": "audio/clips/fc504786c912f8d1772df790.ogg",
+      "sha256": "37c2ec15e3c4f9f6465a495d43001b8dc62bc5f7dbfb7ce3b8ffa2cb671ad995"
+    },
+    {
+      "text": "苹",
+      "path": "audio/clips/4ed5c7f0a2ec0a0620f81461.ogg",
+      "sha256": "93f9ff206a797ff2593d433864923128996a302b89f24d53226e61486de6d91d"
+    },
+    {
+      "text": "苹果",
+      "path": "audio/clips/84ab87a95ffb83961d705903.ogg",
+      "sha256": "fd39cd58fb3777e7fdaa23822d1dcae286459498b796a65fc8c3159b1224faae"
+    },
+    {
+      "text": "茶",
+      "path": "audio/clips/99da1a04dae163e93bdb245d.ogg",
+      "sha256": "f83c095259c584688693cbbe34c6cd3bb8c3fee5a25424f8b3a275b7e7a5dfdc"
+    },
+    {
+      "text": "茶叶",
+      "path": "audio/clips/44443749f56213a4006e53cc.ogg",
+      "sha256": "f3c99658d662d25797665bb52db7ae652218c9fb0f87ee87cb65823a76134ba8"
+    },
+    {
+      "text": "药",
+      "path": "audio/clips/7629f626e1f1959709a1f441.ogg",
+      "sha256": "32b9bda8ebea7fe4b94aa5508f1898997d87439fc63af5f4701dfe94cddd9f08"
+    },
+    {
+      "text": "药店",
+      "path": "audio/clips/77ea7a0a50a2b1bb1c8a3011.ogg",
+      "sha256": "e28965ff1aa10e9f26e4b559809b3cec23523a18d409c2f3ed8426da15a4382a"
+    },
+    {
+      "text": "菜",
+      "path": "audio/clips/8c7d05b3b3bbee13c7aab4db.ogg",
+      "sha256": "7f89dbb0e252fd0e256aa858f073f998c7e15e813caca5f647accbb9cd53e212"
+    },
+    {
+      "text": "虫",
+      "path": "audio/clips/fde6766fe674aebc14b42916.ogg",
+      "sha256": "4f234f78728f0f080e575e795cf0dc6b1c1947af0b21962332adc2dc55fcbe9f"
+    },
+    {
+      "text": "虫子",
+      "path": "audio/clips/e8a3b64d839a0c95b48555ec.ogg",
+      "sha256": "9942f6becba9471af36027dcab3f6ac10841f8ff4efac2b7b6d70e1027779e0f"
+    },
+    {
+      "text": "蛋",
+      "path": "audio/clips/62904c860ad4a3976fcfe4f9.ogg",
+      "sha256": "d52d4e7ae9e103217d1cf0f947ffa1e7174c53517a9ef4bf5f6d034e60ed84b6"
+    },
+    {
+      "text": "蛋糕",
+      "path": "audio/clips/fca678dbfe80e9040dd01c22.ogg",
+      "sha256": "148aa08fdbba2eccebae229da9019c322b9c1d7500664340522d5db127e2abb3"
+    },
+    {
+      "text": "衣",
+      "path": "audio/clips/551852dc369c25c1e7bc6864.ogg",
+      "sha256": "ebd5f780674058e2192115c09a22f3cdde26353e08ca9ead934be90f68f7fb38"
+    },
+    {
+      "text": "衣服",
+      "path": "audio/clips/da08d105b3fade2abcf49711.ogg",
+      "sha256": "acff465c283323a349e1cf3726ae3b5d34d3590ea6efc19d15db51b200978fc8"
+    },
+    {
+      "text": "话",
+      "path": "audio/clips/f73008eb013489e49456f189.ogg",
+      "sha256": "820a4fb0f27720297aa94264c7c040682d9dbbf386a33308518158b3c2b11cea"
+    },
+    {
+      "text": "说",
+      "path": "audio/clips/446d3c362618f9af82a4790b.ogg",
+      "sha256": "68edc22ac4ee47195976a774c8d0c46a58ebf3af729e12163af68e2bb0e7a705"
+    },
+    {
+      "text": "说话",
+      "path": "audio/clips/0764334dd22ed393995bea45.ogg",
+      "sha256": "407c41f65002ac39363c029f94bf82914c934d296d89e1ec2df166f895a7cda4"
+    },
+    {
+      "text": "读",
+      "path": "audio/clips/8841645c28b0977072f19774.ogg",
+      "sha256": "4225bc079eeac9b2c3c32445c4def3b02e602fbd1ff03fb665ff75fe88b66f9b"
+    },
+    {
+      "text": "读书",
+      "path": "audio/clips/0386f68c76bf55207bbe349c.ogg",
+      "sha256": "5e927f19fcd2ee07d3167b776665c3d23e61edc3c2855135d1070a0ab4435d50"
+    },
+    {
+      "text": "课",
+      "path": "audio/clips/bcc941a4aa0c8b829e0ee745.ogg",
+      "sha256": "ffcc7cffe1e3aa2aa73d45f4f57565c8808d53d53f452f4c5d46bfa13eb5f92a"
+    },
+    {
+      "text": "课本",
+      "path": "audio/clips/2416510565d52df34a7bc270.ogg",
+      "sha256": "9ddd133e0d508efb1da90a201193b6561e81240444b0e5dec964f4d5d1d15773"
+    },
+    {
+      "text": "走",
+      "path": "audio/clips/39f7403d6559db9dccffe725.ogg",
+      "sha256": "9ce3f7668beacc3d369db311daee831dc721162876c2fcbb4bbfb78023e5754f"
+    },
+    {
+      "text": "走开",
+      "path": "audio/clips/1ae4bc42f1b2b6b189773db2.ogg",
+      "sha256": "871dae337416366178c3b9d7f15d831c1c1d7aec978c4a90e1c725e7bfc23ef7"
+    },
+    {
+      "text": "走路",
+      "path": "audio/clips/ed7bf83eb6a15061921d1b1f.ogg",
+      "sha256": "f15c6f6c94b9be769f6e766cc1bff2e0867a2b5705f182e0193b059784f59c7b"
+    },
+    {
+      "text": "足",
+      "path": "audio/clips/c91c10959c55612191750ef7.ogg",
+      "sha256": "7011798549882902e31097ff51eef06b7d2b2ce9b10e6139b46911d1451d6a9d"
+    },
+    {
+      "text": "足够",
+      "path": "audio/clips/7856afb9df12ed36481bebf8.ogg",
+      "sha256": "777ef2d7652653068f60f660daf9b91b718920d163ac36095d56592093f879fc"
+    },
+    {
+      "text": "足球",
+      "path": "audio/clips/a9bfd2490610ceef79b50827.ogg",
+      "sha256": "cf23ca8f6a221f52d026074650e7f565ecafcfef8255c149665351dd01df63e2"
+    },
+    {
+      "text": "跑",
+      "path": "audio/clips/c8fa7c2664f34218d7998e70.ogg",
+      "sha256": "f585cde605d5c5729be2bce9c0b1a770687913530074a85521a6fae96b1d842f"
+    },
+    {
+      "text": "跑步",
+      "path": "audio/clips/1236a9464270160229557a67.ogg",
+      "sha256": "39f0a187f5054b9354bfe3490ac92ebcbc860b67a074264694086306300eb014"
+    },
+    {
+      "text": "跑道",
+      "path": "audio/clips/0de6dfa92e0693fe14eb7f75.ogg",
+      "sha256": "7b062b8a077ecd3b23449d541c7e10d1c72934a05004e7fddec206891f6701da"
+    },
+    {
+      "text": "路",
+      "path": "audio/clips/836b7ea1aafda12b5d3b4f63.ogg",
+      "sha256": "9efbf6a57778fd704b9959a84d42c2708a5b34bb48ec5c7ce546e696dbb8ae39"
+    },
+    {
+      "text": "跳",
+      "path": "audio/clips/37f47988b97692d912435011.ogg",
+      "sha256": "bfaeeca644b273b285a9f026f21a7b88fab7aede2f207f18a22d393e83b24c94"
+    },
+    {
+      "text": "跳舞",
+      "path": "audio/clips/aa34818b600b619c5d65c31c.ogg",
+      "sha256": "23c11869f39afa0e2966f4fbe97844c8e40a44b735a57fe47b0ec5fa3931e9b7"
+    },
+    {
+      "text": "跳高",
+      "path": "audio/clips/be6e556e0016ecc21157e6f6.ogg",
+      "sha256": "093431adc0b4b7b090f46ed13b18ff8a91399b956869aaafb5d21d3374028eac"
+    },
+    {
+      "text": "身",
+      "path": "audio/clips/65511c5fd5832f0ba89be4cb.ogg",
+      "sha256": "76c0f7ef57f3e38beebc4cf9a1fceecf099c64ab6fda1f1fe85310b1b3e99826"
+    },
+    {
+      "text": "身体",
+      "path": "audio/clips/68359e87130fef8943400d47.ogg",
+      "sha256": "534a5e23c465f81cc5693c87de97d6b5274672953dc1e2b833b907a34e9a0d07"
+    },
+    {
+      "text": "身高",
+      "path": "audio/clips/18e7ff5afbbbf1675943cad8.ogg",
+      "sha256": "edf0db9f5ad090ef8b8cdd45df4a79af8b1c6cd6a72658559daf8846ae02ea7c"
+    },
+    {
+      "text": "车",
+      "path": "audio/clips/b7dceb488d282743250d711b.ogg",
+      "sha256": "a7435d6f60bcc5265cc72ca7e02e62d0add116fbe1f4b857ffd6609073a777b4"
+    },
+    {
+      "text": "车站",
+      "path": "audio/clips/cd94c04897027bf4afff0744.ogg",
+      "sha256": "8135a26514fb1840dc2586dcbcf8c3f747d27abf13845f9e10ef0f6c03b5bb44"
+    },
+    {
+      "text": "轮椅",
+      "path": "audio/clips/6c4424a0b663715ccb91d623.ogg",
+      "sha256": "fd636e6f5513fe6e04e4c016ad84fb62f8aad98ec1e5053e8c50b040e3ddb396"
+    },
+    {
+      "text": "边",
+      "path": "audio/clips/e22a27f3d108a90e1d20c030.ogg",
+      "sha256": "f36c87eaf2012b23052731618af2c1dc1f84f14149df77974786ffb2cfc52cc9"
+    },
+    {
+      "text": "过来",
+      "path": "audio/clips/923a384d14ec92348c4a0a22.ogg",
+      "sha256": "988b28305b1637a5ebaf1932d3b3d640ec68a0bb4906fec7a8eef169708f91da"
+    },
+    {
+      "text": "里",
+      "path": "audio/clips/31e9dff921a0f8ce1fbcdea6.ogg",
+      "sha256": "49532b5568a52008a69d5e56f7ac71258d1200d64f38df66d74fc70615ac2004"
+    },
+    {
+      "text": "里面",
+      "path": "audio/clips/1ddfd82447bf1a88c50992b5.ogg",
+      "sha256": "1cd9dc18846398c2279f45006512abb2339be759f5b504544b9eaf90caddea8f"
+    },
+    {
+      "text": "金鱼",
+      "path": "audio/clips/6c3828a84358b5274ddd71c7.ogg",
+      "sha256": "110b382828584d8e5aa143d8d3fd447873a553b47c4aebad4e803b94789bf4fe"
+    },
+    {
+      "text": "钱",
+      "path": "audio/clips/3f2b7e00376fb289c7399bde.ogg",
+      "sha256": "6c590b52b2a935aad76b44624ffd5d190f7cea7f64dc098ae1d79ad419c50c47"
+    },
+    {
+      "text": "铁",
+      "path": "audio/clips/2c83f9ce7918a398d759af8d.ogg",
+      "sha256": "8b071f066d31b2ea634422afc84cfa83b585d3be639fb2cfdae33f006d25e7bb"
+    },
+    {
+      "text": "铁路",
+      "path": "audio/clips/21cbd41a0e509031ec1c4990.ogg",
+      "sha256": "5718b9faf94cf62d7cace17f9ed1945c9d47f13914ec2f9e3f18f8c83b57e456"
+    },
+    {
+      "text": "铅笔",
+      "path": "audio/clips/9a3324013d22b8b2764f02ba.ogg",
+      "sha256": "d0612308daa8af7e9b6284d0564a5637ea6052cbe080a364f56d7149cd18acff"
+    },
+    {
+      "text": "长城",
+      "path": "audio/clips/fea0f35ba952268c8cc4c3f5.ogg",
+      "sha256": "cd9b8f79407d8786f65cf07419beab35823ec16e5f4fa70967dda7d48f30a2fb"
+    },
+    {
+      "text": "门",
+      "path": "audio/clips/ac250e3cf642bd45008dd465.ogg",
+      "sha256": "20ed35dc9f92028f7ba90cb69e587d89c2af6901f56f0a6caa4fbcaf805c0c78"
+    },
+    {
+      "text": "门口",
+      "path": "audio/clips/14254bead971ff25ac678e18.ogg",
+      "sha256": "19f23cde6f5323c5b14a475364b9ee9221d394133bdff4a85376eb0a251798e3"
+    },
+    {
+      "text": "问",
+      "path": "audio/clips/8d47f10de112d6866c624a45.ogg",
+      "sha256": "1246b4e29ffaf6d4e5d4e48e41e3b996c6d5658bbdd1bd34fbaddea6ed28aed8"
+    },
+    {
+      "text": "问好",
+      "path": "audio/clips/390e415ed7b263226372c7e5.ogg",
+      "sha256": "692a7b5495c0b4828d98f931041d6a3cbe39e00873b69aec6c282268097428d8"
+    },
+    {
+      "text": "问题",
+      "path": "audio/clips/e9330527cda28971b7b693ae.ogg",
+      "sha256": "cadc04b6ef6867b8ef8c0afdf3c75282a89a94b65cd2759ad7465508f7b04e2d"
+    },
+    {
+      "text": "间",
+      "path": "audio/clips/698dcfc100abe2372b5085bf.ogg",
+      "sha256": "bff30166aad2d76c2740da1f0740dee86d3c589bfc8b2393a5fc03e1cbe51f4f"
+    },
+    {
+      "text": "阅读",
+      "path": "audio/clips/4feb42f2b27173329597853c.ogg",
+      "sha256": "9b2498e0dcfae534ae52baac81f6645e3030d96a292d5548c21ddb4e6ae4b8a4"
+    },
+    {
+      "text": "院",
+      "path": "audio/clips/f35bddaadb3b536b7feff87d.ogg",
+      "sha256": "d563f5fc69fe606aa2396aaac580dbe5d135b6e5c5f9adbf572be3f1aec508fe"
+    },
+    {
+      "text": "院子",
+      "path": "audio/clips/37c936fe6c62b7e2b4d95baf.ogg",
+      "sha256": "063b85bcbbc30618e95e91621db0c32180c994acd6842085882e7f39fd2d42d7"
+    },
+    {
+      "text": "雨",
+      "path": "audio/clips/03f88b843078ea3e5a5b455b.ogg",
+      "sha256": "e89b4723ac4c1cf65b0c68bc5dce0cbe6a55abd20a4176f50a4c6ccc0bcc93c2"
+    },
+    {
+      "text": "雨伞",
+      "path": "audio/clips/0f96fdc0f788d0666b7b826a.ogg",
+      "sha256": "86dbf0156a527f1ee6b041842a1b5a1bcaa5301adc16e6903776015e16e33b1e"
+    },
+    {
+      "text": "零钱",
+      "path": "audio/clips/bf90db5b62279601adf08870.ogg",
+      "sha256": "f15c82f60ddd83e90a78543ff972af72a7c242893776317f4ee2c8b0cac83869"
+    },
+    {
+      "text": "青菜",
+      "path": "audio/clips/3e9b300305f67c37a220e85b.ogg",
+      "sha256": "3c240e2669cf09cffa4de0e05d4663317cd8d3df90f2814c631f1cb1e063d3b4"
+    },
+    {
+      "text": "面",
+      "path": "audio/clips/80a430c7260f6c1f0772127c.ogg",
+      "sha256": "bdcd0797e93419140b0394eb664a2d0307798a4a3d6ef5ca32c5b87a3964a8cd"
+    },
+    {
+      "text": "面包",
+      "path": "audio/clips/6712a63cf36e1fcab8b3e2c0.ogg",
+      "sha256": "e6c2877f43fc2c34dc00bce6fb6076b5f2377cf639e62a4c6ae50b29917ccb81"
+    },
+    {
+      "text": "面条",
+      "path": "audio/clips/9783073ebefe8784fba27de5.ogg",
+      "sha256": "889d252c125e98ea4a70987620321be4712c422d2e16db1943cd51378ca128b5"
+    },
+    {
+      "text": "题",
+      "path": "audio/clips/1cf4118b2ddec31c0beda52b.ogg",
+      "sha256": "df1b736fc8e686568fb941eb7001cc46f5d30ad21b61936d27a2fae4fb7039c0"
+    },
+    {
+      "text": "题目",
+      "path": "audio/clips/614ffea74cb29a20c228bdd2.ogg",
+      "sha256": "231594c73e63220b8b12019b80992a9b00a4411e66070092c18ae768ca265ea9"
+    },
+    {
+      "text": "颜",
+      "path": "audio/clips/7a0da5315561e63a84f4e41a.ogg",
+      "sha256": "245492f8e34702900cb840c65238032b168f65d1e70b3e0c5cf190d2eda4e06f"
+    },
+    {
+      "text": "颜料",
+      "path": "audio/clips/8b2a446a8f1e73aec75f4c2f.ogg",
+      "sha256": "d3c3ad0781f9df9064273ae1eef17e3381f84195e72e065f6a86ebe012f1b2f3"
+    },
+    {
+      "text": "颜色",
+      "path": "audio/clips/72fa1bfd23f26afd796ff454.ogg",
+      "sha256": "adeac9df12c0c90ff7821ed3a84f16a10097646b9e91fb38e8786c0db689ca15"
+    },
+    {
+      "text": "风",
+      "path": "audio/clips/e7ade510176a01c529d6b688.ogg",
+      "sha256": "c67b97af22db4b2d2a9b606a494cb1d0a0e5159da70d878537bdc04e85228cc0"
+    },
+    {
+      "text": "风车",
+      "path": "audio/clips/b15d1c893e76ba829ec09777.ogg",
+      "sha256": "2f8fd5650eadf7483fae25cd50158a5dd54338f0ded4f24f36927a6e87307a4e"
+    },
+    {
+      "text": "飞",
+      "path": "audio/clips/a2617e4d318885064d591ecc.ogg",
+      "sha256": "52c45925b6dfd92021abe022ea9ab42ee1b4301ddb2ca80e224e12e460798ddc"
+    },
+    {
+      "text": "飞机",
+      "path": "audio/clips/bc74f8f74f13ace460f56e0b.ogg",
+      "sha256": "60e82d10516f9b15b5ad1f0700b7516c6ab53b1aad7a35471266bdba7a38d44f"
+    },
+    {
+      "text": "飞鸟",
+      "path": "audio/clips/997f0bab14030ba3a7ea24ba.ogg",
+      "sha256": "d1a7f17d6b65aae412e9eb60be8cb00f116f1bf7aff3d5896a565127119ff973"
+    },
+    {
+      "text": "饭",
+      "path": "audio/clips/2e71f0d5b9ac4dee91f75b3a.ogg",
+      "sha256": "f500c0c90818a2ac1e41db4f6f9fb6c90dd8a4e9ae2e3f86271f885c57909324"
+    },
+    {
+      "text": "马",
+      "path": "audio/clips/5ffdd7d66906e0a4d126e220.ogg",
+      "sha256": "f4a1c886bfe56523214d4304205e6827c72a45852bf3c5b719967caa52539705"
+    },
+    {
+      "text": "马路",
+      "path": "audio/clips/ed17b8d9e3118fbec2ee05ee.ogg",
+      "sha256": "d3076cb6b3fc99b4eca145b80a745ef7c511d537647095f7a6b319fa7133c7ae"
+    },
+    {
+      "text": "骑马",
+      "path": "audio/clips/9f7786ab19f5a5e9df54f517.ogg",
+      "sha256": "6697251360d6d695e0d5c15e73c24b21937484aa39912942b8446d70a6a3f408"
+    },
+    {
+      "text": "高山",
+      "path": "audio/clips/0fb77f3fc81e2b33a549a438.ogg",
+      "sha256": "d68d2b535ca6ef023cdfa4c671f2d18a5337a76879cb744fc8078e2f7e76853e"
+    },
+    {
+      "text": "鱼",
+      "path": "audio/clips/59d771122aa1ac8d6657589e.ogg",
+      "sha256": "a4ad600e61d93ba9f81727e947b41eecce06f110ef1d75c0d253bb68a4a60636"
+    },
+    {
+      "text": "鱼肉",
+      "path": "audio/clips/64a958895a4f868cd83dc769.ogg",
+      "sha256": "51d2089cb1b908d182ca029cee2f092a4a60c8dfabdfcdda65e6a71bdf061937"
+    },
+    {
+      "text": "鸟",
+      "path": "audio/clips/89bf0784045e80f6dd6fad0b.ogg",
+      "sha256": "b57bef77b6199dabb462ae03ed39f56d9be8946ce2f91ca21fa5785401b872fa"
+    },
+    {
+      "text": "鸡",
+      "path": "audio/clips/fc97029226316aa9c1a982ca.ogg",
+      "sha256": "807114d0ebd088612589d65cb557d40b1abde5f760eeb02d88700d7d2227bcf9"
+    },
+    {
+      "text": "鸡肉",
+      "path": "audio/clips/ad7378cb2d6e6a823c793334.ogg",
+      "sha256": "0d2fa5c63666d28ce408a5743b937b814d9bd46d948ddbf50aa7c2c36adc005a"
+    },
+    {
+      "text": "鸡蛋",
+      "path": "audio/clips/f4a045eb0d3c4c864e2a4ba6.ogg",
+      "sha256": "acaf8dd1827fd087c5803ee0808c325ad29b28fdec5b411e4ae716b47fad4588"
+    },
+    {
+      "text": "鸭",
+      "path": "audio/clips/0611c78fc7520aa0da8f1aac.ogg",
+      "sha256": "feae7ba91bfcec3204b7527998d3d3655165bc526611c16ce0e739ec9b6ffd6f"
+    },
+    {
+      "text": "鸭子",
+      "path": "audio/clips/69fbb4e2134d1f4a91aab30f.ogg",
+      "sha256": "cf69a24315de6c2a201367468e2e1b7482660f4b48092909076f36dcb193c778"
+    },
+    {
+      "text": "黑",
+      "path": "audio/clips/4e1f102fd1f8b2a88d8a4325.ogg",
+      "sha256": "1218046a3def18195a8ec339fa03192737e350b78a6bd48f21e99cf162f122ff"
+    },
+    {
+      "text": "黑板",
+      "path": "audio/clips/4af654df946f236a5d5f3267.ogg",
+      "sha256": "bf69dc0a8872f75f8ad8ee0e54783caf450d39b124ce0c41e40cccbae3bb7f94"
+    },
+    {
+      "text": "黑色",
+      "path": "audio/clips/922e6342529a53337cbc6eb0.ogg",
+      "sha256": "dafdf8f6c91deeeeaae7fa1fe1abae8d4d9d9819a08bfbc04777ddffa5a2b464"
+    },
+    {
+      "text": "鼻",
+      "path": "audio/clips/54b027ccdfdd9e6a40eae171.ogg",
+      "sha256": "074af8d2b16d94126253dbd6e4d8d5f49507785e7f063f5236545de14316f44f"
+    },
+    {
+      "text": "鼻子",
+      "path": "audio/clips/dcc2e13a557ce00db355cf24.ogg",
+      "sha256": "6a0a45ad975f02944126bb3995eb815b9dae6b33bc96187f4cd7d4661349c834"
+    },
+    {
+      "text": "鼻孔",
+      "path": "audio/clips/b2e6c98b798cf4f8b6e6fe9f.ogg",
+      "sha256": "af4babd8c047296db49b262e0de16b9f609fbdc21b35167c515a10bbd02ddb45"
+    }
+  ]
+}

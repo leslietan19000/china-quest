@@ -77,7 +77,7 @@ class MainActivityAcceptanceTest {
                         click("answer-${task.characterId}")
                         click("continue")
                     }
-                    "READ", "WRITE" -> {
+                    "READ", "WRITE", "WORD" -> {
                         click("reveal")
                         click("self-correct")
                     }
@@ -149,7 +149,7 @@ class MainActivityAcceptanceTest {
             val lesson = reader.lesson("child-a", LocalDate.now())
             repeat(lesson.newCount) { click("learn-done") }
             val target = reader.card(lesson.tasks[lesson.newCount].characterId)
-            val wrong = reader.cards().first { it.id != target.id && it.pinyin != target.pinyin }
+            val wrong = reader.cards().first { it.id != target.id && activity.window.decorView.findViewWithTag<View>("answer-${it.id}")!=null }
             click("answer-${wrong.id}")
             assertTrue(screenHas("一起再看一次"))
             assertNotNull(view("continue"))
@@ -165,5 +165,31 @@ class MainActivityAcceptanceTest {
         val info = context.packageManager.getPackageInfo(context.packageName, PackageManager.GET_PERMISSIONS)
         assertFalse((info.requestedPermissions ?: emptyArray()).contains("android.permission.INTERNET"))
         assertFalse((info.requestedPermissions ?: emptyArray()).contains("android.permission.ACCESS_NETWORK_STATE"))
+    }
+
+    @Test fun parentPlacementSkipsBasicsForOnlyTheChosenChild() {
+        configurePin();click("child-a");click("adjust-start")
+        assertNotNull(view("parent-pin"))
+        type("parent-pin","458726");click("unlock-parent")
+        click("known-page");click("save-placement")
+        val reader=QuestStore(context)
+        try {
+            val skipped=reader.cards().take(12).map { it.id }.toSet()
+            assertEquals(skipped,reader.knownCharacterIds("child-a"))
+            assertTrue(reader.knownCharacterIds("child-b").isEmpty())
+            click("lock-parent");click("child-a");click("start")
+            assertTrue(reader.lesson("child-a",LocalDate.now()).tasks.filter { it.kind=="LEARN" }.none { it.characterId in skipped })
+            assertNotNull(view("listen-character"))
+            assertNotNull(view("listen-word-0"))
+            assertTrue(screenHas("常用词"))
+        } finally { reader.close() }
+    }
+
+    @Test fun leavingPlacementWithoutSavingDoesNotChangeKnowledge() {
+        configurePin();click("child-a");click("adjust-start")
+        type("parent-pin","458726");click("unlock-parent")
+        click("known-page");click("placement-next");click("known-page");click("cancel-placement")
+        val reader=QuestStore(context)
+        try { assertTrue(reader.knownCharacterIds("child-a").isEmpty()) } finally { reader.close() }
     }
 }

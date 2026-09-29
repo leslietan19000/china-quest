@@ -6,9 +6,9 @@ A family learning system, starting with two independent offline Chinese learners
 
 ## Current work
 
-The first offline Android pilot is built and signed: **[ChinaQuest-0.1.1-pilot.apk](artifacts/ChinaQuest-0.1.1-pilot.apk)** (about 0.95 MB). Two independent profiles, 178 source-backed characters, new learning, review, quiz, paper/voice self-assessment, saved progress, PIN-protected parent overview and optional report export. **57 automated tests pass: 39 Android/core, 12 local backend and 6 web tests, plus 8 browser acceptance checks.** Physical BOOX acceptance is still pending; no device is attached.
+The parent confirmed the first APK installs and is being used by the children on BOOX. The feedback release is built and signed: **[ChinaQuest-0.2.0-pilot.apk](artifacts/ChinaQuest-0.2.0-pilot.apk)** (4.28 MB). It adds per-child prior-knowledge selection, 353 sourced word entries, 469 bundled offline audio clips, bounded word-use tasks and better quiz alternatives. Existing offline lessons, review, PIN, progress and stamps are preserved through an additive migration and the original signing certificate. **55 Android/core and 13 local backend tests pass for this release.** The unchanged local web dashboard previously passed 6 validator tests and 8 browser checks. BOOX acceptance of the new audio/upgrade is still pending.
 
-Read [BOOX installation](docs/BOOX_INSTALL.md) and [PROGRESS.md](PROGRESS.md) for actual evidence and limitations. Parent-guided teaching translations/examples still need review. Later features are not shipped simply because their architecture is described.
+Read the **[second-version parent guide](docs/V2_PARENT_GUIDE.md)**, [BOOX installation](docs/BOOX_INSTALL.md), [0.2 verification](docs/QA_V2.md) and [PROGRESS.md](PROGRESS.md). Update over the installed app; do not uninstall or clear data. Chinese/Spanish teaching translations/examples still need review, and synthetic pronunciation needs real-device listening. Later features are not shipped simply because their architecture is described.
 
 ## Build and verify
 

@@ -42,5 +42,17 @@ Environment blocker resolved: Java NIO's AF_UNIX path failed twice. TCP-only dia
 
 **Next phase / exit gates:** install 0.1.1 on the BOOX and record real-device acceptance. Complete Phase 2 authenticated transport, server-state reconciliation and pairing before calling Phase 3 a live family dashboard. Choosing a real Supabase project and enabling child-data cloud storage requires the parent's account/privacy decision; no unrelated existing project is reused. Later phases follow the ordered roadmap.
 
+## Feedback release 0.2.0 — Starting knowledge, offline speech and words
+
+**User acceptance received:** the parent confirms 0.1.1 installed successfully on BOOX and the children are using it. The initial five characters were already familiar, and the family requested harder starting content, tap pronunciation and common words. This real-use feedback temporarily takes priority over further cloud work.
+
+**Completed:** parent-PIN-gated prior-knowledge selection per child; unknown-character planning with seven cached days; delayed checks of marked-known items; preservation of active/completed lessons; 353 sourced CC-CEDICT word entries; 469 bundled offline Ogg clips; tap character/word/question/prompt playback, lifecycle stopping and no autoplay; one younger/two older word-use tasks; improved quiz distractors; additive SQLite schema v2 and original pilot signing key. Delivered `artifacts/ChinaQuest-0.2.0-pilot.apk` (4,284,025 bytes).
+
+**Tests passed:** 22 core + 33 Android tests, zero failures/errors/skips; 13 backend contract/RLS tests; content validation (178 characters/353 word entries); all 469 audio hashes and positive durations; every audio asset/hash rechecked inside the final APK; build/lint (0 errors, 8 warnings); APK v2 signature and certificate equality with 0.1.1. Six native screenshots were generated; learning, placement and word-challenge layouts were visually checked. See [QA_V2.md](docs/QA_V2.md). No unnecessary web rebuild: its schema and app are unchanged.
+
+**Known issues:** no BOOX is currently attached for direct v2 installation or speaker testing. Synthetic voice is not a human-certified recording of each polyphonic reading. The dictionary still has 178 base characters; this release does not provide complete reading placement or automatic stage advancement. Chinese/Spanish meanings and full example sentences remain gated. The existing dashboard reports app exposure/mastery, while prior-knowledge selection is shown on BOOX only. Hosted sync remains unconfigured.
+
+**Next phase:** parent installs v2 over v1, screens each child's existing knowledge once, and checks offline pronunciation and the first adjusted lesson. Use that feedback to decide whether to expand graded words/sentences/reading or return to authenticated pairing and sync. No real cloud accounts, payments or child-data uploads were activated.
+
 ## Later phases
 2 Backend/sync → 3 Parent web dashboard → 4 rewards → 5 seasons/China Quest → 6 weekly tests/reports → 7 measured E-Ink optimization → 8 travel architecture → 9 creator architecture → 10 Builder Lab prototype.

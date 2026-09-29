@@ -3,6 +3,7 @@ package org.chinaquest.app
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.view.View
+import android.widget.EditText
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.robolectric.Robolectric
@@ -40,6 +41,29 @@ class EInkRenderTest {
             capture("02-today")
             activity.window.decorView.findViewWithTag<View>("start").performClick()
             capture("03-character")
+            activity.window.decorView.findViewWithTag<View>("pause").performClick()
+            activity.window.decorView.findViewWithTag<View>("adjust-start").performClick()
+            activity.window.decorView.findViewWithTag<EditText>("parent-pin").setText("458726")
+            activity.window.decorView.findViewWithTag<View>("unlock-parent").performClick()
+            activity.window.decorView.findViewWithTag<View>("known-page").performClick()
+            capture("04-parent-placement")
+            activity.window.decorView.findViewWithTag<View>("save-placement").performClick()
+            activity.window.decorView.findViewWithTag<View>("lock-parent").performClick()
+            activity.window.decorView.findViewWithTag<View>("child-a").performClick()
+            activity.window.decorView.findViewWithTag<View>("start").performClick()
+            capture("05-adjusted-start")
+            val store=QuestStore(context)
+            try {
+                val day=java.time.LocalDate.now()
+                val lesson=store.lesson("child-a",day)
+                for(index in lesson.tasks.indices) {
+                    if(lesson.tasks[index].kind=="WORD") break
+                    store.answer("child-a",day,index,if(lesson.tasks[index].kind=="LEARN") null else org.chinaquest.core.ReviewOutcome.CORRECT)
+                }
+            } finally { store.close() }
+            activity.window.decorView.findViewWithTag<View>("pause").performClick()
+            activity.window.decorView.findViewWithTag<View>("start").performClick()
+            capture("06-word-challenge")
         } finally { controller.pause().stop().destroy() }
     }
 }

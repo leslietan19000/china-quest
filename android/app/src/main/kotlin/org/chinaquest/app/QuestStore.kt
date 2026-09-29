@@ -11,7 +11,19 @@ import java.time.Instant
 import java.util.UUID
 
 /** Local source of truth. All public learning operations are explicitly child-scoped. */
-class QuestStore(private val context: Context, name: String = "china-quest.db") : SQLiteOpenHelper(context, name, null, 1), SyncOutbox {
+class QuestStore(private val context: Context, name: String = "china-quest.db") : SQLiteOpenHelper(context, name, null, 2), SyncOutbox {
+    private val teachingWords: Map<String, List<TeachingWord>> by lazy {
+        val items = JSONArray(context.assets.open("words.json").bufferedReader().use { it.readText() })
+        buildMap {
+            for (index in 0 until items.length()) {
+                val item = items.getJSONObject(index)
+                val words = item.getJSONArray("words")
+                put(item.getString("id"), (0 until words.length()).map { words.getJSONObject(it) }
+                    .filter { it.optString("source_status") == "SOURCED_VERIFIED" }
+                    .map { TeachingWord(it.getString("text"), it.getString("pinyin")) })
+            }
+        }
+    }
     override fun onConfigure(db: SQLiteDatabase) { db.setForeignKeyConstraintsEnabled(true) }
     override fun onCreate(db: SQLiteDatabase) {
         db.execSQL("CREATE TABLE children (id TEXT PRIMARY KEY, family_id TEXT NOT NULL DEFAULT 'local-family', display_name TEXT NOT NULL, age_group TEXT NOT NULL, avatar TEXT NOT NULL DEFAULT 'explorer', learning_stage TEXT NOT NULL DEFAULT 'STAGE_1_CHARACTER', daily_target INTEGER NOT NULL CHECK(daily_target BETWEEN 0 AND 10), review_only INTEGER NOT NULL DEFAULT 0, preferences TEXT NOT NULL DEFAULT '{}', current_season TEXT NOT NULL DEFAULT 'preparing-china', current_stage INTEGER NOT NULL DEFAULT 0, created_at TEXT NOT NULL)")
@@ -31,28 +43,67 @@ class QuestStore(private val context: Context, name: String = "china-quest.db") 
             val item = seed.getJSONObject(i)
             db.execSQL("INSERT INTO characters(id,ordinal,data) VALUES (?,?,?)", arrayOf(item.getString("id"), i, item.toString()))
         }
+        addVersion2(db)
     }
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
-        error("A non-destructive migration is required: $oldVersion -> $newVersion")
+        // SQLiteOpenHelper wraps this in a transaction. No existing row, PIN or session is reset.
+        if (oldVersion < 2) addVersion2(db)
     }
-    fun children(): List<Child> = readableDatabase.rawQuery("SELECT id,display_name,age_group,daily_target,review_only FROM children ORDER BY id", null).use { c ->
-        buildList { while(c.moveToNext()) add(Child(c.getString(0),c.getString(1),c.getString(2),c.getInt(3),c.getInt(4)==1)) }
+    private fun addVersion2(db: SQLiteDatabase) {
+        db.execSQL("ALTER TABLE children ADD COLUMN word_practice INTEGER NOT NULL DEFAULT 1 CHECK(word_practice IN (0,1))")
+        db.execSQL("CREATE TABLE prior_knowledge (child_id TEXT NOT NULL REFERENCES children(id), character_id TEXT NOT NULL REFERENCES characters(id), confirmed_at TEXT NOT NULL, check_after TEXT NOT NULL, PRIMARY KEY(child_id,character_id))")
+        db.execSQL("CREATE INDEX prior_knowledge_due ON prior_knowledge(child_id,check_after)")
+    }
+    fun children(): List<Child> = readableDatabase.rawQuery("SELECT id,display_name,age_group,daily_target,review_only,word_practice FROM children ORDER BY id", null).use { c ->
+        buildList { while(c.moveToNext()) add(Child(c.getString(0),c.getString(1),c.getString(2),c.getInt(3),c.getInt(4)==1,c.getInt(5)==1)) }
     }
     fun child(id: String) = children().first { it.id == id }
-    fun updateChild(id: String, name: String, target: Int, reviewOnly: Boolean, today: LocalDate) {
+    fun updateChild(id: String, name: String, target: Int, reviewOnly: Boolean, today: LocalDate, wordPractice: Boolean = child(id).wordPractice) {
         require(name.trim().length in 1..24 && target in 0..10)
         child(id)
         val db = writableDatabase
         db.beginTransaction()
         try {
-            db.execSQL("UPDATE children SET display_name=?,daily_target=?,review_only=? WHERE id=?", arrayOf(name.trim(),target,if(reviewOnly) 1 else 0,id))
+            db.execSQL("UPDATE children SET display_name=?,daily_target=?,review_only=?,word_practice=? WHERE id=?", arrayOf(name.trim(),target,if(reviewOnly) 1 else 0,if(wordPractice) 1 else 0,id))
             // Never rewrite an in-progress lesson. Changed goals affect the next unstarted plan.
             db.execSQL("DELETE FROM sessions WHERE child_id=? AND day>=? AND cursor=0 AND completed=0",arrayOf(id,today.toString()))
             db.execSQL("DELETE FROM plans WHERE child_id=? AND day>=? AND day NOT IN (SELECT day FROM sessions WHERE child_id=?)", arrayOf(id,today.toString(),id))
-            record(db,id,today,"CHILD_SETTINGS",JSONObject().put("daily_target",target).put("review_only",reviewOnly))
+            record(db,id,today,"CHILD_SETTINGS",JSONObject().put("daily_target",target).put("review_only",reviewOnly).put("word_practice",wordPractice))
             db.setTransactionSuccessful()
         } finally { db.endTransaction() }
         ensurePlans(id,today)
+    }
+    fun words(characterId: String): List<TeachingWord> = teachingWords[characterId].orEmpty()
+
+    fun knownCharacterIds(childId: String): Set<String> = readableDatabase.rawQuery(
+        "SELECT character_id FROM prior_knowledge WHERE child_id=?", arrayOf(childId)
+    ).use { cursor -> buildSet { while (cursor.moveToNext()) add(cursor.getString(0)) } }
+
+    /** Parent placement changes lesson selection, never fabricates mastery or rewards. */
+    fun setPriorKnowledge(childId: String, knownIds: Set<String>, day: LocalDate) {
+        child(childId)
+        require(cards().map { it.id }.toSet().containsAll(knownIds)) { "Unknown placement character" }
+        val db = writableDatabase
+        db.beginTransaction()
+        try {
+            val previous = knownCharacterIds(childId)
+            for (id in previous - knownIds) {
+                db.execSQL("DELETE FROM prior_knowledge WHERE child_id=? AND character_id=?", arrayOf(childId, id))
+            }
+            for (id in knownIds - previous) {
+                db.execSQL("INSERT INTO prior_knowledge(child_id,character_id,confirmed_at,check_after) VALUES (?,?,?,?)",
+                    arrayOf(childId, id, Instant.now().toString(), day.plusDays(7).toString()))
+            }
+            // Preserve active/completed sessions and immutable learning evidence from v1.
+            db.execSQL("DELETE FROM sessions WHERE child_id=? AND day>=? AND cursor=0 AND completed=0", arrayOf(childId, day.toString()))
+            db.execSQL("DELETE FROM plans WHERE child_id=? AND day>=? AND day NOT IN (SELECT day FROM sessions WHERE child_id=?)",
+                arrayOf(childId, day.toString(), childId))
+            if (previous != knownIds) record(db, childId, day, "CHILD_SETTINGS", JSONObject()
+                .put("placement_added", JSONArray((knownIds - previous).sorted()))
+                .put("placement_removed", JSONArray((previous - knownIds).sorted())))
+            db.setTransactionSuccessful()
+        } finally { db.endTransaction() }
+        ensurePlans(childId, day)
     }
     fun cards(): List<CharacterCard> = readableDatabase.rawQuery("SELECT data FROM characters ORDER BY ordinal",null).use { c ->
         buildList { while(c.moveToNext()) add(parseCard(JSONObject(c.getString(0)))) }
@@ -65,7 +116,22 @@ class QuestStore(private val context: Context, name: String = "china-quest.db") 
         val words = j.optJSONArray("common_words") ?: JSONArray()
         return CharacterCard(j.getString("id"),j.getString("character"),j.getString("pinyin"),j.optString("radical",""),j.optInt("stroke_count",0),j.optString("meaning_en",""),optional("meaning_zh"),optional("meaning_es_optional"),List(words.length()) { words.getString(it) },optional("example_sentence"),j.optString("review_status")=="APPROVED")
     }
-    fun dueCount(id: String, today: LocalDate): Int = scalar("SELECT COUNT(*) FROM mastery WHERE child_id=? AND due<=?", arrayOf(id,today.toString()))
+    fun dueCount(id: String, today: LocalDate): Int = reviewIds(id,today,Int.MAX_VALUE).size
+
+    private fun reviewIds(id: String, today: LocalDate, limit: Int): List<String> {
+        val args = arrayOf(id, today.toString(), today.toString(), id, today.toString(), limit.toString())
+        return readableDatabase.rawQuery("""
+            SELECT character_id FROM (
+                SELECT m.character_id,m.due AS due FROM mastery m
+                LEFT JOIN prior_knowledge p ON p.child_id=m.child_id AND p.character_id=m.character_id
+                WHERE m.child_id=? AND m.due<=? AND (p.character_id IS NULL OR p.check_after<=?)
+                UNION ALL
+                SELECT p.character_id,p.check_after AS due FROM prior_knowledge p
+                WHERE p.child_id=? AND p.check_after<=? AND NOT EXISTS
+                    (SELECT 1 FROM mastery m WHERE m.child_id=p.child_id AND m.character_id=p.character_id)
+            ) ORDER BY due,character_id LIMIT ?
+        """.trimIndent(), args).use { cursor -> buildList { while(cursor.moveToNext()) add(cursor.getString(0)) } }
+    }
     fun plannedDays(id: String, today: LocalDate): Int = scalar("SELECT COUNT(*) FROM plans WHERE child_id=? AND day>=? AND day<=?",arrayOf(id,today.toString(),today.plusDays(6).toString()))
     fun ensurePlans(id: String, today: LocalDate) {
         val profile = child(id)
@@ -73,6 +139,7 @@ class QuestStore(private val context: Context, name: String = "china-quest.db") 
         db.beginTransaction()
         try {
             val used = mutableSetOf<String>()
+            used.addAll(knownCharacterIds(id))
             db.rawQuery("SELECT character_id FROM mastery WHERE child_id=?",arrayOf(id)).use { c -> while(c.moveToNext()) used.add(c.getString(0)) }
             db.rawQuery("SELECT new_ids FROM plans WHERE child_id=? AND day>=?",arrayOf(id,today.toString())).use { c -> while(c.moveToNext()) { val a=JSONArray(c.getString(0)); for(i in 0 until a.length()) used.add(a.getString(i)) } }
             val available = cards().map { it.id }.filterNot { it in used }.iterator()
@@ -94,12 +161,22 @@ class QuestStore(private val context: Context, name: String = "china-quest.db") 
         try {
             val planned=db.rawQuery("SELECT new_ids FROM plans WHERE child_id=? AND day=?",arrayOf(id,today.toString())).use { c -> c.moveToFirst();JSONArray(c.getString(0)) }
             val newIds=List(planned.length()) { planned.getString(it) }.filter { mastery(id,it)==null }
-            val due=db.rawQuery("SELECT character_id FROM mastery WHERE child_id=? AND due<=? ORDER BY due,character_id LIMIT 6",arrayOf(id,today.toString())).use { c -> buildList { while(c.moveToNext()) add(c.getString(0)) } }
+            val due=reviewIds(id,today,6)
+            val child=child(id)
             val tasks=buildList {
                 newIds.forEach { add(Task("LEARN",it)) }
                 due.forEach { add(Task("REVIEW",it)) }
                 newIds.forEach { add(Task("FIND",it)) }
                 (newIds+due).firstOrNull()?.let { add(Task("READ",it)); add(Task("WRITE",it)) }
+                if(child.wordPractice) {
+                    // One or two deeper tasks, bounded by age. Targets are not fixed at five forever.
+                    val candidates=(newIds+due).ifEmpty {
+                        if(child.reviewOnly || child.target==0) emptyList() else knownCharacterIds(id).sorted()
+                            .let { known -> if(known.isEmpty()) emptyList() else listOf(known[Math.floorMod(today.toEpochDay(),known.size.toLong()).toInt()]) }
+                    }
+                    candidates.filter { words(it).isNotEmpty() }.take(if(child.ageGroup=="AGE_UNDER_6") 1 else 2)
+                        .forEach { add(Task("WORD",it)) }
+                }
             }
             db.execSQL("INSERT OR IGNORE INTO sessions(child_id,day,tasks) VALUES (?,?,?)",arrayOf(id,today.toString(),JSONArray(tasks.map { it.json() }).toString()))
             db.setTransactionSuccessful()
@@ -119,7 +196,7 @@ class QuestStore(private val context: Context, name: String = "china-quest.db") 
             val task=session.tasks[expectedCursor]
             val prior=mastery(id,task.characterId) ?: Mastery()
             val priorReview=review(id,task.characterId) ?: ReviewScheduler.afterExposure(day)
-            val skill=when(task.kind) { "READ" -> Skill.PRONUNCIATION; "WRITE" -> Skill.WRITING; else -> Skill.RECOGNITION }
+            val skill=when(task.kind) { "READ" -> Skill.PRONUNCIATION; "WRITE" -> Skill.WRITING; "WORD" -> Skill.WORD; else -> Skill.RECOGNITION }
             val source=if(task.kind in listOf("FIND","REVIEW")) EvidenceSource.QUIZ else EvidenceSource.SELF
             require((task.kind=="LEARN") == (outcome==null)) { "Exposure and assessed evidence are different events" }
             val effectiveDate=listOfNotNull(day,prior.lastSuccessDate,priorReview.lastReviewed).maxOrNull()!!
@@ -127,6 +204,10 @@ class QuestStore(private val context: Context, name: String = "china-quest.db") 
             val nextReview=if(outcome==null) priorReview else ReviewScheduler.schedule(priorReview,outcome,effectiveDate)
             db.execSQL("INSERT OR IGNORE INTO mastery(child_id,character_id,data,review,due,introduced) VALUES (?,?,?,?,?,?)",arrayOf(id,task.characterId,masteryJson(next).toString(),reviewJson(nextReview).toString(),nextReview.due.toString(),day.toString()))
             db.execSQL("UPDATE mastery SET data=?,review=?,due=? WHERE child_id=? AND character_id=?",arrayOf(masteryJson(next).toString(),reviewJson(nextReview).toString(),nextReview.due.toString(),id,task.characterId))
+            if(task.kind in listOf("FIND","REVIEW")) {
+                db.execSQL("UPDATE prior_knowledge SET check_after=? WHERE child_id=? AND character_id=?",
+                    arrayOf(if(outcome==ReviewOutcome.CORRECT) nextReview.due.toString() else day.toString(),id,task.characterId))
+            }
             record(db,id,day,"LEARNING_EVIDENCE",task.json().put("cursor",expectedCursor).put("outcome",outcome?.name ?: "EXPOSURE").put("skill",skill.name).put("source",source.name).put("effective_date",effectiveDate.toString()).put("session_date",day.toString()).put("algorithm_version",1))
             db.execSQL("UPDATE sessions SET cursor=cursor+1 WHERE child_id=? AND day=?",arrayOf(id,day.toString()))
             db.setTransactionSuccessful()

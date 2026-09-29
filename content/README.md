@@ -25,13 +25,24 @@ The `pinyin` value preserves the complete `kMandarin` source string, including s
 
 Chinese glosses and Spanish glosses are `null` until supplied and checked from an appropriate dictionary. A small set of suggested words and example sentences is a project draft, not verified dictionary data. `review_status` is `NEEDS_REVIEW` on every record, and `source_status` distinguishes sourced Unicode facts from unreviewed teaching content. Keep unreviewed words or sentences out of child-facing pages until a parent or qualified reviewer approves them. The initial lessons can use verified character, pinyin, English gloss, radical, and stroke count for recognition, reading aloud, handwriting practice, and finding the character in the family's surroundings.
 
+## Child-facing common words
+
+`words.json` is a versioned companion asset for the 178-character sequence. It preserves the exact `characters.json` order and IDs. Each record has `id`, `character`, and one or two `words`; each word has `text` (simplified Chinese), `pinyin` (tone marks), `pinyin_numbered` (tone numbers, with `5` for a neutral syllable), `meaning_en` (one selected dictionary sense), and `source_status: SOURCED_VERIFIED`. The word text is suitable for a tap-to-speak control. The English gloss is source data, not a child-facing Spanish translation. The three characters with one suitable selected entry are 朋、她、苹. The full asset contains 353 word entries. The selection and sequence are curated for this family curriculum; `SOURCED_VERIFIED` means the spelling, reading, and selected English sense match the pinned dictionary, not that the teaching choice has been externally certified.
+
+The source is **CC-CEDICT**, maintained by MDBG and community contributors, licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). We used the dictionary snapshot dated `2022-12-13T04:11:43Z` (121,398 entries) retained as `../tools/content-cedict-mirror.u8`, fetched from the [liamsaliba/cc-cedict-stardict mirror](https://raw.githubusercontent.com/liamsaliba/cc-cedict-stardict/main/data/cedict_ts.u8). The pinned SHA-256 is `A429F52B5F411B8922A7A772DA3096E10F1A0F167132B7E410618B72A48E0390`. [MDBG's CC-CEDICT page](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) identifies the dictionary and license; its site prohibits scripted access, so the data was obtained from the mirror. We selected entries and one English sense per entry, normalized pinyin capitalization, and converted tone numbers to display accents; these are changes from the source data. The attribution and redistribution notice is in [`LICENSE-CC-CEDICT.txt`](LICENSE-CC-CEDICT.txt). Distribute that notice with any shipped copy of `words.json` and preserve CC BY-SA 4.0 for this derived word asset.
+
+`characters.json.common_words` and `example_sentence` remain teaching drafts with `NEEDS_REVIEW` and should not be substituted for the verified companion asset. A few character readings differ from their reading inside a word; display the word's own pinyin below the word. The dictionary records citation forms, so a speech engine may apply natural tone changes in context.
+
+The curated subset excludes region-specific or ambiguous colloquial readings when a clearer beginner word is available. For example, the snapshot lists 狗狗 with a `gou3 gou1` reading; this pack uses 狗熊 (`gou3 xiong2`, “black bear”) instead.
+
 ## Rebuild and validate
 
 From the repository root, run:
 
 ```powershell
 python tools/content-build.py
+python tools/content-words-build.py
 python tools/content-validate.py
 ```
 
-Both scripts use only the Python standard library. The build script checks the pinned source hashes before extracting fields. The validator checks the JSON schema essentials, complete sourced core fields, source attribution, review flags, and the first-day ordering.
+All scripts use only the Python standard library. The build scripts check pinned source hashes before extracting fields. The validator checks the character schema and source attribution, word order and coverage, exact dictionary spellings/readings/senses, pinyin tone conversion, review flags, and the first-day ordering.
