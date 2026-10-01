@@ -88,3 +88,8 @@ Published the exact existing APK and its SHA-256 file as a non-draft prerelease:
 **Checks:** Android minSdk is 26; no BOOX/Onyx-specific API references in app main sources. Wording does not claim all Android models were physically tested. APK, package, version and signature are unchanged; no rebuild is required for documentation edits. Existing test evidence remains in QA_V3.md.
 
 **Known issues / next:** compatibility varies by device and is still collecting real-use feedback. Publish these documentation changes and update the existing release body; keep original APK attachments and checksums.
+
+
+## Family motivation and feedback invitation — 2026-10-01
+
+At the parent's request, added the overseas-family motivation to the public introduction, release notes and short-video copy: help children recognize, read and write Chinese while growing up abroad. The text commits to parent-led iteration based on the two children's ideas and invites other overseas families to try the app and suggest improvements. Writing is explicitly paired with paper practice; coloring is not presented as handwriting teaching or proven literacy attainment. Only documentation changed; the existing APK, signature and test evidence are unchanged. Public text is synchronized to the preview branch and existing release; no scheduled maintenance or automatic feature implementation is created by this statement of intent.
