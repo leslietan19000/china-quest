@@ -41,5 +41,11 @@
     "automated_tests_passed": 75,
     "qa_document": "docs/QA_V3.md",
     "family_tryout_pending": true
+  },
+  "public_preview_authorization": {
+    "date": "2026-10-01",
+    "source": "Parent explicitly requested publishing the project and APK on their GitHub for friends to download.",
+    "apk_sha256": "b6aecec6409f8472fd3cd5066f77ba93ac632f555b0974666b307180b2f192a0",
+    "scope": "Public family preview sharing; not physical-device acceptance or general production promotion."
   }
 }
