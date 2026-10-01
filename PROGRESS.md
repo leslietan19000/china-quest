@@ -68,3 +68,15 @@ Environment blocker resolved: Java NIO's AF_UNIX path failed twice. TCP-only dia
 
 ## Later phases
 2 Backend/sync → 3 Parent web dashboard → 4 rewards → 5 seasons/China Quest → 6 weekly tests/reports → 7 measured E-Ink optimization → 8 travel architecture → 9 creator architecture → 10 Builder Lab prototype.
+
+## Public GitHub preview — 2026-10-01
+
+**Completed:** the parent explicitly authorized public GitHub sharing for friends. Audited tracked files and history for keys, databases and private child records; none were identified. Published the source on the `preview` default branch at https://github.com/leslietan19000/china-quest. Added Chinese introduction, two synthetic screenshots, a friend-facing installation guide, developer notes and ready-to-forward text. No general open-source license was selected on the parent's behalf; upstream content notices are preserved.
+
+Published the exact existing APK and its SHA-256 file as a non-draft prerelease: https://github.com/leslietan19000/china-quest/releases/tag/v0.3.0-preview. The tag targets publication-doc commit `67eb5d36a4cc8f188c5984d4861c46b779d6852c`; Android implementation and APK are unchanged from the tested v3 source. Runtime code was not changed and builds were not repeated unnecessarily. Private signing keys, local toolchain, authentication credentials and family data were not uploaded.
+
+**Checks passed:** GitHub reports PUBLIC visibility, default branch `preview`, two fully uploaded release assets, and APK size 4,370,207 bytes. GitHub's asset digest and a fresh unauthenticated HTTP download both match `b6aecec6409f8472fd3cd5066f77ba93ac632f555b0974666b307180b2f192a0`. The anonymous project and installation-guide requests returned HTTP 200. Existing Android/core verification remains 75 passing tests, lint 0 errors/12 warnings. Git diff whitespace check passed.
+
+**Known issues:** this is a development-signed, debuggable family preview, not a production-security certification; v3 BOOX color, latency and refresh acceptance remain pending. No iOS, cloud sync or full restorable backup. The separate local `main` development history was not promoted or force-pushed. GitHub credentials were authorized by the parent through GitHub CLI's device flow. A process-local, exact-path Git safe-directory setting was needed because the sandbox and host users differ; no global wildcard trust was added.
+
+**Next finite milestone:** friends download/install the preview and provide non-identifying device/experience feedback. Future APK updates must keep the original private signing key and increase versionCode; they must never be replaced with another developer's debug key or require users to uninstall existing progress.
