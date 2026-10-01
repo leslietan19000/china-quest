@@ -80,3 +80,11 @@ Published the exact existing APK and its SHA-256 file as a non-draft prerelease:
 **Known issues:** this is a development-signed, debuggable family preview, not a production-security certification; v3 BOOX color, latency and refresh acceptance remain pending. No iOS, cloud sync or full restorable backup. The separate local `main` development history was not promoted or force-pushed. GitHub credentials were authorized by the parent through GitHub CLI's device flow. A process-local, exact-path Git safe-directory setting was needed because the sandbox and host users differ; no global wildcard trust was added.
 
 **Next finite milestone:** friends download/install the preview and provide non-identifying device/experience feedback. Future APK updates must keep the original private signing key and increase versionCode; they must never be replaced with another developer's debug key or require users to uninstall existing progress.
+
+## Public wording update — 2026-10-01
+
+**Completed:** at the parent's request, reframed the public README, current installation guide, share text and release notes around ordinary Android phones/tablets (Android 8.0+). Removed BOOX-first marketing; retained optional E-Ink details only in compatibility/development records. Added short-video description, shorter caption and pinned installation comment. Current public guide links point to `preview` so readers receive updated instructions; the original source tag remains immutable.
+
+**Checks:** Android minSdk is 26; no BOOX/Onyx-specific API references in app main sources. Wording does not claim all Android models were physically tested. APK, package, version and signature are unchanged; no rebuild is required for documentation edits. Existing test evidence remains in QA_V3.md.
+
+**Known issues / next:** compatibility varies by device and is still collecting real-use feedback. Publish these documentation changes and update the existing release body; keep original APK attachments and checksums.

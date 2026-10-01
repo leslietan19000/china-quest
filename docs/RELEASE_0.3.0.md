@@ -1,26 +1,33 @@
-# China Quest 0.3.0-preview
+# China Quest 0.3.0-preview · 我的中国远征
 
-China Quest 0.3.0-preview is a family testing release for Android. It builds on the previous offline learning version and adds child-requested creative activities.
+给家长和孩子一起使用的安卓中文学习 App：认汉字、听发音、读常用词，也能给汉字涂色、参与生活小情景。
 
-## Download and install
+**普通安卓手机或平板可下载安装（Android 8.0+），不需要墨水屏或专用学习机。暂不支持 iPhone / iPad。**
 
-Download the APK and SHA-256 file from the [GitHub release](https://github.com/leslietan19000/china-quest/releases/tag/v0.3.0-preview). See the [Chinese installation guide](https://github.com/leslietan19000/china-quest/blob/v0.3.0-preview/docs/INSTALL.md) for device requirements, first setup, and upgrade instructions.
+## 下载与安装
 
-## What's included
+在下方 Assets 下载 **ChinaQuest-0.3.0-preview.apk**，在安卓设备的文件管理器中打开安装。不要把 “Source code” 压缩包当成安装包。
 
-- Separate local profiles and learning progress for two children, with parent-selected prior-knowledge filtering for future lessons.
-- 178 Chinese characters, common words, and 469 bundled offline synthesized audio clips.
-- Hanzi coloring with six colors, plus six tap-stepped everyday scenes.
-- Local-only feedback and saved creative work.
+[直接下载 APK](https://github.com/leslietan19000/china-quest/releases/download/v0.3.0-preview/ChinaQuest-0.3.0-preview.apk) · [中文安装指南](https://github.com/leslietan19000/china-quest/blob/preview/docs/INSTALL.md)
 
-The app requires Android 8.0 (API 26) or later. BOOX Nova Air C is the target device; this preview has not completed physical-device verification. Other Android devices are not verified. There is no iOS version, account, cloud sync, or full backup/restore.
+首次使用由家长设置 6–12 位 PIN。旧版用户直接覆盖更新，使用原 PIN，**不要卸载或清除应用数据**。
 
-## Verification and limits
+## 这版能做什么
 
-The Android/core test suites passed: 75 tests, with zero failures. Lint reported 12 warnings. The APK is 4,370,207 bytes. Its SHA-256 is:
+- 两个孩子分别保存学习进度，家长可以筛选已认识的字、调整学习目标。
+- 178 个汉字、353 条常用词记录、469 条离线合成语音，点按听读。
+- 六色汉字涂色，支持撤回与保存。
+- “口／吃”“开／关”“水／喝”六个情景，孩子点按后画面逐步变化。
+- 无需注册，离线使用，没有广告。学习记录和作品保存在当前设备。
+
+## 试用说明
+
+这是家长陪伴使用的开发签名预览版。尚未覆盖全部安卓机型实测，不同设备的显示与触控体验可能不同。目前没有云同步或完整备份；请不要在公开反馈中放儿童姓名、照片、PIN 或学习报告。
+
+本 APK 已通过 75 项核心／Android 测试，构建与签名检查通过；lint 0 错误、12 个已记录警告。安装包为 4,370,207 字节，内容未因介绍文案调整而变化。
+
+SHA-256（也可下载附件校验文件）：
 
 ```text
 b6aecec6409f8472fd3cd5066f77ba93ac632f555b0974666b307180b2f192a0
 ```
-
-This is a development-signed preview for supervised family testing. It is not a claim of BOOX hardware acceptance or production readiness. Preserve existing app data when upgrading: install over the previous version; do not uninstall or clear data.
